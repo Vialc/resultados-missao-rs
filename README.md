@@ -4,7 +4,7 @@ Site público para documentar a votação do Partido Missão no Rio Grande do Su
 
 ## O que o site mostra
 
-- Votação geral de Renan Santos no RS, com nota de transparência quando o snapshot oficial não traz linhas presidenciais.
+- Votação geral de Renan Santos no RS, agregada por município a partir do arquivo presidencial por seção.
 - Mapa interativo municipal do Rio Grande do Sul.
 - Lista completa dos 497 municípios com busca e seleção.
 - Abas para `Renan Santos`, `Deputado Federal` e `Deputado Estadual`.

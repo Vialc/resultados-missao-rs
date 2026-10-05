@@ -32,7 +32,12 @@ assert(sumMunicipalEstadual === results.totais.missaoDeputadoEstadualRS, `total 
 assert(sumCandidateEstadual === results.totais.missaoDeputadoEstadualRS, `total estadual candidatos ${sumCandidateEstadual} diverge do total ${results.totais.missaoDeputadoEstadualRS}`);
 
 assert(results.renan?.SQ_CANDIDATO === '280002540694', 'Renan Santos precisa manter SQ_CANDIDATO 280002540694');
-assert(typeof results.metadata?.notaRenan === 'string' && results.metadata.notaRenan.length > 30, 'notaRenan precisa documentar a ausência de linhas presidenciais');
+assert(results.totais.renanPresidenteRS === 167558, `total Renan RS inesperado: ${results.totais.renanPresidenteRS}`);
+const sumMunicipalRenan = results.municipios.reduce((sum, m) => sum + Number(m.renanPresidente || 0), 0);
+assert(sumMunicipalRenan === results.totais.renanPresidenteRS, `total Renan municipal ${sumMunicipalRenan} diverge do total ${results.totais.renanPresidenteRS}`);
+assert(results.renan.municipiosComVotos === 497, `Renan deveria ter votos nos 497 municípios; obtido ${results.renan.municipiosComVotos}`);
+assert(results.metadata?.fonteVotacaoPresidente === 'TSE - votacao_secao_2026_BR.zip', 'fonte presidencial precisa apontar para votacao_secao_2026_BR.zip');
+assert(typeof results.metadata?.notaRenan === 'string' && results.metadata.notaRenan.includes('167.558'), 'notaRenan precisa documentar total e fonte presidencial');
 
 console.log(JSON.stringify({
   ok: true,

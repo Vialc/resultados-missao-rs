@@ -6,11 +6,15 @@
     "DT_ELEICAO": "04/10/2026",
     "DS_ELEICAO": "ELEIÇÕES GERAIS ESTADUAIS 2026",
     "NR_TURNO": "1",
-    "fonteVotacao": "TSE - votacao_candidato_munzona_2026.zip",
+    "fonteVotacao": "TSE - votacao_candidato_munzona_2026.zip (deputados) + votacao_secao_2026_BR.zip (Presidente)",
     "fonteCandidaturas": "TSE - consulta_cand_2026.zip",
     "fonteMalha": "IBGE API de malhas - estado 43, intrarregiao=municipio, qualidade=minima",
     "geradoLocalmenteEm": "2026-10-05",
-    "notaRenan": "O cadastro TSE 2026 contém Renan Santos (Presidente, MISSÃO, SQ 280002540694), mas o snapshot de votação_candidato_munzona_2026 consultado não contém linhas de Presidente; por isso a votação presidencial aparece como 0/sem dados no dataset."
+    "notaRenan": "Votação de Renan Santos para Presidente no RS extraída do arquivo oficial TSE votacao_secao_2026_BR.zip e agregada por município. Total no RS: 167.558 votos em 497 municípios.",
+    "fonteVotacaoPresidente": "TSE - votacao_secao_2026_BR.zip",
+    "presidente_DT_GERACAO": "05/10/2026",
+    "presidente_HH_GERACAO": "09:50:34",
+    "presidente_DS_ELEICAO": "Eleição Geral Federal 2026"
   },
   "renan": {
     "SQ_CANDIDATO": "280002540694",
@@ -22,13 +26,14 @@
     "SG_PARTIDO": "MISSÃO",
     "NM_PARTIDO": "PARTIDO MISSÃO",
     "DS_SIT_TOT_TURNO": "#NULO",
-    "votosRS": 0,
-    "municipiosComVotos": 0,
-    "linhasTSE": 0
+    "votosRS": 167558,
+    "municipiosComVotos": 497,
+    "linhasTSE": 26393,
+    "fonte": "votacao_secao_2026_BR.zip"
   },
   "totais": {
     "municipios": 497,
-    "renanPresidenteRS": 0,
+    "renanPresidenteRS": 167558,
     "missaoDeputadoFederalRS": 71454,
     "missaoDeputadoEstadualRS": 30368,
     "candidatosFederaisMissaoRS": 16,
@@ -43,7 +48,7 @@
       "lat": -31.659583333333334,
       "lng": -54.111154166666665,
       "populacao": 4253,
-      "renanPresidente": 0,
+      "renanPresidente": 49,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -56,7 +61,7 @@
       "lat": -28.228508333333334,
       "lng": -52.047200000000004,
       "populacao": 4000,
-      "renanPresidente": 0,
+      "renanPresidente": 24,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 11
@@ -69,7 +74,7 @@
       "lat": -29.614082142857143,
       "lng": -53.22931071428571,
       "populacao": 16346,
-      "renanPresidente": 0,
+      "renanPresidente": 290,
       "deputadoFederalMissao": 398,
       "deputadoEstadualMissao": 32,
       "totalMissaoLegislativo": 430
@@ -82,7 +87,7 @@
       "lat": -28.226053333333333,
       "lng": -53.743606666666665,
       "populacao": 6848,
-      "renanPresidente": 0,
+      "renanPresidente": 83,
       "deputadoFederalMissao": 21,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 34
@@ -95,7 +100,7 @@
       "lat": -27.644122222222222,
       "lng": -54.787955555555556,
       "populacao": 6228,
-      "renanPresidente": 0,
+      "renanPresidente": 82,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 19
@@ -108,7 +113,7 @@
       "lat": -29.708883333333336,
       "lng": -55.8902630952381,
       "populacao": 74329,
-      "renanPresidente": 0,
+      "renanPresidente": 803,
       "deputadoFederalMissao": 141,
       "deputadoEstadualMissao": 121,
       "totalMissaoLegislativo": 262
@@ -121,7 +126,7 @@
       "lat": -27.794238461538463,
       "lng": -54.07722307692308,
       "populacao": 3711,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 8
@@ -134,7 +139,7 @@
       "lat": -28.12308,
       "lng": -52.91907333333334,
       "populacao": 2008,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 9
@@ -147,7 +152,7 @@
       "lat": -27.20444761904762,
       "lng": -53.04406190476191,
       "populacao": 7243,
-      "renanPresidente": 0,
+      "renanPresidente": 69,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 16
@@ -160,7 +165,7 @@
       "lat": -28.80428,
       "lng": -52.99107,
       "populacao": 1837,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 164,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 177
@@ -173,7 +178,7 @@
       "lat": -29.374111111111112,
       "lng": -51.3042,
       "populacao": 3143,
-      "renanPresidente": 0,
+      "renanPresidente": 49,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 21
@@ -186,7 +191,7 @@
       "lat": -29.999014285714285,
       "lng": -51.04022857142858,
       "populacao": 194116,
-      "renanPresidente": 0,
+      "renanPresidente": 3250,
       "deputadoFederalMissao": 890,
       "deputadoEstadualMissao": 615,
       "totalMissaoLegislativo": 1505
@@ -199,7 +204,7 @@
       "lat": -30.813304545454546,
       "lng": -52.29659545454546,
       "populacao": 5394,
-      "renanPresidente": 0,
+      "renanPresidente": 57,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 9
@@ -212,7 +217,7 @@
       "lat": -27.369639999999997,
       "lng": -53.1924,
       "populacao": 7822,
-      "renanPresidente": 0,
+      "renanPresidente": 59,
       "deputadoFederalMissao": 30,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 44
@@ -225,7 +230,7 @@
       "lat": -28.58355,
       "lng": -51.49999375,
       "populacao": 1157,
-      "renanPresidente": 0,
+      "renanPresidente": 5,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 0
@@ -238,7 +243,7 @@
       "lat": -28.979031250000002,
       "lng": -51.99696875,
       "populacao": 6080,
-      "renanPresidente": 0,
+      "renanPresidente": 62,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 35
@@ -251,7 +256,7 @@
       "lat": -28.87661052631579,
       "lng": -51.31880526315789,
       "populacao": 13328,
-      "renanPresidente": 0,
+      "renanPresidente": 168,
       "deputadoFederalMissao": 32,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 60
@@ -264,7 +269,7 @@
       "lat": -30.91452,
       "lng": -51.572885,
       "populacao": 4211,
-      "renanPresidente": 0,
+      "renanPresidente": 52,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 11
@@ -277,7 +282,7 @@
       "lat": -29.641628571428573,
       "lng": -50.92798571428572,
       "populacao": 8794,
-      "renanPresidente": 0,
+      "renanPresidente": 111,
       "deputadoFederalMissao": 34,
       "deputadoEstadualMissao": 26,
       "totalMissaoLegislativo": 60
@@ -290,7 +295,7 @@
       "lat": -27.38663157894737,
       "lng": -52.30674736842106,
       "populacao": 6618,
-      "renanPresidente": 0,
+      "renanPresidente": 103,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 34
@@ -303,7 +308,7 @@
       "lat": -29.36230769230769,
       "lng": -51.95670769230769,
       "populacao": 22490,
-      "renanPresidente": 0,
+      "renanPresidente": 407,
       "deputadoFederalMissao": 99,
       "deputadoEstadualMissao": 29,
       "totalMissaoLegislativo": 128
@@ -316,7 +321,7 @@
       "lat": -31.44897142857143,
       "lng": -52.39362857142857,
       "populacao": 2651,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -329,7 +334,7 @@
       "lat": -29.52178333333333,
       "lng": -49.88996666666666,
       "populacao": 11384,
-      "renanPresidente": 0,
+      "renanPresidente": 203,
       "deputadoFederalMissao": 79,
       "deputadoEstadualMissao": 56,
       "totalMissaoLegislativo": 135
@@ -342,7 +347,7 @@
       "lat": -29.256564705882354,
       "lng": -53.057488235294116,
       "populacao": 12296,
-      "renanPresidente": 0,
+      "renanPresidente": 155,
       "deputadoFederalMissao": 510,
       "deputadoEstadualMissao": 23,
       "totalMissaoLegislativo": 533
@@ -355,7 +360,7 @@
       "lat": -30.15788421052632,
       "lng": -51.72973684210526,
       "populacao": 14923,
-      "renanPresidente": 0,
+      "renanPresidente": 193,
       "deputadoFederalMissao": 32,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 60
@@ -368,7 +373,7 @@
       "lat": -32.187374999999996,
       "lng": -52.872452083333336,
       "populacao": 17887,
-      "renanPresidente": 0,
+      "renanPresidente": 229,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 31,
       "totalMissaoLegislativo": 74
@@ -381,7 +386,7 @@
       "lat": -28.859893333333332,
       "lng": -52.146226666666664,
       "populacao": 10545,
-      "renanPresidente": 0,
+      "renanPresidente": 101,
       "deputadoFederalMissao": 71,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 84
@@ -394,7 +399,7 @@
       "lat": -28.53164,
       "lng": -54.01110666666667,
       "populacao": 7302,
-      "renanPresidente": 0,
+      "renanPresidente": 71,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 39
@@ -407,7 +412,7 @@
       "lat": -27.710445454545457,
       "lng": -52.067009090909096,
       "populacao": 3460,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 8
@@ -420,7 +425,7 @@
       "lat": -31.26614307692308,
       "lng": -54.051167692307686,
       "populacao": 121900,
-      "renanPresidente": 0,
+      "renanPresidente": 1432,
       "deputadoFederalMissao": 427,
       "deputadoEstadualMissao": 235,
       "totalMissaoLegislativo": 662
@@ -433,7 +438,7 @@
       "lat": -30.213936363636364,
       "lng": -50.28822727272727,
       "populacao": 15371,
-      "renanPresidente": 0,
+      "renanPresidente": 147,
       "deputadoFederalMissao": 47,
       "deputadoEstadualMissao": 35,
       "totalMissaoLegislativo": 82
@@ -446,7 +451,7 @@
       "lat": -29.398592307692304,
       "lng": -51.51834615384616,
       "populacao": 6489,
-      "renanPresidente": 0,
+      "renanPresidente": 91,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 30
@@ -459,7 +464,7 @@
       "lat": -27.55249090909091,
       "lng": -52.43676363636364,
       "populacao": 7313,
-      "renanPresidente": 0,
+      "renanPresidente": 50,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 9
@@ -472,7 +477,7 @@
       "lat": -30.41213043478261,
       "lng": -51.792839130434785,
       "populacao": 5983,
-      "renanPresidente": 0,
+      "renanPresidente": 88,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 8
@@ -485,7 +490,7 @@
       "lat": -27.20774,
       "lng": -53.753949999999996,
       "populacao": 3230,
-      "renanPresidente": 0,
+      "renanPresidente": 24,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 11
@@ -498,7 +503,7 @@
       "lat": -30.162864,
       "lng": -57.368779999999994,
       "populacao": 4337,
-      "renanPresidente": 0,
+      "renanPresidente": 58,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 23
@@ -511,7 +516,7 @@
       "lat": -30.372184,
       "lng": -51.332864,
       "populacao": 12475,
-      "renanPresidente": 0,
+      "renanPresidente": 177,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 31,
       "totalMissaoLegislativo": 79
@@ -524,7 +529,7 @@
       "lat": -27.39976923076923,
       "lng": -52.4049,
       "populacao": 1724,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 4
@@ -537,7 +542,7 @@
       "lat": -27.916985714285715,
       "lng": -53.021071428571425,
       "populacao": 2555,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 13
@@ -550,7 +555,7 @@
       "lat": -27.7347,
       "lng": -51.44521538461538,
       "populacao": 4920,
-      "renanPresidente": 0,
+      "renanPresidente": 61,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 23
@@ -563,7 +568,7 @@
       "lat": -29.13291176470588,
       "lng": -52.592411764705886,
       "populacao": 9442,
-      "renanPresidente": 0,
+      "renanPresidente": 100,
       "deputadoFederalMissao": 669,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 680
@@ -576,7 +581,7 @@
       "lat": -27.48084615384615,
       "lng": -52.65654615384616,
       "populacao": 2120,
-      "renanPresidente": 0,
+      "renanPresidente": 17,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 7
@@ -589,7 +594,7 @@
       "lat": -29.127382352941176,
       "lng": -51.56717058823529,
       "populacao": 127775,
-      "renanPresidente": 0,
+      "renanPresidente": 1952,
       "deputadoFederalMissao": 473,
       "deputadoEstadualMissao": 390,
       "totalMissaoLegislativo": 863
@@ -602,7 +607,7 @@
       "lat": -27.686457142857144,
       "lng": -53.32345,
       "populacao": 1969,
-      "renanPresidente": 0,
+      "renanPresidente": 15,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 7
@@ -615,7 +620,7 @@
       "lat": -27.673372727272728,
       "lng": -54.09835454545455,
       "populacao": 7125,
-      "renanPresidente": 0,
+      "renanPresidente": 100,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 31
@@ -628,7 +633,7 @@
       "lat": -28.623844444444444,
       "lng": -53.82578518518518,
       "populacao": 2271,
-      "renanPresidente": 0,
+      "renanPresidente": 20,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 14
@@ -641,7 +646,7 @@
       "lat": -28.872629166666666,
       "lng": -53.46053333333333,
       "populacao": 2315,
-      "renanPresidente": 0,
+      "renanPresidente": 32,
       "deputadoFederalMissao": 82,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 86
@@ -654,7 +659,7 @@
       "lat": -29.36022142857143,
       "lng": -51.66967857142857,
       "populacao": 2815,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 9
@@ -667,7 +672,7 @@
       "lat": -28.57141395348837,
       "lng": -50.45688139534884,
       "populacao": 11431,
-      "renanPresidente": 0,
+      "renanPresidente": 89,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 22
@@ -680,7 +685,7 @@
       "lat": -29.466680000000004,
       "lng": -51.36345,
       "populacao": 13650,
-      "renanPresidente": 0,
+      "renanPresidente": 214,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 44,
       "totalMissaoLegislativo": 117
@@ -693,7 +698,7 @@
       "lat": -27.546599999999998,
       "lng": -53.850433333333335,
       "populacao": 2134,
-      "renanPresidente": 0,
+      "renanPresidente": 29,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 36
@@ -706,7 +711,7 @@
       "lat": -29.62515,
       "lng": -51.929925,
       "populacao": 12578,
-      "renanPresidente": 0,
+      "renanPresidente": 204,
       "deputadoFederalMissao": 61,
       "deputadoEstadualMissao": 27,
       "totalMissaoLegislativo": 88
@@ -719,7 +724,7 @@
       "lat": -29.311473333333332,
       "lng": -52.420946666666666,
       "populacao": 6215,
-      "renanPresidente": 0,
+      "renanPresidente": 122,
       "deputadoFederalMissao": 577,
       "deputadoEstadualMissao": 27,
       "totalMissaoLegislativo": 604
@@ -732,7 +737,7 @@
       "lat": -28.638305263157893,
       "lng": -54.983984210526316,
       "populacao": 5988,
-      "renanPresidente": 0,
+      "renanPresidente": 33,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 21
@@ -745,7 +750,7 @@
       "lat": -28.35245833333333,
       "lng": -53.7449,
       "populacao": 2195,
-      "renanPresidente": 0,
+      "renanPresidente": 19,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 10
@@ -758,7 +763,7 @@
       "lat": -27.593590909090906,
       "lng": -53.74865454545454,
       "populacao": 3326,
-      "renanPresidente": 0,
+      "renanPresidente": 18,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -771,7 +776,7 @@
       "lat": -29.537110000000002,
       "lng": -51.62952,
       "populacao": 5079,
-      "renanPresidente": 0,
+      "renanPresidente": 103,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 26
@@ -784,7 +789,7 @@
       "lat": -30.161428125,
       "lng": -51.9948625,
       "populacao": 19433,
-      "renanPresidente": 0,
+      "renanPresidente": 205,
       "deputadoFederalMissao": 58,
       "deputadoEstadualMissao": 39,
       "totalMissaoLegislativo": 97
@@ -797,7 +802,7 @@
       "lat": -30.594092156862747,
       "lng": -53.44934509803922,
       "populacao": 33508,
-      "renanPresidente": 0,
+      "renanPresidente": 368,
       "deputadoFederalMissao": 76,
       "deputadoEstadualMissao": 59,
       "totalMissaoLegislativo": 135
@@ -810,7 +815,7 @@
       "lat": -29.919920833333332,
       "lng": -54.80656041666666,
       "populacao": 11324,
-      "renanPresidente": 0,
+      "renanPresidente": 98,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 23
@@ -823,7 +828,7 @@
       "lat": -30.204661403508773,
       "lng": -52.97433157894737,
       "populacao": 82250,
-      "renanPresidente": 0,
+      "renanPresidente": 1171,
       "deputadoFederalMissao": 562,
       "deputadoEstadualMissao": 196,
       "totalMissaoLegislativo": 758
@@ -836,7 +841,7 @@
       "lat": -29.91598888888889,
       "lng": -51.10137777777778,
       "populacao": 141303,
-      "renanPresidente": 0,
+      "renanPresidente": 2415,
       "deputadoFederalMissao": 875,
       "deputadoEstadualMissao": 545,
       "totalMissaoLegislativo": 1420
@@ -849,7 +854,7 @@
       "lat": -27.80219375,
       "lng": -51.6840875,
       "populacao": 4694,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 15
@@ -862,7 +867,7 @@
       "lat": -28.335382352941178,
       "lng": -54.661688235294115,
       "populacao": 4797,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 13
@@ -875,7 +880,7 @@
       "lat": -27.237058333333334,
       "lng": -53.46985833333333,
       "populacao": 4933,
-      "renanPresidente": 0,
+      "renanPresidente": 39,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 14
@@ -888,7 +893,7 @@
       "lat": -30.911536,
       "lng": -51.829409999999996,
       "populacao": 63959,
-      "renanPresidente": 0,
+      "renanPresidente": 898,
       "deputadoFederalMissao": 163,
       "deputadoEstadualMissao": 95,
       "totalMissaoLegislativo": 258
@@ -901,7 +906,7 @@
       "lat": -28.622410000000002,
       "lng": -52.225840000000005,
       "populacao": 3056,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 18
@@ -914,7 +919,7 @@
       "lat": -29.04817878787879,
       "lng": -50.16095151515152,
       "populacao": 6492,
-      "renanPresidente": 0,
+      "renanPresidente": 58,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 20
@@ -927,7 +932,7 @@
       "lat": -28.723065217391305,
       "lng": -51.111304347826085,
       "populacao": 3311,
-      "renanPresidente": 0,
+      "renanPresidente": 39,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 15
@@ -940,7 +945,7 @@
       "lat": -27.96499411764706,
       "lng": -54.8229,
       "populacao": 6001,
-      "renanPresidente": 0,
+      "renanPresidente": 85,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 23
@@ -953,7 +958,7 @@
       "lat": -27.719466666666666,
       "lng": -52.64966666666667,
       "populacao": 5390,
-      "renanPresidente": 0,
+      "renanPresidente": 43,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 18
@@ -966,7 +971,7 @@
       "lat": -29.665319999999998,
       "lng": -51.05269,
       "populacao": 64704,
-      "renanPresidente": 0,
+      "renanPresidente": 1169,
       "deputadoFederalMissao": 349,
       "deputadoEstadualMissao": 226,
       "totalMissaoLegislativo": 575
@@ -979,7 +984,7 @@
       "lat": -27.66922857142857,
       "lng": -53.833621428571426,
       "populacao": 5068,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 12
@@ -992,7 +997,7 @@
       "lat": -28.916206666666668,
       "lng": -53.04124,
       "populacao": 3693,
-      "renanPresidente": 0,
+      "renanPresidente": 49,
       "deputadoFederalMissao": 330,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 334
@@ -1005,7 +1010,7 @@
       "lat": -29.710984615384614,
       "lng": -52.77605384615385,
       "populacao": 29783,
-      "renanPresidente": 0,
+      "renanPresidente": 486,
       "deputadoFederalMissao": 3068,
       "deputadoEstadualMissao": 114,
       "totalMissaoLegislativo": 3182
@@ -1018,7 +1023,7 @@
       "lat": -27.926253846153845,
       "lng": -54.73010769230769,
       "populacao": 6421,
-      "renanPresidente": 0,
+      "renanPresidente": 78,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 25
@@ -1031,7 +1036,7 @@
       "lat": -31.587970370370368,
       "lng": -53.750366666666665,
       "populacao": 10992,
-      "renanPresidente": 0,
+      "renanPresidente": 116,
       "deputadoFederalMissao": 22,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 33
@@ -1044,7 +1049,7 @@
       "lat": -29.347564705882352,
       "lng": -50.775429411764705,
       "populacao": 50613,
-      "renanPresidente": 0,
+      "renanPresidente": 683,
       "deputadoFederalMissao": 221,
       "deputadoEstadualMissao": 161,
       "totalMissaoLegislativo": 382
@@ -1057,7 +1062,7 @@
       "lat": -31.226011627906974,
       "lng": -52.6561,
       "populacao": 50998,
-      "renanPresidente": 0,
+      "renanPresidente": 707,
       "deputadoFederalMissao": 76,
       "deputadoEstadualMissao": 49,
       "totalMissaoLegislativo": 125
@@ -1070,7 +1075,7 @@
       "lat": -29.9168,
       "lng": -51.1749375,
       "populacao": 359554,
-      "renanPresidente": 0,
+      "renanPresidente": 6870,
       "deputadoFederalMissao": 2106,
       "deputadoEstadualMissao": 1587,
       "totalMissaoLegislativo": 3693
@@ -1083,7 +1088,7 @@
       "lat": -29.3247875,
       "lng": -52.2474,
       "populacao": 1687,
-      "renanPresidente": 0,
+      "renanPresidente": 53,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 22
@@ -1096,7 +1101,7 @@
       "lat": -28.156282608695655,
       "lng": -51.38000869565217,
       "populacao": 1769,
-      "renanPresidente": 0,
+      "renanPresidente": 20,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 2
@@ -1109,7 +1114,7 @@
       "lat": -29.69954285714286,
       "lng": -50.01278571428571,
       "populacao": 66012,
-      "renanPresidente": 0,
+      "renanPresidente": 1023,
       "deputadoFederalMissao": 484,
       "deputadoEstadualMissao": 259,
       "totalMissaoLegislativo": 743
@@ -1122,7 +1127,7 @@
       "lat": -28.949055172413793,
       "lng": -54.60162068965517,
       "populacao": 3186,
-      "renanPresidente": 0,
+      "renanPresidente": 28,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -1135,7 +1140,7 @@
       "lat": -31.85580909090909,
       "lng": -52.54067727272727,
       "populacao": 27389,
-      "renanPresidente": 0,
+      "renanPresidente": 425,
       "deputadoFederalMissao": 81,
       "deputadoEstadualMissao": 69,
       "totalMissaoLegislativo": 150
@@ -1148,7 +1153,7 @@
       "lat": -29.71017857142857,
       "lng": -51.361407142857146,
       "populacao": 11416,
-      "renanPresidente": 0,
+      "renanPresidente": 162,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 31,
       "totalMissaoLegislativo": 74
@@ -1161,7 +1166,7 @@
       "lat": -29.289775,
       "lng": -51.990075,
       "populacao": 2991,
-      "renanPresidente": 0,
+      "renanPresidente": 43,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 7
@@ -1174,7 +1179,7 @@
       "lat": -30.163758823529413,
       "lng": -50.51081764705882,
       "populacao": 4079,
-      "renanPresidente": 0,
+      "renanPresidente": 43,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 18
@@ -1187,7 +1192,7 @@
       "lat": -29.75736153846154,
       "lng": -50.34307692307693,
       "populacao": 7553,
-      "renanPresidente": 0,
+      "renanPresidente": 80,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 29
@@ -1200,7 +1205,7 @@
       "lat": -28.267353571428572,
       "lng": -52.86185,
       "populacao": 63638,
-      "renanPresidente": 0,
+      "renanPresidente": 691,
       "deputadoFederalMissao": 245,
       "deputadoEstadualMissao": 128,
       "totalMissaoLegislativo": 373
@@ -1213,7 +1218,7 @@
       "lat": -29.320956250000002,
       "lng": -51.49329375,
       "populacao": 31528,
-      "renanPresidente": 0,
+      "renanPresidente": 634,
       "deputadoFederalMissao": 158,
       "deputadoEstadualMissao": 126,
       "totalMissaoLegislativo": 284
@@ -1226,7 +1231,7 @@
       "lat": -27.7082875,
       "lng": -51.936975000000004,
       "populacao": 1387,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 1
@@ -1239,7 +1244,7 @@
       "lat": -28.589199999999998,
       "lng": -51.97580625,
       "populacao": 9689,
-      "renanPresidente": 0,
+      "renanPresidente": 107,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 15,
       "totalMissaoLegislativo": 42
@@ -1252,7 +1257,7 @@
       "lat": -28.24828,
       "lng": -51.762215000000005,
       "populacao": 3064,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 6
@@ -1265,7 +1270,7 @@
       "lat": -28.173015384615383,
       "lng": -54.038730769230774,
       "populacao": 8840,
-      "renanPresidente": 0,
+      "renanPresidente": 78,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 29
@@ -1278,7 +1283,7 @@
       "lat": -29.09593333333333,
       "lng": -51.03019761904763,
       "populacao": 479256,
-      "renanPresidente": 0,
+      "renanPresidente": 8846,
       "deputadoFederalMissao": 2139,
       "deputadoEstadualMissao": 1702,
       "totalMissaoLegislativo": 3841
@@ -1291,7 +1296,7 @@
       "lat": -27.765072727272727,
       "lng": -51.99615454545455,
       "populacao": 2779,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 14
@@ -1304,7 +1309,7 @@
       "lat": -31.753157894736844,
       "lng": -52.77493157894737,
       "populacao": 5915,
-      "renanPresidente": 0,
+      "renanPresidente": 70,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 23
@@ -1317,7 +1322,7 @@
       "lat": -29.63351111111111,
       "lng": -53.00947777777778,
       "populacao": 3865,
-      "renanPresidente": 0,
+      "renanPresidente": 61,
       "deputadoFederalMissao": 338,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 343
@@ -1330,7 +1335,7 @@
       "lat": -27.62879090909091,
       "lng": -53.14824545454546,
       "populacao": 2429,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 10
@@ -1343,7 +1348,7 @@
       "lat": -30.58686,
       "lng": -51.76130666666666,
       "populacao": 9343,
-      "renanPresidente": 0,
+      "renanPresidente": 103,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 21
@@ -1356,7 +1361,7 @@
       "lat": -28.1421,
       "lng": -54.73755,
       "populacao": 14009,
-      "renanPresidente": 0,
+      "renanPresidente": 186,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 29,
       "totalMissaoLegislativo": 67
@@ -1369,7 +1374,7 @@
       "lat": -28.10061923076923,
       "lng": -53.123280769230774,
       "populacao": 9748,
-      "renanPresidente": 0,
+      "renanPresidente": 160,
       "deputadoFederalMissao": 51,
       "deputadoEstadualMissao": 39,
       "totalMissaoLegislativo": 90
@@ -1382,7 +1387,7 @@
       "lat": -30.00109230769231,
       "lng": -51.551361538461535,
       "populacao": 36109,
-      "renanPresidente": 0,
+      "renanPresidente": 559,
       "deputadoFederalMissao": 130,
       "deputadoEstadualMissao": 89,
       "totalMissaoLegislativo": 219
@@ -1395,7 +1400,7 @@
       "lat": -27.951666666666668,
       "lng": -51.994175000000006,
       "populacao": 2807,
-      "renanPresidente": 0,
+      "renanPresidente": 8,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 1
@@ -1408,7 +1413,7 @@
       "lat": -28.003688235294117,
       "lng": -53.912176470588236,
       "populacao": 3992,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 57,
       "totalMissaoLegislativo": 72
@@ -1421,7 +1426,7 @@
       "lat": -33.65885,
       "lng": -53.432275,
       "populacao": 6405,
-      "renanPresidente": 0,
+      "renanPresidente": 74,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 31
@@ -1434,7 +1439,7 @@
       "lat": -30.783485714285714,
       "lng": -52.008871428571425,
       "populacao": 4686,
-      "renanPresidente": 0,
+      "renanPresidente": 136,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 18
@@ -1447,7 +1452,7 @@
       "lat": -30.114993333333334,
       "lng": -50.27222666666667,
       "populacao": 17538,
-      "renanPresidente": 0,
+      "renanPresidente": 168,
       "deputadoFederalMissao": 70,
       "deputadoEstadualMissao": 55,
       "totalMissaoLegislativo": 125
@@ -1460,7 +1465,7 @@
       "lat": -28.350005555555555,
       "lng": -51.90747777777778,
       "populacao": 4215,
-      "renanPresidente": 0,
+      "renanPresidente": 43,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 13
@@ -1473,7 +1478,7 @@
       "lat": -29.38868,
       "lng": -51.880280000000006,
       "populacao": 2474,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 14
@@ -1486,7 +1491,7 @@
       "lat": -28.47336875,
       "lng": -52.9958125,
       "populacao": 3319,
-      "renanPresidente": 0,
+      "renanPresidente": 24,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 15
@@ -1499,7 +1504,7 @@
       "lat": -28.162227777777776,
       "lng": -53.48139444444445,
       "populacao": 6539,
-      "renanPresidente": 0,
+      "renanPresidente": 66,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 35
@@ -1512,7 +1517,7 @@
       "lat": -27.681364705882356,
       "lng": -52.99560588235294,
       "populacao": 10623,
-      "renanPresidente": 0,
+      "renanPresidente": 104,
       "deputadoFederalMissao": 34,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 50
@@ -1525,7 +1530,7 @@
       "lat": -29.171322222222223,
       "lng": -52.13078888888889,
       "populacao": 1311,
-      "renanPresidente": 0,
+      "renanPresidente": 11,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 2
@@ -1538,7 +1543,7 @@
       "lat": -28.126583333333333,
       "lng": -52.76860833333333,
       "populacao": 2251,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 18
@@ -1551,7 +1556,7 @@
       "lat": -28.41519285714286,
       "lng": -54.067257142857144,
       "populacao": 2892,
-      "renanPresidente": 0,
+      "renanPresidente": 61,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 12
@@ -1564,7 +1569,7 @@
       "lat": -27.78033333333333,
       "lng": -53.66560555555556,
       "populacao": 6230,
-      "renanPresidente": 0,
+      "renanPresidente": 65,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 17
@@ -1577,7 +1582,7 @@
       "lat": -29.26790909090909,
       "lng": -51.72441818181819,
       "populacao": 1638,
-      "renanPresidente": 0,
+      "renanPresidente": 21,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 11
@@ -1590,7 +1595,7 @@
       "lat": -29.016383333333334,
       "lng": -51.689275,
       "populacao": 3926,
-      "renanPresidente": 0,
+      "renanPresidente": 88,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 28
@@ -1603,7 +1608,7 @@
       "lat": -28.117033333333335,
       "lng": -52.3436,
       "populacao": 2719,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 60,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 65
@@ -1616,7 +1621,7 @@
       "lat": -27.4969125,
       "lng": -54.143893750000004,
       "populacao": 13127,
-      "renanPresidente": 0,
+      "renanPresidente": 162,
       "deputadoFederalMissao": 22,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 50
@@ -1629,7 +1634,7 @@
       "lat": -31.014325925925927,
       "lng": -52.02118148148148,
       "populacao": 7454,
-      "renanPresidente": 0,
+      "renanPresidente": 99,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 11
@@ -1642,7 +1647,7 @@
       "lat": -27.438566666666667,
       "lng": -53.24651111111111,
       "populacao": 2746,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 9
@@ -1655,7 +1660,7 @@
       "lat": -28.712172972972972,
       "lng": -53.5514,
       "populacao": 60486,
-      "renanPresidente": 0,
+      "renanPresidente": 706,
       "deputadoFederalMissao": 189,
       "deputadoEstadualMissao": 83,
       "totalMissaoLegislativo": 272
@@ -1668,7 +1673,7 @@
       "lat": -27.630419999999997,
       "lng": -52.65560000000001,
       "populacao": 1655,
-      "renanPresidente": 0,
+      "renanPresidente": 28,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 7
@@ -1681,7 +1686,7 @@
       "lat": -29.548175,
       "lng": -52.04055833333334,
       "populacao": 12571,
-      "renanPresidente": 0,
+      "renanPresidente": 176,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 19,
       "totalMissaoLegislativo": 87
@@ -1694,7 +1699,7 @@
       "lat": -28.419058333333336,
       "lng": -51.81545,
       "populacao": 4403,
-      "renanPresidente": 0,
+      "renanPresidente": 59,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 20
@@ -1707,7 +1712,7 @@
       "lat": -27.240405263157893,
       "lng": -53.91804736842105,
       "populacao": 2797,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 10
@@ -1720,7 +1725,7 @@
       "lat": -28.18606,
       "lng": -55.0892,
       "populacao": 2544,
-      "renanPresidente": 0,
+      "renanPresidente": 24,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 8
@@ -1733,7 +1738,7 @@
       "lat": -29.842728571428573,
       "lng": -54.14977142857143,
       "populacao": 2859,
-      "renanPresidente": 0,
+      "renanPresidente": 28,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 4
@@ -1746,7 +1751,7 @@
       "lat": -29.61377142857143,
       "lng": -51.09177142857143,
       "populacao": 31769,
-      "renanPresidente": 0,
+      "renanPresidente": 592,
       "deputadoFederalMissao": 178,
       "deputadoEstadualMissao": 97,
       "totalMissaoLegislativo": 275
@@ -1759,7 +1764,7 @@
       "lat": -27.673886666666665,
       "lng": -53.48449333333333,
       "populacao": 2133,
-      "renanPresidente": 0,
+      "renanPresidente": 14,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 4
@@ -1772,7 +1777,7 @@
       "lat": -28.97696666666667,
       "lng": -51.84457777777778,
       "populacao": 3158,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 12
@@ -1785,7 +1790,7 @@
       "lat": -30.621725,
       "lng": -52.18710625,
       "populacao": 13291,
-      "renanPresidente": 0,
+      "renanPresidente": 202,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 18,
       "totalMissaoLegislativo": 41
@@ -1798,7 +1803,7 @@
       "lat": -31.01885238095238,
       "lng": -54.60556507936508,
       "populacao": 38094,
-      "renanPresidente": 0,
+      "renanPresidente": 328,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 57
@@ -1811,7 +1816,7 @@
       "lat": -29.371544444444446,
       "lng": -49.84861111111111,
       "populacao": 2617,
-      "renanPresidente": 0,
+      "renanPresidente": 59,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 14
@@ -1824,7 +1829,7 @@
       "lat": -29.579136363636362,
       "lng": -53.34854545454546,
       "populacao": 3136,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 46,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 54
@@ -1837,7 +1842,7 @@
       "lat": -27.489475,
       "lng": -54.376456250000004,
       "populacao": 4542,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 21
@@ -1850,7 +1855,7 @@
       "lat": -29.083345454545455,
       "lng": -51.978981818181815,
       "populacao": 1925,
-      "renanPresidente": 0,
+      "renanPresidente": 16,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 2
@@ -1863,7 +1868,7 @@
       "lat": -30.076741666666667,
       "lng": -51.48462916666667,
       "populacao": 40954,
-      "renanPresidente": 0,
+      "renanPresidente": 535,
       "deputadoFederalMissao": 124,
       "deputadoEstadualMissao": 95,
       "totalMissaoLegislativo": 219
@@ -1876,7 +1881,7 @@
       "lat": -29.215100000000003,
       "lng": -51.926224999999995,
       "populacao": 23494,
-      "renanPresidente": 0,
+      "renanPresidente": 261,
       "deputadoFederalMissao": 81,
       "deputadoEstadualMissao": 39,
       "totalMissaoLegislativo": 120
@@ -1889,7 +1894,7 @@
       "lat": -30.572683333333334,
       "lng": -52.64522037037037,
       "populacao": 24280,
-      "renanPresidente": 0,
+      "renanPresidente": 236,
       "deputadoFederalMissao": 122,
       "deputadoEstadualMissao": 46,
       "totalMissaoLegislativo": 168
@@ -1902,7 +1907,7 @@
       "lat": -27.68057,
       "lng": -52.91067,
       "populacao": 1317,
-      "renanPresidente": 0,
+      "renanPresidente": 10,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -1915,7 +1920,7 @@
       "lat": -28.460003703703705,
       "lng": -54.288829629629625,
       "populacao": 9364,
-      "renanPresidente": 0,
+      "renanPresidente": 90,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 34
@@ -1928,7 +1933,7 @@
       "lat": -27.524618181818184,
       "lng": -52.73294545454546,
       "populacao": 2731,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 15
@@ -1941,7 +1946,7 @@
       "lat": -27.8169,
       "lng": -52.31776666666667,
       "populacao": 3121,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -1954,7 +1959,7 @@
       "lat": -27.6614,
       "lng": -52.26134736842105,
       "populacao": 109497,
-      "renanPresidente": 0,
+      "renanPresidente": 1574,
       "deputadoFederalMissao": 325,
       "deputadoEstadualMissao": 210,
       "totalMissaoLegislativo": 535
@@ -1967,7 +1972,7 @@
       "lat": -28.43860714285714,
       "lng": -52.56580714285714,
       "populacao": 3097,
-      "renanPresidente": 0,
+      "renanPresidente": 35,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 26
@@ -1980,7 +1985,7 @@
       "lat": -27.36646470588235,
       "lng": -52.584929411764705,
       "populacao": 5029,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 16
@@ -1993,7 +1998,7 @@
       "lat": -27.507361904761904,
       "lng": -53.532676190476195,
       "populacao": 6902,
-      "renanPresidente": 0,
+      "renanPresidente": 59,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 20
@@ -2006,7 +2011,7 @@
       "lat": -28.016590322580647,
       "lng": -51.19931935483871,
       "populacao": 3264,
-      "renanPresidente": 0,
+      "renanPresidente": 23,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -2019,7 +2024,7 @@
       "lat": -27.3294,
       "lng": -54.01720769230769,
       "populacao": 3294,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 38
@@ -2032,7 +2037,7 @@
       "lat": -28.835800000000003,
       "lng": -52.87268076923077,
       "populacao": 15478,
-      "renanPresidente": 0,
+      "renanPresidente": 154,
       "deputadoFederalMissao": 463,
       "deputadoEstadualMissao": 27,
       "totalMissaoLegislativo": 490
@@ -2045,7 +2050,7 @@
       "lat": -27.937433333333335,
       "lng": -52.290911111111114,
       "populacao": 5688,
-      "renanPresidente": 0,
+      "renanPresidente": 84,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 24
@@ -2058,7 +2063,7 @@
       "lat": -29.6560375,
       "lng": -51.184087500000004,
       "populacao": 49440,
-      "renanPresidente": 0,
+      "renanPresidente": 901,
       "deputadoFederalMissao": 310,
       "deputadoEstadualMissao": 217,
       "totalMissaoLegislativo": 527
@@ -2071,7 +2076,7 @@
       "lat": -29.85786,
       "lng": -51.17376,
       "populacao": 78181,
-      "renanPresidente": 0,
+      "renanPresidente": 1694,
       "deputadoFederalMissao": 504,
       "deputadoEstadualMissao": 434,
       "totalMissaoLegislativo": 938
@@ -2084,7 +2089,7 @@
       "lat": -29.49400833333333,
       "lng": -51.916925,
       "populacao": 33243,
-      "renanPresidente": 0,
+      "renanPresidente": 503,
       "deputadoFederalMissao": 208,
       "deputadoEstadualMissao": 78,
       "totalMissaoLegislativo": 286
@@ -2097,7 +2102,7 @@
       "lat": -29.23841764705882,
       "lng": -53.175105882352945,
       "populacao": 3120,
-      "renanPresidente": 0,
+      "renanPresidente": 28,
       "deputadoFederalMissao": 121,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 127
@@ -2110,7 +2115,7 @@
       "lat": -28.567522222222223,
       "lng": -54.254894444444446,
       "populacao": 2685,
-      "renanPresidente": 0,
+      "renanPresidente": 21,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 8
@@ -2123,7 +2128,7 @@
       "lat": -28.881383333333332,
       "lng": -51.71811666666667,
       "populacao": 2620,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 8
@@ -2136,7 +2141,7 @@
       "lat": -29.209500000000002,
       "lng": -51.379705263157895,
       "populacao": 72477,
-      "renanPresidente": 0,
+      "renanPresidente": 1224,
       "deputadoFederalMissao": 422,
       "deputadoEstadualMissao": 254,
       "totalMissaoLegislativo": 676
@@ -2149,7 +2154,7 @@
       "lat": -29.552623076923076,
       "lng": -53.4695,
       "populacao": 6846,
-      "renanPresidente": 0,
+      "renanPresidente": 82,
       "deputadoFederalMissao": 117,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 133
@@ -2162,7 +2167,7 @@
       "lat": -27.38858181818182,
       "lng": -52.67102727272727,
       "populacao": 2572,
-      "renanPresidente": 0,
+      "renanPresidente": 12,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 4
@@ -2175,7 +2180,7 @@
       "lat": -29.5921,
       "lng": -51.84594444444444,
       "populacao": 4399,
-      "renanPresidente": 0,
+      "renanPresidente": 59,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 23
@@ -2188,7 +2193,7 @@
       "lat": -29.44991818181818,
       "lng": -51.2739,
       "populacao": 13979,
-      "renanPresidente": 0,
+      "renanPresidente": 273,
       "deputadoFederalMissao": 59,
       "deputadoEstadualMissao": 49,
       "totalMissaoLegislativo": 108
@@ -2201,7 +2206,7 @@
       "lat": -29.03790714285714,
       "lng": -51.23172857142857,
       "populacao": 31973,
-      "renanPresidente": 0,
+      "renanPresidente": 597,
       "deputadoFederalMissao": 166,
       "deputadoEstadualMissao": 126,
       "totalMissaoLegislativo": 292
@@ -2214,7 +2219,7 @@
       "lat": -27.857023076923078,
       "lng": -52.04475384615385,
       "populacao": 1694,
-      "renanPresidente": 0,
+      "renanPresidente": 21,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 8
@@ -2227,7 +2232,7 @@
       "lat": -29.03853888888889,
       "lng": -52.367605555555556,
       "populacao": 9721,
-      "renanPresidente": 0,
+      "renanPresidente": 91,
       "deputadoFederalMissao": 66,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 69
@@ -2240,7 +2245,7 @@
       "lat": -29.970215000000003,
       "lng": -53.48791,
       "populacao": 6533,
-      "renanPresidente": 0,
+      "renanPresidente": 49,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 8
@@ -2253,7 +2258,7 @@
       "lat": -29.390840000000004,
       "lng": -52.13529,
       "populacao": 2441,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 31
@@ -2266,7 +2271,7 @@
       "lat": -28.916554838709676,
       "lng": -53.318306451612905,
       "populacao": 4569,
-      "renanPresidente": 0,
+      "renanPresidente": 46,
       "deputadoFederalMissao": 153,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 157
@@ -2279,7 +2284,7 @@
       "lat": -27.343442857142858,
       "lng": -53.35420714285714,
       "populacao": 33684,
-      "renanPresidente": 0,
+      "renanPresidente": 386,
       "deputadoFederalMissao": 163,
       "deputadoEstadualMissao": 72,
       "totalMissaoLegislativo": 235
@@ -2292,7 +2297,7 @@
       "lat": -29.253163636363638,
       "lng": -51.59130909090909,
       "populacao": 35522,
-      "renanPresidente": 0,
+      "renanPresidente": 526,
       "deputadoFederalMissao": 133,
       "deputadoEstadualMissao": 104,
       "totalMissaoLegislativo": 237
@@ -2305,7 +2310,7 @@
       "lat": -28.244382142857145,
       "lng": -55.54525,
       "populacao": 2729,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 7
@@ -2318,7 +2323,7 @@
       "lat": -27.59828333333333,
       "lng": -52.11416666666667,
       "populacao": 5780,
-      "renanPresidente": 0,
+      "renanPresidente": 70,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 27
@@ -2331,7 +2336,7 @@
       "lat": -29.855833333333333,
       "lng": -51.89830476190476,
       "populacao": 7751,
-      "renanPresidente": 0,
+      "renanPresidente": 150,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 28
@@ -2344,7 +2349,7 @@
       "lat": -28.37695,
       "lng": -52.05735,
       "populacao": 1783,
-      "renanPresidente": 0,
+      "renanPresidente": 16,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 5
@@ -2357,7 +2362,7 @@
       "lat": -27.868475,
       "lng": -52.1763625,
       "populacao": 16950,
-      "renanPresidente": 0,
+      "renanPresidente": 202,
       "deputadoFederalMissao": 66,
       "deputadoEstadualMissao": 30,
       "totalMissaoLegislativo": 96
@@ -2370,7 +2375,7 @@
       "lat": -28.0226,
       "lng": -54.32003913043478,
       "populacao": 16282,
-      "renanPresidente": 0,
+      "renanPresidente": 142,
       "deputadoFederalMissao": 24,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 40
@@ -2383,7 +2388,7 @@
       "lat": -29.87651333333333,
       "lng": -50.75612,
       "populacao": 7842,
-      "renanPresidente": 0,
+      "renanPresidente": 142,
       "deputadoFederalMissao": 47,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 75
@@ -2396,7 +2401,7 @@
       "lat": -29.39493125,
       "lng": -50.886975,
       "populacao": 41621,
-      "renanPresidente": 0,
+      "renanPresidente": 659,
       "deputadoFederalMissao": 241,
       "deputadoEstadualMissao": 131,
       "totalMissaoLegislativo": 372
@@ -2409,7 +2414,7 @@
       "lat": -27.45319,
       "lng": -52.91398,
       "populacao": 2049,
-      "renanPresidente": 0,
+      "renanPresidente": 23,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 6
@@ -2422,7 +2427,7 @@
       "lat": -29.29837,
       "lng": -52.598040000000005,
       "populacao": 3356,
-      "renanPresidente": 0,
+      "renanPresidente": 50,
       "deputadoFederalMissao": 279,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 287
@@ -2435,7 +2440,7 @@
       "lat": -29.89738823529412,
       "lng": -50.929529411764705,
       "populacao": 275294,
-      "renanPresidente": 0,
+      "renanPresidente": 4627,
       "deputadoFederalMissao": 1275,
       "deputadoEstadualMissao": 790,
       "totalMissaoLegislativo": 2065
@@ -2448,7 +2453,7 @@
       "lat": -28.59268,
       "lng": -51.65997,
       "populacao": 1442,
-      "renanPresidente": 0,
+      "renanPresidente": 14,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 2
@@ -2461,7 +2466,7 @@
       "lat": -30.181875,
       "lng": -51.4324375,
       "populacao": 95956,
-      "renanPresidente": 0,
+      "renanPresidente": 1702,
       "deputadoFederalMissao": 360,
       "deputadoEstadualMissao": 284,
       "totalMissaoLegislativo": 644
@@ -2474,7 +2479,7 @@
       "lat": -28.858622222222223,
       "lng": -51.89180555555556,
       "populacao": 26138,
-      "renanPresidente": 0,
+      "renanPresidente": 374,
       "deputadoFederalMissao": 81,
       "deputadoEstadualMissao": 52,
       "totalMissaoLegislativo": 133
@@ -2487,7 +2492,7 @@
       "lat": -28.186715384615386,
       "lng": -54.59066153846153,
       "populacao": 7553,
-      "renanPresidente": 0,
+      "renanPresidente": 73,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 27
@@ -2500,7 +2505,7 @@
       "lat": -29.549885714285715,
       "lng": -51.42937142857143,
       "populacao": 5524,
-      "renanPresidente": 0,
+      "renanPresidente": 100,
       "deputadoFederalMissao": 30,
       "deputadoEstadualMissao": 24,
       "totalMissaoLegislativo": 54
@@ -2513,7 +2518,7 @@
       "lat": -32.006322857142855,
       "lng": -53.34766857142857,
       "populacao": 6307,
-      "renanPresidente": 0,
+      "renanPresidente": 74,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 24
@@ -2526,7 +2531,7 @@
       "lat": -29.457688888888885,
       "lng": -52.68044444444445,
       "populacao": 2608,
-      "renanPresidente": 0,
+      "renanPresidente": 50,
       "deputadoFederalMissao": 210,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 217
@@ -2539,7 +2544,7 @@
       "lat": -27.60157272727273,
       "lng": -54.29970909090909,
       "populacao": 19246,
-      "renanPresidente": 0,
+      "renanPresidente": 224,
       "deputadoFederalMissao": 53,
       "deputadoEstadualMissao": 47,
       "totalMissaoLegislativo": 100
@@ -2552,7 +2557,7 @@
       "lat": -31.479323076923077,
       "lng": -53.89125,
       "populacao": 6102,
-      "renanPresidente": 0,
+      "renanPresidente": 78,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 20,
       "totalMissaoLegislativo": 35
@@ -2565,7 +2570,7 @@
       "lat": -27.58311666666667,
       "lng": -53.988416666666666,
       "populacao": 4774,
-      "renanPresidente": 0,
+      "renanPresidente": 51,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 24
@@ -2578,7 +2583,7 @@
       "lat": -29.41346923076923,
       "lng": -53.17706153846154,
       "populacao": 3793,
-      "renanPresidente": 0,
+      "renanPresidente": 85,
       "deputadoFederalMissao": 311,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 316
@@ -2591,7 +2596,7 @@
       "lat": -28.103531578947365,
       "lng": -51.78311052631579,
       "populacao": 4618,
-      "renanPresidente": 0,
+      "renanPresidente": 63,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 32
@@ -2604,7 +2609,7 @@
       "lat": -28.385495,
       "lng": -51.627739999999996,
       "populacao": 6830,
-      "renanPresidente": 0,
+      "renanPresidente": 48,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 20
@@ -2617,7 +2622,7 @@
       "lat": -28.618906666666664,
       "lng": -52.46353333333333,
       "populacao": 3793,
-      "renanPresidente": 0,
+      "renanPresidente": 32,
       "deputadoFederalMissao": 35,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 39
@@ -2630,7 +2635,7 @@
       "lat": -28.58102105263158,
       "lng": -53.18664210526316,
       "populacao": 22082,
-      "renanPresidente": 0,
+      "renanPresidente": 263,
       "deputadoFederalMissao": 170,
       "deputadoEstadualMissao": 37,
       "totalMissaoLegislativo": 207
@@ -2643,7 +2648,7 @@
       "lat": -29.559261538461538,
       "lng": -50.78811538461538,
       "populacao": 34763,
-      "renanPresidente": 0,
+      "renanPresidente": 622,
       "deputadoFederalMissao": 157,
       "deputadoEstadualMissao": 65,
       "totalMissaoLegislativo": 222
@@ -2656,7 +2661,7 @@
       "lat": -28.320228571428572,
       "lng": -53.90215,
       "populacao": 87775,
-      "renanPresidente": 0,
+      "renanPresidente": 1038,
       "deputadoFederalMissao": 386,
       "deputadoEstadualMissao": 218,
       "totalMissaoLegislativo": 604
@@ -2669,7 +2674,7 @@
       "lat": -28.930588888888888,
       "lng": -52.14358888888889,
       "populacao": 4245,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 17
@@ -2682,7 +2687,7 @@
       "lat": -29.938185714285712,
       "lng": -50.12192857142857,
       "populacao": 27931,
-      "renanPresidente": 0,
+      "renanPresidente": 423,
       "deputadoFederalMissao": 122,
       "deputadoEstadualMissao": 83,
       "totalMissaoLegislativo": 205
@@ -2695,7 +2700,7 @@
       "lat": -29.346836363636363,
       "lng": -51.76511818181818,
       "populacao": 3148,
-      "renanPresidente": 0,
+      "renanPresidente": 68,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 20
@@ -2708,7 +2713,7 @@
       "lat": -27.88722,
       "lng": -54.19448666666666,
       "populacao": 6558,
-      "renanPresidente": 0,
+      "renanPresidente": 69,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 11
@@ -2721,7 +2726,7 @@
       "lat": -27.911309090909093,
       "lng": -54.026399999999995,
       "populacao": 2049,
-      "renanPresidente": 0,
+      "renanPresidente": 11,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -2734,7 +2739,7 @@
       "lat": -28.72944,
       "lng": -51.29733,
       "populacao": 5496,
-      "renanPresidente": 0,
+      "renanPresidente": 82,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 32
@@ -2747,7 +2752,7 @@
       "lat": -27.930475,
       "lng": -52.42675,
       "populacao": 1750,
-      "renanPresidente": 0,
+      "renanPresidente": 20,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 11
@@ -2760,7 +2765,7 @@
       "lat": -27.25555,
       "lng": -53.24521,
       "populacao": 7624,
-      "renanPresidente": 0,
+      "renanPresidente": 72,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 39
@@ -2773,7 +2778,7 @@
       "lat": -29.567209090909092,
       "lng": -53.76812727272727,
       "populacao": 5706,
-      "renanPresidente": 0,
+      "renanPresidente": 51,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 36
@@ -2786,7 +2791,7 @@
       "lat": -28.813489285714287,
       "lng": -55.24406071428571,
       "populacao": 3042,
-      "renanPresidente": 0,
+      "renanPresidente": 18,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 2
@@ -2799,7 +2804,7 @@
       "lat": -28.7702,
       "lng": -52.19797272727272,
       "populacao": 1967,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 5
@@ -2812,7 +2817,7 @@
       "lat": -29.222350704225352,
       "lng": -56.120964788732394,
       "populacao": 36830,
-      "renanPresidente": 0,
+      "renanPresidente": 346,
       "deputadoFederalMissao": 67,
       "deputadoEstadualMissao": 55,
       "totalMissaoLegislativo": 122
@@ -2825,7 +2830,7 @@
       "lat": -29.424983333333337,
       "lng": -50.16148333333334,
       "populacao": 2695,
-      "renanPresidente": 0,
+      "renanPresidente": 64,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 42
@@ -2838,7 +2843,7 @@
       "lat": -27.33673125,
       "lng": -52.47893125,
       "populacao": 3249,
-      "renanPresidente": 0,
+      "renanPresidente": 39,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 11
@@ -2851,7 +2856,7 @@
       "lat": -29.51892,
       "lng": -53.562599999999996,
       "populacao": 1964,
-      "renanPresidente": 0,
+      "renanPresidente": 10,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 9
@@ -2864,7 +2869,7 @@
       "lat": -29.587587499999998,
       "lng": -51.1568,
       "populacao": 23533,
-      "renanPresidente": 0,
+      "renanPresidente": 471,
       "deputadoFederalMissao": 156,
       "deputadoEstadualMissao": 95,
       "totalMissaoLegislativo": 251
@@ -2877,7 +2882,7 @@
       "lat": -27.61771428571429,
       "lng": -53.27177857142857,
       "populacao": 3850,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 26
@@ -2890,7 +2895,7 @@
       "lat": -29.052958823529412,
       "lng": -53.014752941176475,
       "populacao": 2070,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 72,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 83
@@ -2903,7 +2908,7 @@
       "lat": -27.770466666666668,
       "lng": -52.533366666666666,
       "populacao": 3401,
-      "renanPresidente": 0,
+      "renanPresidente": 48,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 3
@@ -2916,7 +2921,7 @@
       "lat": -32.42277297297298,
       "lng": -53.31670540540541,
       "populacao": 27406,
-      "renanPresidente": 0,
+      "renanPresidente": 406,
       "deputadoFederalMissao": 98,
       "deputadoEstadualMissao": 69,
       "totalMissaoLegislativo": 167
@@ -2929,7 +2934,7 @@
       "lat": -29.45737857142857,
       "lng": -54.633989285714286,
       "populacao": 10779,
-      "renanPresidente": 0,
+      "renanPresidente": 87,
       "deputadoFederalMissao": 28,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 41
@@ -2942,7 +2947,7 @@
       "lat": -28.954829032258065,
       "lng": -50.3318,
       "populacao": 3755,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 7
@@ -2955,7 +2960,7 @@
       "lat": -29.284284615384614,
       "lng": -54.276842307692306,
       "populacao": 3414,
-      "renanPresidente": 0,
+      "renanPresidente": 21,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 1
@@ -2968,7 +2973,7 @@
       "lat": -28.773313793103448,
       "lng": -54.14241034482758,
       "populacao": 7305,
-      "renanPresidente": 0,
+      "renanPresidente": 39,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 16
@@ -2981,7 +2986,7 @@
       "lat": -29.292013333333333,
       "lng": -53.60597111111111,
       "populacao": 18557,
-      "renanPresidente": 0,
+      "renanPresidente": 172,
       "deputadoFederalMissao": 45,
       "deputadoEstadualMissao": 17,
       "totalMissaoLegislativo": 62
@@ -2994,7 +2999,7 @@
       "lat": -29.5073,
       "lng": -53.036775,
       "populacao": 2287,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 208,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 210
@@ -3007,7 +3012,7 @@
       "lat": -28.572107692307693,
       "lng": -52.84232307692308,
       "populacao": 1779,
-      "renanPresidente": 0,
+      "renanPresidente": 33,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 75
@@ -3020,7 +3025,7 @@
       "lat": -28.219322033898305,
       "lng": -51.49288644067797,
       "populacao": 28617,
-      "renanPresidente": 0,
+      "renanPresidente": 280,
       "deputadoFederalMissao": 46,
       "deputadoEstadualMissao": 23,
       "totalMissaoLegislativo": 69
@@ -3033,7 +3038,7 @@
       "lat": -29.24485333333333,
       "lng": -52.7934,
       "populacao": 5429,
-      "renanPresidente": 0,
+      "renanPresidente": 106,
       "deputadoFederalMissao": 550,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 553
@@ -3046,7 +3051,7 @@
       "lat": -29.4411,
       "lng": -52.01589,
       "populacao": 96651,
-      "renanPresidente": 0,
+      "renanPresidente": 1393,
       "deputadoFederalMissao": 464,
       "deputadoEstadualMissao": 204,
       "totalMissaoLegislativo": 668
@@ -3059,7 +3064,7 @@
       "lat": -27.697766666666666,
       "lng": -53.20618888888889,
       "populacao": 2660,
-      "renanPresidente": 0,
+      "renanPresidente": 12,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 6
@@ -3072,7 +3077,7 @@
       "lat": -30.744755172413793,
       "lng": -54.17020689655172,
       "populacao": 7294,
-      "renanPresidente": 0,
+      "renanPresidente": 50,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 16
@@ -3085,7 +3090,7 @@
       "lat": -27.564026666666667,
       "lng": -53.04654666666667,
       "populacao": 4854,
-      "renanPresidente": 0,
+      "renanPresidente": 53,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 18
@@ -3098,7 +3103,7 @@
       "lat": -29.589633333333335,
       "lng": -51.21635,
       "populacao": 6409,
-      "renanPresidente": 0,
+      "renanPresidente": 102,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 34
@@ -3111,7 +3116,7 @@
       "lat": -29.45247142857143,
       "lng": -51.216257142857145,
       "populacao": 1720,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 12
@@ -3124,7 +3129,7 @@
       "lat": -29.073080952380955,
       "lng": -55.67899047619048,
       "populacao": 4487,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 11
@@ -3137,7 +3142,7 @@
       "lat": -27.589094736842107,
       "lng": -51.68294210526316,
       "populacao": 5864,
-      "renanPresidente": 0,
+      "renanPresidente": 51,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 5
@@ -3150,7 +3155,7 @@
       "lat": -29.264436363636364,
       "lng": -49.97523636363637,
       "populacao": 3201,
-      "renanPresidente": 0,
+      "renanPresidente": 39,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 9
@@ -3163,7 +3168,7 @@
       "lat": -29.404993939393936,
       "lng": -55.58062424242424,
       "populacao": 6917,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 23
@@ -3176,7 +3181,7 @@
       "lat": -29.63547142857143,
       "lng": -50.21721904761905,
       "populacao": 7588,
-      "renanPresidente": 0,
+      "renanPresidente": 98,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 28
@@ -3189,7 +3194,7 @@
       "lat": -29.55982857142857,
       "lng": -51.54295714285714,
       "populacao": 2521,
-      "renanPresidente": 0,
+      "renanPresidente": 55,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 16
@@ -3202,7 +3207,7 @@
       "lat": -28.466145454545455,
       "lng": -52.26172727272727,
       "populacao": 46656,
-      "renanPresidente": 0,
+      "renanPresidente": 565,
       "deputadoFederalMissao": 169,
       "deputadoEstadualMissao": 119,
       "totalMissaoLegislativo": 288
@@ -3215,7 +3220,7 @@
       "lat": -27.467125,
       "lng": -51.95821875,
       "populacao": 4389,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 13
@@ -3228,7 +3233,7 @@
       "lat": -30.31494117647059,
       "lng": -51.59625882352941,
       "populacao": 4003,
-      "renanPresidente": 0,
+      "renanPresidente": 41,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 9
@@ -3241,7 +3246,7 @@
       "lat": -27.364166666666666,
       "lng": -52.1652,
       "populacao": 1888,
-      "renanPresidente": 0,
+      "renanPresidente": 32,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 4
@@ -3254,7 +3259,7 @@
       "lat": -29.305993333333333,
       "lng": -52.132780000000004,
       "populacao": 4050,
-      "renanPresidente": 0,
+      "renanPresidente": 52,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 30
@@ -3267,7 +3272,7 @@
       "lat": -29.53598,
       "lng": -54.45404,
       "populacao": 4786,
-      "renanPresidente": 0,
+      "renanPresidente": 36,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 10
@@ -3280,7 +3285,7 @@
       "lat": -28.271285714285714,
       "lng": -52.18862857142857,
       "populacao": 2610,
-      "renanPresidente": 0,
+      "renanPresidente": 54,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 37
@@ -3293,7 +3298,7 @@
       "lat": -29.523657142857143,
       "lng": -52.13185714285714,
       "populacao": 4990,
-      "renanPresidente": 0,
+      "renanPresidente": 97,
       "deputadoFederalMissao": 35,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 45
@@ -3306,7 +3311,7 @@
       "lat": -28.248481818181816,
       "lng": -54.66110909090909,
       "populacao": 1833,
-      "renanPresidente": 0,
+      "renanPresidente": 9,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 0
@@ -3319,7 +3324,7 @@
       "lat": -27.596245454545453,
       "lng": -51.81173636363637,
       "populacao": 4258,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 9
@@ -3332,7 +3337,7 @@
       "lat": -30.055026315789473,
       "lng": -52.071247368421055,
       "populacao": 7661,
-      "renanPresidente": 0,
+      "renanPresidente": 77,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 29
@@ -3345,7 +3350,7 @@
       "lat": -27.508625,
       "lng": -53.7392375,
       "populacao": 4506,
-      "renanPresidente": 0,
+      "renanPresidente": 72,
       "deputadoFederalMissao": 28,
       "deputadoEstadualMissao": 19,
       "totalMissaoLegislativo": 47
@@ -3358,7 +3363,7 @@
       "lat": -28.66395714285714,
       "lng": -52.06155714285715,
       "populacao": 1530,
-      "renanPresidente": 0,
+      "renanPresidente": 15,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 2
@@ -3371,7 +3376,7 @@
       "lat": -28.706454545454548,
       "lng": -50.80764545454545,
       "populacao": 3250,
-      "renanPresidente": 0,
+      "renanPresidente": 33,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 12
@@ -3384,7 +3389,7 @@
       "lat": -29.129550000000002,
       "lng": -51.664325,
       "populacao": 2609,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 12
@@ -3397,7 +3402,7 @@
       "lat": -29.70587619047619,
       "lng": -51.49738095238095,
       "populacao": 66295,
-      "renanPresidente": 0,
+      "renanPresidente": 1042,
       "deputadoFederalMissao": 308,
       "deputadoEstadualMissao": 165,
       "totalMissaoLegislativo": 473
@@ -3410,7 +3415,7 @@
       "lat": -28.677640000000004,
       "lng": -52.67040000000001,
       "populacao": 2815,
-      "renanPresidente": 0,
+      "renanPresidente": 35,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 32
@@ -3423,7 +3428,7 @@
       "lat": -29.334308333333336,
       "lng": -49.954825,
       "populacao": 3134,
-      "renanPresidente": 0,
+      "renanPresidente": 85,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 21,
       "totalMissaoLegislativo": 46
@@ -3436,7 +3441,7 @@
       "lat": -31.64977692307692,
       "lng": -52.63727692307692,
       "populacao": 6169,
-      "renanPresidente": 0,
+      "renanPresidente": 77,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 19
@@ -3449,7 +3454,7 @@
       "lat": -29.521258333333336,
       "lng": -51.04228333333333,
       "populacao": 6163,
-      "renanPresidente": 0,
+      "renanPresidente": 124,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 23
@@ -3462,7 +3467,7 @@
       "lat": -30.937289655172414,
       "lng": -50.84925862068965,
       "populacao": 12346,
-      "renanPresidente": 0,
+      "renanPresidente": 103,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 19,
       "totalMissaoLegislativo": 42
@@ -3475,7 +3480,7 @@
       "lat": -29.13747692307692,
       "lng": -51.827569230769235,
       "populacao": 4694,
-      "renanPresidente": 0,
+      "renanPresidente": 57,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 12
@@ -3488,7 +3493,7 @@
       "lat": -28.381578571428573,
       "lng": -51.24035357142857,
       "populacao": 2938,
-      "renanPresidente": 0,
+      "renanPresidente": 14,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 1
@@ -3501,7 +3506,7 @@
       "lat": -28.31318333333333,
       "lng": -51.78301666666667,
       "populacao": 1755,
-      "renanPresidente": 0,
+      "renanPresidente": 21,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -3514,7 +3519,7 @@
       "lat": -28.474933333333336,
       "lng": -52.84076666666667,
       "populacao": 18314,
-      "renanPresidente": 0,
+      "renanPresidente": 197,
       "deputadoFederalMissao": 152,
       "deputadoEstadualMissao": 56,
       "totalMissaoLegislativo": 208
@@ -3527,7 +3532,7 @@
       "lat": -28.534066666666664,
       "lng": -52.454791666666665,
       "populacao": 1979,
-      "renanPresidente": 0,
+      "renanPresidente": 9,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 4
@@ -3540,7 +3545,7 @@
       "lat": -27.36090882352941,
       "lng": -52.872685294117645,
       "populacao": 14056,
-      "renanPresidente": 0,
+      "renanPresidente": 83,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 32
@@ -3553,7 +3558,7 @@
       "lat": -28.68651,
       "lng": -52.16627999999999,
       "populacao": 3229,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 25
@@ -3566,7 +3571,7 @@
       "lat": -28.654739999999997,
       "lng": -51.7641,
       "populacao": 5086,
-      "renanPresidente": 0,
+      "renanPresidente": 72,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 28
@@ -3579,7 +3584,7 @@
       "lat": -28.72902222222222,
       "lng": -51.75445555555555,
       "populacao": 9877,
-      "renanPresidente": 0,
+      "renanPresidente": 104,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 27,
       "totalMissaoLegislativo": 58
@@ -3592,7 +3597,7 @@
       "lat": -28.001399999999997,
       "lng": -52.97564285714286,
       "populacao": 2088,
-      "renanPresidente": 0,
+      "renanPresidente": 33,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 8
@@ -3605,7 +3610,7 @@
       "lat": -29.22126,
       "lng": -52.02374,
       "populacao": 3105,
-      "renanPresidente": 0,
+      "renanPresidente": 43,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 22
@@ -3618,7 +3623,7 @@
       "lat": -27.59861,
       "lng": -54.12866,
       "populacao": 3134,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 18
@@ -3631,7 +3636,7 @@
       "lat": -29.40331666666667,
       "lng": -54.82649166666667,
       "populacao": 4974,
-      "renanPresidente": 0,
+      "renanPresidente": 50,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 25
@@ -3644,7 +3649,7 @@
       "lat": -29.58856,
       "lng": -50.90571,
       "populacao": 20539,
-      "renanPresidente": 0,
+      "renanPresidente": 290,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 36,
       "totalMissaoLegislativo": 104
@@ -3657,7 +3662,7 @@
       "lat": -28.9894125,
       "lng": -51.3161125,
       "populacao": 2390,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 35
@@ -3670,7 +3675,7 @@
       "lat": -29.43749375,
       "lng": -53.40645625,
       "populacao": 5683,
-      "renanPresidente": 0,
+      "renanPresidente": 67,
       "deputadoFederalMissao": 113,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 118
@@ -3683,7 +3688,7 @@
       "lat": -29.376931578947367,
       "lng": -51.099057894736845,
       "populacao": 23889,
-      "renanPresidente": 0,
+      "renanPresidente": 485,
       "deputadoFederalMissao": 141,
       "deputadoEstadualMissao": 115,
       "totalMissaoLegislativo": 256
@@ -3696,7 +3701,7 @@
       "lat": -28.75412307692308,
       "lng": -51.62663846153846,
       "populacao": 26587,
-      "renanPresidente": 0,
+      "renanPresidente": 419,
       "deputadoFederalMissao": 72,
       "deputadoEstadualMissao": 55,
       "totalMissaoLegislativo": 127
@@ -3709,7 +3714,7 @@
       "lat": -28.072775000000004,
       "lng": -53.7192,
       "populacao": 2201,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -3722,7 +3727,7 @@
       "lat": -29.013700000000004,
       "lng": -51.39910909090909,
       "populacao": 3543,
-      "renanPresidente": 0,
+      "renanPresidente": 55,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 14
@@ -3735,7 +3740,7 @@
       "lat": -29.844553333333334,
       "lng": -51.2903,
       "populacao": 30121,
-      "renanPresidente": 0,
+      "renanPresidente": 493,
       "deputadoFederalMissao": 158,
       "deputadoEstadualMissao": 119,
       "totalMissaoLegislativo": 277
@@ -3748,7 +3753,7 @@
       "lat": -27.896325,
       "lng": -53.11099166666667,
       "populacao": 4371,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 8
@@ -3761,7 +3766,7 @@
       "lat": -29.776415384615383,
       "lng": -53.00187692307692,
       "populacao": 3636,
-      "renanPresidente": 0,
+      "renanPresidente": 66,
       "deputadoFederalMissao": 267,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 273
@@ -3774,7 +3779,7 @@
       "lat": -29.716122222222225,
       "lng": -51.08122777777778,
       "populacao": 235879,
-      "renanPresidente": 0,
+      "renanPresidente": 4011,
       "deputadoFederalMissao": 1338,
       "deputadoEstadualMissao": 984,
       "totalMissaoLegislativo": 2322
@@ -3787,7 +3792,7 @@
       "lat": -27.543353333333336,
       "lng": -54.53072,
       "populacao": 3246,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 12
@@ -3800,7 +3805,7 @@
       "lat": -27.57461111111111,
       "lng": -53.17052222222222,
       "populacao": 2188,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 7
@@ -3813,7 +3818,7 @@
       "lat": -27.750481818181814,
       "lng": -53.06137272727273,
       "populacao": 1678,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 6
@@ -3826,7 +3831,7 @@
       "lat": -29.916030769230765,
       "lng": -50.25152692307692,
       "populacao": 48929,
-      "renanPresidente": 0,
+      "renanPresidente": 779,
       "deputadoFederalMissao": 215,
       "deputadoEstadualMissao": 144,
       "totalMissaoLegislativo": 359
@@ -3839,7 +3844,7 @@
       "lat": -27.722236363636362,
       "lng": -51.765172727272734,
       "populacao": 3691,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 10
@@ -3852,7 +3857,7 @@
       "lat": -30.355546153846152,
       "lng": -50.516246153846154,
       "populacao": 13170,
-      "renanPresidente": 0,
+      "renanPresidente": 123,
       "deputadoFederalMissao": 37,
       "deputadoEstadualMissao": 23,
       "totalMissaoLegislativo": 60
@@ -3865,7 +3870,7 @@
       "lat": -27.955283333333334,
       "lng": -53.35886428571428,
       "populacao": 34233,
-      "renanPresidente": 0,
+      "renanPresidente": 286,
       "deputadoFederalMissao": 141,
       "deputadoEstadualMissao": 67,
       "totalMissaoLegislativo": 208
@@ -3878,7 +3883,7 @@
       "lat": -27.325166666666664,
       "lng": -53.59079166666667,
       "populacao": 8032,
-      "renanPresidente": 0,
+      "renanPresidente": 79,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 38
@@ -3891,7 +3896,7 @@
       "lat": -28.348955,
       "lng": -53.556349999999995,
       "populacao": 45042,
-      "renanPresidente": 0,
+      "renanPresidente": 536,
       "deputadoFederalMissao": 193,
       "deputadoEstadualMissao": 134,
       "totalMissaoLegislativo": 327
@@ -3904,7 +3909,7 @@
       "lat": -30.264115384615383,
       "lng": -52.3557576923077,
       "populacao": 10438,
-      "renanPresidente": 0,
+      "renanPresidente": 131,
       "deputadoFederalMissao": 150,
       "deputadoEstadualMissao": 33,
       "totalMissaoLegislativo": 183
@@ -3917,7 +3922,7 @@
       "lat": -28.595139999999997,
       "lng": -51.79716,
       "populacao": 7357,
-      "renanPresidente": 0,
+      "renanPresidente": 85,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 32
@@ -3930,7 +3935,7 @@
       "lat": -29.680223529411766,
       "lng": -53.115729411764704,
       "populacao": 6635,
-      "renanPresidente": 0,
+      "renanPresidente": 94,
       "deputadoFederalMissao": 93,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 107
@@ -3943,7 +3948,7 @@
       "lat": -29.622216666666663,
       "lng": -51.421166666666664,
       "populacao": 4433,
-      "renanPresidente": 0,
+      "renanPresidente": 72,
       "deputadoFederalMissao": 21,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 33
@@ -3956,7 +3961,7 @@
       "lat": -29.66099090909091,
       "lng": -50.85436363636364,
       "populacao": 53555,
-      "renanPresidente": 0,
+      "renanPresidente": 910,
       "deputadoFederalMissao": 239,
       "deputadoEstadualMissao": 119,
       "totalMissaoLegislativo": 358
@@ -3969,7 +3974,7 @@
       "lat": -29.420793333333332,
       "lng": -52.85863333333334,
       "populacao": 4036,
-      "renanPresidente": 0,
+      "renanPresidente": 67,
       "deputadoFederalMissao": 230,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 235
@@ -3982,7 +3987,7 @@
       "lat": -29.74780714285714,
       "lng": -52.22466428571429,
       "populacao": 6154,
-      "renanPresidente": 0,
+      "renanPresidente": 93,
       "deputadoFederalMissao": 384,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 390
@@ -3995,7 +4000,7 @@
       "lat": -28.28217,
       "lng": -52.42667333333334,
       "populacao": 214564,
-      "renanPresidente": 0,
+      "renanPresidente": 3428,
       "deputadoFederalMissao": 1112,
       "deputadoEstadualMissao": 625,
       "totalMissaoLegislativo": 1737
@@ -4008,7 +4013,7 @@
       "lat": -27.709791666666664,
       "lng": -52.396425,
       "populacao": 2188,
-      "renanPresidente": 0,
+      "renanPresidente": 15,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -4021,7 +4026,7 @@
       "lat": -29.579385714285714,
       "lng": -51.72180714285714,
       "populacao": 8146,
-      "renanPresidente": 0,
+      "renanPresidente": 98,
       "deputadoFederalMissao": 22,
       "deputadoEstadualMissao": 25,
       "totalMissaoLegislativo": 47
@@ -4034,7 +4039,7 @@
       "lat": -31.831575,
       "lng": -53.706840625,
       "populacao": 2100,
-      "renanPresidente": 0,
+      "renanPresidente": 11,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 3
@@ -4047,7 +4052,7 @@
       "lat": -31.95512222222222,
       "lng": -52.90425,
       "populacao": 7634,
-      "renanPresidente": 0,
+      "renanPresidente": 111,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 17,
       "totalMissaoLegislativo": 40
@@ -4060,7 +4065,7 @@
       "lat": -28.455278947368424,
       "lng": -53.591405263157895,
       "populacao": 3819,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 19
@@ -4073,7 +4078,7 @@
       "lat": -31.5432945945946,
       "lng": -52.317208108108105,
       "populacao": 336131,
-      "renanPresidente": 0,
+      "renanPresidente": 6035,
       "deputadoFederalMissao": 960,
       "deputadoEstadualMissao": 827,
       "totalMissaoLegislativo": 1787
@@ -4086,7 +4091,7 @@
       "lat": -29.46314166666667,
       "lng": -51.09363333333334,
       "populacao": 5470,
-      "renanPresidente": 0,
+      "renanPresidente": 106,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 21,
       "totalMissaoLegislativo": 52
@@ -4099,7 +4104,7 @@
       "lat": -27.5299875,
       "lng": -53.239425,
       "populacao": 3034,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 7
@@ -4112,7 +4117,7 @@
       "lat": -27.84563,
       "lng": -51.237649999999995,
       "populacao": 2299,
-      "renanPresidente": 0,
+      "renanPresidente": 9,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 0
@@ -4125,7 +4130,7 @@
       "lat": -29.2932,
       "lng": -53.32506111111111,
       "populacao": 3867,
-      "renanPresidente": 0,
+      "renanPresidente": 29,
       "deputadoFederalMissao": 42,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 44
@@ -4138,7 +4143,7 @@
       "lat": -27.213825,
       "lng": -53.648066666666665,
       "populacao": 4637,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 9
@@ -4151,7 +4156,7 @@
       "lat": -31.397706,
       "lng": -53.409946,
       "populacao": 11409,
-      "renanPresidente": 0,
+      "renanPresidente": 117,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 17,
       "totalMissaoLegislativo": 34
@@ -4164,7 +4169,7 @@
       "lat": -29.0942125,
       "lng": -51.455124999999995,
       "populacao": 2784,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 7
@@ -4177,7 +4182,7 @@
       "lat": -28.07625294117647,
       "lng": -55.24282941176471,
       "populacao": 2260,
-      "renanPresidente": 0,
+      "renanPresidente": 13,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 4
@@ -4190,7 +4195,7 @@
       "lat": -31.45739649122807,
       "lng": -53.091901754385965,
       "populacao": 17792,
-      "renanPresidente": 0,
+      "renanPresidente": 178,
       "deputadoFederalMissao": 36,
       "deputadoEstadualMissao": 25,
       "totalMissaoLegislativo": 61
@@ -4203,7 +4208,7 @@
       "lat": -27.351853333333334,
       "lng": -53.088420000000006,
       "populacao": 10624,
-      "renanPresidente": 0,
+      "renanPresidente": 90,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 54
@@ -4216,7 +4221,7 @@
       "lat": -29.444555555555553,
       "lng": -51.6409,
       "populacao": 2222,
-      "renanPresidente": 0,
+      "renanPresidente": 32,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 13
@@ -4229,7 +4234,7 @@
       "lat": -28.041578947368418,
       "lng": -52.66934736842105,
       "populacao": 3350,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 13
@@ -4242,7 +4247,7 @@
       "lat": -27.665172727272726,
       "lng": -52.52018181818182,
       "populacao": 1604,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 6
@@ -4255,7 +4260,7 @@
       "lat": -29.699392857142858,
       "lng": -51.24697142857143,
       "populacao": 35237,
-      "renanPresidente": 0,
+      "renanPresidente": 585,
       "deputadoFederalMissao": 202,
       "deputadoEstadualMissao": 141,
       "totalMissaoLegislativo": 343
@@ -4268,7 +4273,7 @@
       "lat": -30.08593913043478,
       "lng": -51.16454347826087,
       "populacao": 1389322,
-      "renanPresidente": 0,
+      "renanPresidente": 24187,
       "deputadoFederalMissao": 6837,
       "deputadoEstadualMissao": 4940,
       "totalMissaoLegislativo": 11777
@@ -4281,7 +4286,7 @@
       "lat": -27.848514285714288,
       "lng": -54.95648571428571,
       "populacao": 4424,
-      "renanPresidente": 0,
+      "renanPresidente": 36,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 8
@@ -4294,7 +4299,7 @@
       "lat": -27.579829999999998,
       "lng": -54.66052,
       "populacao": 2176,
-      "renanPresidente": 0,
+      "renanPresidente": 19,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -4307,7 +4312,7 @@
       "lat": -27.751783333333332,
       "lng": -54.90110833333333,
       "populacao": 1585,
-      "renanPresidente": 0,
+      "renanPresidente": 23,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 8
@@ -4320,7 +4325,7 @@
       "lat": -27.9245,
       "lng": -55.1444,
       "populacao": 10132,
-      "renanPresidente": 0,
+      "renanPresidente": 83,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 18,
       "totalMissaoLegislativo": 36
@@ -4333,7 +4338,7 @@
       "lat": -29.168599999999998,
       "lng": -52.21785833333333,
       "populacao": 1773,
-      "renanPresidente": 0,
+      "renanPresidente": 20,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 11
@@ -4346,7 +4351,7 @@
       "lat": -29.527925,
       "lng": -51.167474999999996,
       "populacao": 3159,
-      "renanPresidente": 0,
+      "renanPresidente": 35,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 18
@@ -4359,7 +4364,7 @@
       "lat": -29.220074999999998,
       "lng": -52.31725,
       "populacao": 5430,
-      "renanPresidente": 0,
+      "renanPresidente": 90,
       "deputadoFederalMissao": 261,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 270
@@ -4372,7 +4377,7 @@
       "lat": -28.74305,
       "lng": -51.486270000000005,
       "populacao": 2069,
-      "renanPresidente": 0,
+      "renanPresidente": 11,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 2
@@ -4385,7 +4390,7 @@
       "lat": -29.051666666666666,
       "lng": -52.136983333333326,
       "populacao": 3814,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 12
@@ -4398,7 +4403,7 @@
       "lat": -30.263930434782605,
       "lng": -56.152854347826086,
       "populacao": 23988,
-      "renanPresidente": 0,
+      "renanPresidente": 223,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 76
@@ -4411,7 +4416,7 @@
       "lat": -27.83610909090909,
       "lng": -52.457913636363635,
       "populacao": 1579,
-      "renanPresidente": 0,
+      "renanPresidente": 7,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 4
@@ -4424,7 +4429,7 @@
       "lat": -29.306736842105263,
       "lng": -54.07094210526316,
       "populacao": 2555,
-      "renanPresidente": 0,
+      "renanPresidente": 16,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 8
@@ -4437,7 +4442,7 @@
       "lat": -28.76326,
       "lng": -53.13995333333333,
       "populacao": 4000,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 72,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 76
@@ -4450,7 +4455,7 @@
       "lat": -27.583135294117646,
       "lng": -53.64262941176471,
       "populacao": 9934,
-      "renanPresidente": 0,
+      "renanPresidente": 33,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 13
@@ -4463,7 +4468,7 @@
       "lat": -29.123933333333337,
       "lng": -52.05244444444444,
       "populacao": 1828,
-      "renanPresidente": 0,
+      "renanPresidente": 20,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 8
@@ -4476,7 +4481,7 @@
       "lat": -29.824475862068965,
       "lng": -53.33529310344828,
       "populacao": 15213,
-      "renanPresidente": 0,
+      "renanPresidente": 132,
       "deputadoFederalMissao": 52,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 62
@@ -4489,7 +4494,7 @@
       "lat": -27.251092857142854,
       "lng": -52.89149285714286,
       "populacao": 2874,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 5
@@ -4502,7 +4507,7 @@
       "lat": -32.13140666666666,
       "lng": -52.35792888888889,
       "populacao": 198958,
-      "renanPresidente": 0,
+      "renanPresidente": 3190,
       "deputadoFederalMissao": 948,
       "deputadoEstadualMissao": 693,
       "totalMissaoLegislativo": 1641
@@ -4515,7 +4520,7 @@
       "lat": -30.051524074074077,
       "lng": -52.419155555555555,
       "populacao": 35666,
-      "renanPresidente": 0,
+      "renanPresidente": 447,
       "deputadoFederalMissao": 540,
       "deputadoEstadualMissao": 53,
       "totalMissaoLegislativo": 593
@@ -4528,7 +4533,7 @@
       "lat": -29.622515384615383,
       "lng": -50.40057692307692,
       "populacao": 4572,
-      "renanPresidente": 0,
+      "renanPresidente": 101,
       "deputadoFederalMissao": 104,
       "deputadoEstadualMissao": 20,
       "totalMissaoLegislativo": 124
@@ -4541,7 +4546,7 @@
       "lat": -29.254673333333336,
       "lng": -51.822826666666664,
       "populacao": 10644,
-      "renanPresidente": 0,
+      "renanPresidente": 115,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 40
@@ -4554,7 +4559,7 @@
       "lat": -27.46916,
       "lng": -53.17767,
       "populacao": 6821,
-      "renanPresidente": 0,
+      "renanPresidente": 78,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 38
@@ -4567,7 +4572,7 @@
       "lat": -28.256006666666668,
       "lng": -54.84422666666667,
       "populacao": 2332,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 5
@@ -4580,7 +4585,7 @@
       "lat": -29.62088,
       "lng": -50.53497333333333,
       "populacao": 21733,
-      "renanPresidente": 0,
+      "renanPresidente": 277,
       "deputadoFederalMissao": 104,
       "deputadoEstadualMissao": 39,
       "totalMissaoLegislativo": 143
@@ -4593,7 +4598,7 @@
       "lat": -27.823435,
       "lng": -52.751705,
       "populacao": 9972,
-      "renanPresidente": 0,
+      "renanPresidente": 105,
       "deputadoFederalMissao": 37,
       "deputadoEstadualMissao": 25,
       "totalMissaoLegislativo": 62
@@ -4606,7 +4611,7 @@
       "lat": -27.828666666666667,
       "lng": -52.889113333333334,
       "populacao": 5083,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 20
@@ -4619,7 +4624,7 @@
       "lat": -28.060508,
       "lng": -55.102896,
       "populacao": 6698,
-      "renanPresidente": 0,
+      "renanPresidente": 40,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 19
@@ -4632,7 +4637,7 @@
       "lat": -30.33549565217391,
       "lng": -55.085447826086956,
       "populacao": 37700,
-      "renanPresidente": 0,
+      "renanPresidente": 391,
       "deputadoFederalMissao": 146,
       "deputadoEstadualMissao": 69,
       "totalMissaoLegislativo": 215
@@ -4645,7 +4650,7 @@
       "lat": -27.71347272727273,
       "lng": -53.13722727272727,
       "populacao": 2529,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 6
@@ -4658,7 +4663,7 @@
       "lat": -28.392864285714285,
       "lng": -53.09042857142857,
       "populacao": 2621,
-      "renanPresidente": 0,
+      "renanPresidente": 24,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 16
@@ -4671,7 +4676,7 @@
       "lat": -29.08366,
       "lng": -53.249,
       "populacao": 10373,
-      "renanPresidente": 0,
+      "renanPresidente": 106,
       "deputadoFederalMissao": 209,
       "deputadoEstadualMissao": 23,
       "totalMissaoLegislativo": 232
@@ -4684,7 +4689,7 @@
       "lat": -28.0932,
       "lng": -54.835455555555555,
       "populacao": 2953,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 4
@@ -4697,7 +4702,7 @@
       "lat": -29.454045454545454,
       "lng": -51.53597272727273,
       "populacao": 7182,
-      "renanPresidente": 0,
+      "renanPresidente": 130,
       "deputadoFederalMissao": 42,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 70
@@ -4710,7 +4715,7 @@
       "lat": -27.941399999999998,
       "lng": -51.81192,
       "populacao": 16759,
-      "renanPresidente": 0,
+      "renanPresidente": 193,
       "deputadoFederalMissao": 50,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 78
@@ -4723,7 +4728,7 @@
       "lat": -30.7479511627907,
       "lng": -55.563047674418605,
       "populacao": 87296,
-      "renanPresidente": 0,
+      "renanPresidente": 1103,
       "deputadoFederalMissao": 235,
       "deputadoEstadualMissao": 74,
       "totalMissaoLegislativo": 309
@@ -4736,7 +4741,7 @@
       "lat": -28.36745357142857,
       "lng": -53.27108928571429,
       "populacao": 8275,
-      "renanPresidente": 0,
+      "renanPresidente": 67,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 33
@@ -4749,7 +4754,7 @@
       "lat": -28.1830875,
       "lng": -51.901112499999996,
       "populacao": 1710,
-      "renanPresidente": 0,
+      "renanPresidente": 29,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -4762,7 +4767,7 @@
       "lat": -29.45937777777778,
       "lng": -52.11517777777778,
       "populacao": 7067,
-      "renanPresidente": 0,
+      "renanPresidente": 104,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 52
@@ -4775,7 +4780,7 @@
       "lat": -29.62386923076923,
       "lng": -52.42204615384615,
       "populacao": 138104,
-      "renanPresidente": 0,
+      "renanPresidente": 2704,
       "deputadoFederalMissao": 9363,
       "deputadoEstadualMissao": 469,
       "totalMissaoLegislativo": 9832
@@ -4788,7 +4793,7 @@
       "lat": -30.3827,
       "lng": -54.074012,
       "populacao": 2658,
-      "renanPresidente": 0,
+      "renanPresidente": 28,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 13
@@ -4801,7 +4806,7 @@
       "lat": -29.763728571428572,
       "lng": -53.83733095238095,
       "populacao": 282244,
-      "renanPresidente": 0,
+      "renanPresidente": 4031,
       "deputadoFederalMissao": 1262,
       "deputadoEstadualMissao": 667,
       "totalMissaoLegislativo": 1929
@@ -4814,7 +4819,7 @@
       "lat": -29.476546666666668,
       "lng": -50.98016,
       "populacao": 6482,
-      "renanPresidente": 0,
+      "renanPresidente": 116,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 30
@@ -4827,7 +4832,7 @@
       "lat": -27.84260952380952,
       "lng": -54.49131904761905,
       "populacao": 79395,
-      "renanPresidente": 0,
+      "renanPresidente": 1043,
       "deputadoFederalMissao": 203,
       "deputadoEstadualMissao": 190,
       "totalMissaoLegislativo": 393
@@ -4840,7 +4845,7 @@
       "lat": -29.16634,
       "lng": -51.702189999999995,
       "populacao": 1531,
-      "renanPresidente": 0,
+      "renanPresidente": 35,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 9
@@ -4853,7 +4858,7 @@
       "lat": -33.19968863636364,
       "lng": -53.12372272727273,
       "populacao": 31961,
-      "renanPresidente": 0,
+      "renanPresidente": 327,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 48,
       "totalMissaoLegislativo": 116
@@ -4866,7 +4871,7 @@
       "lat": -30.77663076923077,
       "lng": -53.1890641025641,
       "populacao": 7140,
-      "renanPresidente": 0,
+      "renanPresidente": 68,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 25
@@ -4879,7 +4884,7 @@
       "lat": -29.14126046511628,
       "lng": -54.75651627906977,
       "populacao": 50331,
-      "renanPresidente": 0,
+      "renanPresidente": 548,
       "deputadoFederalMissao": 144,
       "deputadoEstadualMissao": 77,
       "totalMissaoLegislativo": 221
@@ -4892,7 +4897,7 @@
       "lat": -28.260900000000003,
       "lng": -54.323208,
       "populacao": 79130,
-      "renanPresidente": 0,
+      "renanPresidente": 957,
       "deputadoFederalMissao": 209,
       "deputadoEstadualMissao": 129,
       "totalMissaoLegislativo": 338
@@ -4905,7 +4910,7 @@
       "lat": -29.84340740740741,
       "lng": -50.56568518518519,
       "populacao": 44393,
-      "renanPresidente": 0,
+      "renanPresidente": 613,
       "deputadoFederalMissao": 167,
       "deputadoEstadualMissao": 92,
       "totalMissaoLegislativo": 259
@@ -4918,7 +4923,7 @@
       "lat": -28.462589473684208,
       "lng": -55.40674736842105,
       "populacao": 10493,
-      "renanPresidente": 0,
+      "renanPresidente": 71,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 29
@@ -4931,7 +4936,7 @@
       "lat": -28.5013,
       "lng": -51.99059090909091,
       "populacao": 2134,
-      "renanPresidente": 0,
+      "renanPresidente": 38,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 4
@@ -4944,7 +4949,7 @@
       "lat": -28.352284615384615,
       "lng": -52.66669230769231,
       "populacao": 2136,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 15
@@ -4957,7 +4962,7 @@
       "lat": -27.902445,
       "lng": -53.749445,
       "populacao": 14196,
-      "renanPresidente": 0,
+      "renanPresidente": 120,
       "deputadoFederalMissao": 35,
       "deputadoEstadualMissao": 19,
       "totalMissaoLegislativo": 54
@@ -4970,7 +4975,7 @@
       "lat": -27.800125,
       "lng": -54.71914375,
       "populacao": 15656,
-      "renanPresidente": 0,
+      "renanPresidente": 219,
       "deputadoFederalMissao": 39,
       "deputadoEstadualMissao": 20,
       "totalMissaoLegislativo": 59
@@ -4983,7 +4988,7 @@
       "lat": -27.908749999999998,
       "lng": -51.652559999999994,
       "populacao": 2395,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 6
@@ -4996,7 +5001,7 @@
       "lat": -28.720640983606557,
       "lng": -55.77739672131147,
       "populacao": 61323,
-      "renanPresidente": 0,
+      "renanPresidente": 592,
       "deputadoFederalMissao": 160,
       "deputadoEstadualMissao": 67,
       "totalMissaoLegislativo": 227
@@ -5009,7 +5014,7 @@
       "lat": -28.526233333333337,
       "lng": -51.8803,
       "populacao": 2808,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 9
@@ -5022,7 +5027,7 @@
       "lat": -29.455354545454544,
       "lng": -55.155595454545455,
       "populacao": 17949,
-      "renanPresidente": 0,
+      "renanPresidente": 193,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 27,
       "totalMissaoLegislativo": 70
@@ -5035,7 +5040,7 @@
       "lat": -29.23909655172414,
       "lng": -50.507275862068965,
       "populacao": 22373,
-      "renanPresidente": 0,
+      "renanPresidente": 204,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 43,
       "totalMissaoLegislativo": 91
@@ -5048,7 +5053,7 @@
       "lat": -30.327651948051944,
       "lng": -54.3348,
       "populacao": 60102,
-      "renanPresidente": 0,
+      "renanPresidente": 560,
       "deputadoFederalMissao": 186,
       "deputadoEstadualMissao": 100,
       "totalMissaoLegislativo": 286
@@ -5061,7 +5066,7 @@
       "lat": -30.254730000000002,
       "lng": -51.8853475,
       "populacao": 21421,
-      "renanPresidente": 0,
+      "renanPresidente": 331,
       "deputadoFederalMissao": 65,
       "deputadoEstadualMissao": 46,
       "totalMissaoLegislativo": 111
@@ -5074,7 +5079,7 @@
       "lat": -27.791683333333335,
       "lng": -51.84723333333333,
       "populacao": 4549,
-      "renanPresidente": 0,
+      "renanPresidente": 50,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 21
@@ -5087,7 +5092,7 @@
       "lat": -29.632233333333335,
       "lng": -53.467777777777776,
       "populacao": 2707,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 74
@@ -5100,7 +5105,7 @@
       "lat": -28.49450909090909,
       "lng": -51.70479090909091,
       "populacao": 2976,
-      "renanPresidente": 0,
+      "renanPresidente": 41,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 5
@@ -5113,7 +5118,7 @@
       "lat": -27.79202,
       "lng": -53.13409,
       "populacao": 2403,
-      "renanPresidente": 0,
+      "renanPresidente": 18,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -5126,7 +5131,7 @@
       "lat": -29.067149999999998,
       "lng": -52.267759999999996,
       "populacao": 1934,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 17
@@ -5139,7 +5144,7 @@
       "lat": -29.536622222222224,
       "lng": -51.245444444444445,
       "populacao": 4551,
-      "renanPresidente": 0,
+      "renanPresidente": 60,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 47
@@ -5152,7 +5157,7 @@
       "lat": -27.738229999999998,
       "lng": -54.12611,
       "populacao": 2463,
-      "renanPresidente": 0,
+      "renanPresidente": 52,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 10
@@ -5165,7 +5170,7 @@
       "lat": -31.767405555555555,
       "lng": -51.705597222222224,
       "populacao": 26245,
-      "renanPresidente": 0,
+      "renanPresidente": 373,
       "deputadoFederalMissao": 83,
       "deputadoEstadualMissao": 33,
       "totalMissaoLegislativo": 116
@@ -5178,7 +5183,7 @@
       "lat": -27.759736842105266,
       "lng": -51.56232631578947,
       "populacao": 6978,
-      "renanPresidente": 0,
+      "renanPresidente": 63,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 25
@@ -5191,7 +5196,7 @@
       "lat": -29.550225,
       "lng": -51.4796,
       "populacao": 2440,
-      "renanPresidente": 0,
+      "renanPresidente": 47,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 20
@@ -5204,7 +5209,7 @@
       "lat": -28.664566666666666,
       "lng": -49.951053333333334,
       "populacao": 4286,
-      "renanPresidente": 0,
+      "renanPresidente": 21,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 1
@@ -5217,7 +5222,7 @@
       "lat": -29.746181818181814,
       "lng": -51.1507,
       "populacao": 225669,
-      "renanPresidente": 0,
+      "renanPresidente": 3790,
       "deputadoFederalMissao": 1101,
       "deputadoEstadualMissao": 888,
       "totalMissaoLegislativo": 1989
@@ -5230,7 +5235,7 @@
       "lat": -31.228265853658534,
       "lng": -52.090746341463415,
       "populacao": 43283,
-      "renanPresidente": 0,
+      "renanPresidente": 553,
       "deputadoFederalMissao": 90,
       "deputadoEstadualMissao": 57,
       "totalMissaoLegislativo": 147
@@ -5243,7 +5248,7 @@
       "lat": -28.402197872340423,
       "lng": -54.8800340425532,
       "populacao": 35858,
-      "renanPresidente": 0,
+      "renanPresidente": 324,
       "deputadoFederalMissao": 79,
       "deputadoEstadualMissao": 38,
       "totalMissaoLegislativo": 117
@@ -5256,7 +5261,7 @@
       "lat": -28.966324999999998,
       "lng": -51.076125,
       "populacao": 21537,
-      "renanPresidente": 0,
+      "renanPresidente": 301,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 66,
       "totalMissaoLegislativo": 139
@@ -5269,7 +5274,7 @@
       "lat": -27.73218125,
       "lng": -53.956481249999996,
       "populacao": 5589,
-      "renanPresidente": 0,
+      "renanPresidente": 58,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 11
@@ -5282,7 +5287,7 @@
       "lat": -29.49928947368421,
       "lng": -53.89770526315789,
       "populacao": 2911,
-      "renanPresidente": 0,
+      "renanPresidente": 36,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -5295,7 +5300,7 @@
       "lat": -28.664382857142858,
       "lng": -54.52583428571428,
       "populacao": 7196,
-      "renanPresidente": 0,
+      "renanPresidente": 52,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 17
@@ -5308,7 +5313,7 @@
       "lat": -28.19369230769231,
       "lng": -55.26058076923077,
       "populacao": 5248,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 13
@@ -5321,7 +5326,7 @@
       "lat": -27.981676923076922,
       "lng": -54.98896153846154,
       "populacao": 5948,
-      "renanPresidente": 0,
+      "renanPresidente": 61,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 20
@@ -5334,7 +5339,7 @@
       "lat": -29.419014285714287,
       "lng": -51.522128571428574,
       "populacao": 3614,
-      "renanPresidente": 0,
+      "renanPresidente": 68,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 16
@@ -5347,7 +5352,7 @@
       "lat": -27.766885714285714,
       "lng": -53.241328571428575,
       "populacao": 1791,
-      "renanPresidente": 0,
+      "renanPresidente": 15,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 6
@@ -5360,7 +5365,7 @@
       "lat": -28.12267142857143,
       "lng": -54.902857142857144,
       "populacao": 3139,
-      "renanPresidente": 0,
+      "renanPresidente": 49,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 9,
       "totalMissaoLegislativo": 20
@@ -5373,7 +5378,7 @@
       "lat": -29.600648,
       "lng": -54.243876,
       "populacao": 15870,
-      "renanPresidente": 0,
+      "renanPresidente": 199,
       "deputadoFederalMissao": 53,
       "deputadoEstadualMissao": 25,
       "totalMissaoLegislativo": 78
@@ -5386,7 +5391,7 @@
       "lat": -29.599608333333332,
       "lng": -51.333825,
       "populacao": 24883,
-      "renanPresidente": 0,
+      "renanPresidente": 298,
       "deputadoFederalMissao": 91,
       "deputadoEstadualMissao": 56,
       "totalMissaoLegislativo": 147
@@ -5399,7 +5404,7 @@
       "lat": -30.186775510204082,
       "lng": -53.62754693877551,
       "populacao": 21575,
-      "renanPresidente": 0,
+      "renanPresidente": 188,
       "deputadoFederalMissao": 39,
       "deputadoEstadualMissao": 22,
       "totalMissaoLegislativo": 61
@@ -5412,7 +5417,7 @@
       "lat": -27.538229411764707,
       "lng": -52.569494117647054,
       "populacao": 3324,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 4
@@ -5425,7 +5430,7 @@
       "lat": -29.071833333333334,
       "lng": -51.76347777777778,
       "populacao": 2255,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 4
@@ -5438,7 +5443,7 @@
       "lat": -27.81494,
       "lng": -53.91831,
       "populacao": 2594,
-      "renanPresidente": 0,
+      "renanPresidente": 6,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 2
@@ -5451,7 +5456,7 @@
       "lat": -29.3764,
       "lng": -51.36622,
       "populacao": 2306,
-      "renanPresidente": 0,
+      "renanPresidente": 48,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 15
@@ -5464,7 +5469,7 @@
       "lat": -29.70736666666667,
       "lng": -54.796409090909094,
       "populacao": 8259,
-      "renanPresidente": 0,
+      "renanPresidente": 93,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 27
@@ -5477,7 +5482,7 @@
       "lat": -29.63346923076923,
       "lng": -50.99687692307692,
       "populacao": 77898,
-      "renanPresidente": 0,
+      "renanPresidente": 1272,
       "deputadoFederalMissao": 411,
       "deputadoEstadualMissao": 321,
       "totalMissaoLegislativo": 732
@@ -5490,7 +5495,7 @@
       "lat": -29.824211111111108,
       "lng": -51.14031111111111,
       "populacao": 136542,
-      "renanPresidente": 0,
+      "renanPresidente": 2488,
       "deputadoFederalMissao": 759,
       "deputadoEstadualMissao": 480,
       "totalMissaoLegislativo": 1239
@@ -5503,7 +5508,7 @@
       "lat": -27.9299,
       "lng": -52.92236521739131,
       "populacao": 23356,
-      "renanPresidente": 0,
+      "renanPresidente": 265,
       "deputadoFederalMissao": 108,
       "deputadoEstadualMissao": 49,
       "totalMissaoLegislativo": 157
@@ -5516,7 +5521,7 @@
       "lat": -27.493582352941175,
       "lng": -53.36344117647059,
       "populacao": 12313,
-      "renanPresidente": 0,
+      "renanPresidente": 134,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 47
@@ -5529,7 +5534,7 @@
       "lat": -27.658077777777777,
       "lng": -53.97383333333333,
       "populacao": 2753,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 9
@@ -5542,7 +5547,7 @@
       "lat": -29.295366666666666,
       "lng": -52.909933333333335,
       "populacao": 6107,
-      "renanPresidente": 0,
+      "renanPresidente": 85,
       "deputadoFederalMissao": 338,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 345
@@ -5555,7 +5560,7 @@
       "lat": -28.667160000000003,
       "lng": -52.96312,
       "populacao": 5220,
-      "renanPresidente": 0,
+      "renanPresidente": 69,
       "deputadoFederalMissao": 49,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 61
@@ -5568,7 +5573,7 @@
       "lat": -28.036011111111108,
       "lng": -54.544244444444445,
       "populacao": 2726,
-      "renanPresidente": 0,
+      "renanPresidente": 23,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 12
@@ -5581,7 +5586,7 @@
       "lat": -30.626464285714288,
       "lng": -51.61714285714286,
       "populacao": 5422,
-      "renanPresidente": 0,
+      "renanPresidente": 62,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 19
@@ -5594,7 +5599,7 @@
       "lat": -28.685081818181814,
       "lng": -51.944272727272725,
       "populacao": 17379,
-      "renanPresidente": 0,
+      "renanPresidente": 226,
       "deputadoFederalMissao": 75,
       "deputadoEstadualMissao": 57,
       "totalMissaoLegislativo": 132
@@ -5607,7 +5612,7 @@
       "lat": -29.4097125,
       "lng": -52.2300375,
       "populacao": 2093,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 54,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 55
@@ -5620,7 +5625,7 @@
       "lat": -28.007886363636363,
       "lng": -52.29506818181819,
       "populacao": 5637,
-      "renanPresidente": 0,
+      "renanPresidente": 64,
       "deputadoFederalMissao": 24,
       "deputadoEstadualMissao": 10,
       "totalMissaoLegislativo": 34
@@ -5633,7 +5638,7 @@
       "lat": -30.467546666666667,
       "lng": -51.646033333333335,
       "populacao": 5988,
-      "renanPresidente": 0,
+      "renanPresidente": 103,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 24
@@ -5646,7 +5651,7 @@
       "lat": -28.14708181818182,
       "lng": -54.471954545454544,
       "populacao": 1884,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 10
@@ -5659,7 +5664,7 @@
       "lat": -27.41304166666667,
       "lng": -52.11098333333334,
       "populacao": 3467,
-      "renanPresidente": 0,
+      "renanPresidente": 64,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 17
@@ -5672,7 +5677,7 @@
       "lat": -29.63492307692308,
       "lng": -53.555800000000005,
       "populacao": 2060,
-      "renanPresidente": 0,
+      "renanPresidente": 22,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 21
@@ -5685,7 +5690,7 @@
       "lat": -29.445204,
       "lng": -52.579344,
       "populacao": 8698,
-      "renanPresidente": 0,
+      "renanPresidente": 165,
       "deputadoFederalMissao": 557,
       "deputadoEstadualMissao": 22,
       "totalMissaoLegislativo": 579
@@ -5698,7 +5703,7 @@
       "lat": -29.415640000000003,
       "lng": -53.011919999999996,
       "populacao": 14512,
-      "renanPresidente": 0,
+      "renanPresidente": 212,
       "deputadoFederalMissao": 1019,
       "deputadoEstadualMissao": 59,
       "totalMissaoLegislativo": 1078
@@ -5711,7 +5716,7 @@
       "lat": -28.84791111111111,
       "lng": -52.53416388888889,
       "populacao": 30936,
-      "renanPresidente": 0,
+      "renanPresidente": 316,
       "deputadoFederalMissao": 256,
       "deputadoEstadualMissao": 40,
       "totalMissaoLegislativo": 296
@@ -5724,7 +5729,7 @@
       "lat": -29.66881,
       "lng": -51.72709,
       "populacao": 4565,
-      "renanPresidente": 0,
+      "renanPresidente": 46,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 25
@@ -5737,7 +5742,7 @@
       "lat": -28.058646153846155,
       "lng": -52.01785384615384,
       "populacao": 25201,
-      "renanPresidente": 0,
+      "renanPresidente": 270,
       "deputadoFederalMissao": 110,
       "deputadoEstadualMissao": 36,
       "totalMissaoLegislativo": 146
@@ -5750,7 +5755,7 @@
       "lat": -28.66416666666667,
       "lng": -52.84650833333333,
       "populacao": 10822,
-      "renanPresidente": 0,
+      "renanPresidente": 154,
       "deputadoFederalMissao": 211,
       "deputadoEstadualMissao": 28,
       "totalMissaoLegislativo": 239
@@ -5763,7 +5768,7 @@
       "lat": -30.69222608695652,
       "lng": -51.41904347826087,
       "populacao": 14938,
-      "renanPresidente": 0,
+      "renanPresidente": 164,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 19,
       "totalMissaoLegislativo": 57
@@ -5776,7 +5781,7 @@
       "lat": -29.66473870967742,
       "lng": -50.76879677419355,
       "populacao": 54360,
-      "renanPresidente": 0,
+      "renanPresidente": 806,
       "deputadoFederalMissao": 304,
       "deputadoEstadualMissao": 169,
       "totalMissaoLegislativo": 473
@@ -5789,7 +5794,7 @@
       "lat": -29.747135000000004,
       "lng": -51.815905,
       "populacao": 25968,
-      "renanPresidente": 0,
+      "renanPresidente": 296,
       "deputadoFederalMissao": 92,
       "deputadoEstadualMissao": 34,
       "totalMissaoLegislativo": 126
@@ -5802,7 +5807,7 @@
       "lat": -27.40542222222222,
       "lng": -53.48233333333334,
       "populacao": 3190,
-      "renanPresidente": 0,
+      "renanPresidente": 35,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 16
@@ -5815,7 +5820,7 @@
       "lat": -31.24916,
       "lng": -51.063826666666664,
       "populacao": 5319,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 14
@@ -5828,7 +5833,7 @@
       "lat": -27.348807142857144,
       "lng": -53.74567857142857,
       "populacao": 14811,
-      "renanPresidente": 0,
+      "renanPresidente": 107,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 22,
       "totalMissaoLegislativo": 48
@@ -5841,7 +5846,7 @@
       "lat": -29.602491666666666,
       "lng": -50.029500000000006,
       "populacao": 10569,
-      "renanPresidente": 0,
+      "renanPresidente": 156,
       "deputadoFederalMissao": 46,
       "deputadoEstadualMissao": 39,
       "totalMissaoLegislativo": 85
@@ -5854,7 +5859,7 @@
       "lat": -29.458729411764708,
       "lng": -51.7633294117647,
       "populacao": 33963,
-      "renanPresidente": 0,
+      "renanPresidente": 546,
       "deputadoFederalMissao": 174,
       "deputadoEstadualMissao": 94,
       "totalMissaoLegislativo": 268
@@ -5867,7 +5872,7 @@
       "lat": -28.586827272727273,
       "lng": -52.597927272727276,
       "populacao": 3352,
-      "renanPresidente": 0,
+      "renanPresidente": 29,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 32
@@ -5880,7 +5885,7 @@
       "lat": -27.37614166666667,
       "lng": -54.11324166666666,
       "populacao": 5201,
-      "renanPresidente": 0,
+      "renanPresidente": 56,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 18
@@ -5893,7 +5898,7 @@
       "lat": -29.4747,
       "lng": -54.312533333333334,
       "populacao": 2598,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 12
@@ -5906,7 +5911,7 @@
       "lat": -29.32847333333333,
       "lng": -49.82293333333334,
       "populacao": 43268,
-      "renanPresidente": 0,
+      "renanPresidente": 736,
       "deputadoFederalMissao": 204,
       "deputadoEstadualMissao": 150,
       "totalMissaoLegislativo": 354
@@ -5919,7 +5924,7 @@
       "lat": -30.038784615384618,
       "lng": -50.224915384615386,
       "populacao": 56296,
-      "renanPresidente": 0,
+      "renanPresidente": 692,
       "deputadoFederalMissao": 248,
       "deputadoEstadualMissao": 157,
       "totalMissaoLegislativo": 405
@@ -5932,7 +5937,7 @@
       "lat": -29.27349090909091,
       "lng": -52.10877272727273,
       "populacao": 2193,
-      "renanPresidente": 0,
+      "renanPresidente": 34,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 0,
       "totalMissaoLegislativo": 9
@@ -5945,7 +5950,7 @@
       "lat": -27.49637142857143,
       "lng": -52.178,
       "populacao": 2638,
-      "renanPresidente": 0,
+      "renanPresidente": 37,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 12
@@ -5958,7 +5963,7 @@
       "lat": -29.461785714285714,
       "lng": -49.959764285714286,
       "populacao": 11216,
-      "renanPresidente": 0,
+      "renanPresidente": 163,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 32,
       "totalMissaoLegislativo": 75
@@ -5971,7 +5976,7 @@
       "lat": -29.480561538461536,
       "lng": -50.79517692307692,
       "populacao": 24420,
-      "renanPresidente": 0,
+      "renanPresidente": 419,
       "deputadoFederalMissao": 90,
       "deputadoEstadualMissao": 60,
       "totalMissaoLegislativo": 150
@@ -5984,7 +5989,7 @@
       "lat": -27.726282608695655,
       "lng": -54.25201304347826,
       "populacao": 25452,
-      "renanPresidente": 0,
+      "renanPresidente": 280,
       "deputadoFederalMissao": 82,
       "deputadoEstadualMissao": 54,
       "totalMissaoLegislativo": 136
@@ -5997,7 +6002,7 @@
       "lat": -29.419016666666664,
       "lng": -50.075583333333334,
       "populacao": 2814,
-      "renanPresidente": 0,
+      "renanPresidente": 54,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 17,
       "totalMissaoLegislativo": 33
@@ -6010,7 +6015,7 @@
       "lat": -27.61677142857143,
       "lng": -52.8419,
       "populacao": 4826,
-      "renanPresidente": 0,
+      "renanPresidente": 52,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 15,
       "totalMissaoLegislativo": 32
@@ -6023,7 +6028,7 @@
       "lat": -27.4402,
       "lng": -53.93306666666667,
       "populacao": 26284,
-      "renanPresidente": 0,
+      "renanPresidente": 374,
       "deputadoFederalMissao": 152,
       "deputadoEstadualMissao": 161,
       "totalMissaoLegislativo": 313
@@ -6036,7 +6041,7 @@
       "lat": -27.52851875,
       "lng": -52.88470625,
       "populacao": 7766,
-      "renanPresidente": 0,
+      "renanPresidente": 88,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 14,
       "totalMissaoLegislativo": 29
@@ -6049,7 +6054,7 @@
       "lat": -29.844673076923076,
       "lng": -51.55891923076923,
       "populacao": 28414,
-      "renanPresidente": 0,
+      "renanPresidente": 406,
       "deputadoFederalMissao": 99,
       "deputadoEstadualMissao": 58,
       "totalMissaoLegislativo": 157
@@ -6062,7 +6067,7 @@
       "lat": -27.642456250000002,
       "lng": -54.436025,
       "populacao": 5649,
-      "renanPresidente": 0,
+      "renanPresidente": 61,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 11,
       "totalMissaoLegislativo": 24
@@ -6075,7 +6080,7 @@
       "lat": -29.113300000000002,
       "lng": -52.90115714285714,
       "populacao": 3739,
-      "renanPresidente": 0,
+      "renanPresidente": 42,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 80
@@ -6088,7 +6093,7 @@
       "lat": -27.93349,
       "lng": -51.52006,
       "populacao": 1398,
-      "renanPresidente": 0,
+      "renanPresidente": 18,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 6
@@ -6101,7 +6106,7 @@
       "lat": -29.02624772727273,
       "lng": -54.00774545454545,
       "populacao": 20345,
-      "renanPresidente": 0,
+      "renanPresidente": 204,
       "deputadoFederalMissao": 77,
       "deputadoEstadualMissao": 43,
       "totalMissaoLegislativo": 120
@@ -6114,7 +6119,7 @@
       "lat": -29.475744444444445,
       "lng": -51.43538888888889,
       "populacao": 5160,
-      "renanPresidente": 0,
+      "renanPresidente": 99,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 16,
       "totalMissaoLegislativo": 43
@@ -6127,7 +6132,7 @@
       "lat": -27.702906666666667,
       "lng": -54.54912,
       "populacao": 8536,
-      "renanPresidente": 0,
+      "renanPresidente": 101,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 12,
       "totalMissaoLegislativo": 38
@@ -6140,7 +6145,7 @@
       "lat": -31.482315789473684,
       "lng": -52.150694736842105,
       "populacao": 3489,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 4
@@ -6153,7 +6158,7 @@
       "lat": -28.03018,
       "lng": -54.648720000000004,
       "populacao": 2028,
-      "renanPresidente": 0,
+      "renanPresidente": 26,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 5
@@ -6166,7 +6171,7 @@
       "lat": -28.77768181818182,
       "lng": -52.024618181818184,
       "populacao": 1186,
-      "renanPresidente": 0,
+      "renanPresidente": 28,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 15
@@ -6179,7 +6184,7 @@
       "lat": -29.06891,
       "lng": -55.187305,
       "populacao": 2052,
-      "renanPresidente": 0,
+      "renanPresidente": 11,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 4
@@ -6192,7 +6197,7 @@
       "lat": -29.86755,
       "lng": -56.706882758620694,
       "populacao": 120885,
-      "renanPresidente": 0,
+      "renanPresidente": 1354,
       "deputadoFederalMissao": 961,
       "deputadoEstadualMissao": 250,
       "totalMissaoLegislativo": 1211
@@ -6205,7 +6210,7 @@
       "lat": -28.377091489361703,
       "lng": -50.932763829787234,
       "populacao": 66110,
-      "renanPresidente": 0,
+      "renanPresidente": 669,
       "deputadoFederalMissao": 147,
       "deputadoEstadualMissao": 80,
       "totalMissaoLegislativo": 227
@@ -6218,7 +6223,7 @@
       "lat": -29.571952631578945,
       "lng": -52.701826315789475,
       "populacao": 10080,
-      "renanPresidente": 0,
+      "renanPresidente": 164,
       "deputadoFederalMissao": 1176,
       "deputadoEstadualMissao": 17,
       "totalMissaoLegislativo": 1193
@@ -6231,7 +6236,7 @@
       "lat": -29.356733333333334,
       "lng": -51.24891111111111,
       "populacao": 6213,
-      "renanPresidente": 0,
+      "renanPresidente": 91,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 18,
       "totalMissaoLegislativo": 37
@@ -6244,7 +6249,7 @@
       "lat": -29.846822222222222,
       "lng": -52.102916666666665,
       "populacao": 3214,
-      "renanPresidente": 0,
+      "renanPresidente": 45,
       "deputadoFederalMissao": 83,
       "deputadoEstadualMissao": 4,
       "totalMissaoLegislativo": 87
@@ -6257,7 +6262,7 @@
       "lat": -28.493000000000002,
       "lng": -51.85057777777777,
       "populacao": 2047,
-      "renanPresidente": 0,
+      "renanPresidente": 24,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 2,
       "totalMissaoLegislativo": 7
@@ -6270,7 +6275,7 @@
       "lat": -29.5725875,
       "lng": -52.195865625,
       "populacao": 70805,
-      "renanPresidente": 0,
+      "renanPresidente": 1098,
       "deputadoFederalMissao": 773,
       "deputadoEstadualMissao": 180,
       "totalMissaoLegislativo": 953
@@ -6283,7 +6288,7 @@
       "lat": -29.748829411764707,
       "lng": -52.54027647058824,
       "populacao": 27638,
-      "renanPresidente": 0,
+      "renanPresidente": 385,
       "deputadoFederalMissao": 1525,
       "deputadoEstadualMissao": 66,
       "totalMissaoLegislativo": 1591
@@ -6296,7 +6301,7 @@
       "lat": -28.962246666666665,
       "lng": -51.57504666666667,
       "populacao": 24540,
-      "renanPresidente": 0,
+      "renanPresidente": 343,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 67,
       "totalMissaoLegislativo": 135
@@ -6309,7 +6314,7 @@
       "lat": -29.081870000000002,
       "lng": -51.84279,
       "populacao": 1852,
-      "renanPresidente": 0,
+      "renanPresidente": 31,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 12
@@ -6322,7 +6327,7 @@
       "lat": -27.57315263157895,
       "lng": -52.008547368421056,
       "populacao": 4852,
-      "renanPresidente": 0,
+      "renanPresidente": 36,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 18
@@ -6335,7 +6340,7 @@
       "lat": -30.17375882352941,
       "lng": -50.89870588235294,
       "populacao": 232113,
-      "renanPresidente": 0,
+      "renanPresidente": 3797,
       "deputadoFederalMissao": 960,
       "deputadoEstadualMissao": 652,
       "totalMissaoLegislativo": 1612
@@ -6348,7 +6353,7 @@
       "lat": -27.172535714285715,
       "lng": -53.40725714285714,
       "populacao": 4747,
-      "renanPresidente": 0,
+      "renanPresidente": 35,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 11
@@ -6361,7 +6366,7 @@
       "lat": -28.546185,
       "lng": -52.686325,
       "populacao": 2832,
-      "renanPresidente": 0,
+      "renanPresidente": 41,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 25
@@ -6374,7 +6379,7 @@
       "lat": -28.8584,
       "lng": -51.55113,
       "populacao": 3736,
-      "renanPresidente": 0,
+      "renanPresidente": 58,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 13,
       "totalMissaoLegislativo": 24
@@ -6387,7 +6392,7 @@
       "lat": -28.1323,
       "lng": -52.140918181818186,
       "populacao": 2122,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 14
@@ -6400,7 +6405,7 @@
       "lat": -28.56382,
       "lng": -52.15162,
       "populacao": 4512,
-      "renanPresidente": 0,
+      "renanPresidente": 41,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 8,
       "totalMissaoLegislativo": 15
@@ -6413,7 +6418,7 @@
       "lat": -30.36286842105263,
       "lng": -53.87251052631579,
       "populacao": 3935,
-      "renanPresidente": 0,
+      "renanPresidente": 44,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 6,
       "totalMissaoLegislativo": 16
@@ -6426,7 +6431,7 @@
       "lat": -27.311799999999998,
       "lng": -53.523540000000004,
       "populacao": 2712,
-      "renanPresidente": 0,
+      "renanPresidente": 27,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 5
@@ -6439,7 +6444,7 @@
       "lat": -28.822809999999997,
       "lng": -51.77374,
       "populacao": 1624,
-      "renanPresidente": 0,
+      "renanPresidente": 25,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
       "totalMissaoLegislativo": 3
@@ -6452,7 +6457,7 @@
       "lat": -27.2607875,
       "lng": -53.714574999999996,
       "populacao": 2842,
-      "renanPresidente": 0,
+      "renanPresidente": 29,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 3,
       "totalMissaoLegislativo": 11
@@ -6465,7 +6470,7 @@
       "lat": -28.35739285714286,
       "lng": -54.475950000000005,
       "populacao": 3318,
-      "renanPresidente": 0,
+      "renanPresidente": 43,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
       "totalMissaoLegislativo": 11
@@ -6478,7 +6483,7 @@
       "lat": -29.4078125,
       "lng": -51.7421625,
       "populacao": 3219,
-      "renanPresidente": 0,
+      "renanPresidente": 66,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 7,
       "totalMissaoLegislativo": 23
@@ -6491,7 +6496,7 @@
       "lat": -29.79811666666667,
       "lng": -50.0635,
       "populacao": 16907,
-      "renanPresidente": 0,
+      "renanPresidente": 263,
       "deputadoFederalMissao": 96,
       "deputadoEstadualMissao": 43,
       "totalMissaoLegislativo": 139

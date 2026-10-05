@@ -314,7 +314,7 @@ function CandidateRanking({ activeTab }: { activeTab: TabKey }) {
     return (
       <section className="note-card">
         <p className="section-kicker">Transparência dos dados</p>
-        <h3>Renan Santos consta no cadastro, mas sem linhas de votação no snapshot consultado.</h3>
+        <h3>Votação presidencial agregada por município a partir do TSE.</h3>
         <p>{results.metadata.notaRenan}</p>
       </section>
     );
@@ -358,7 +358,7 @@ function SummaryCards() {
     {
       label: 'Renan Santos no RS',
       value: results.totais.renanPresidenteRS,
-      helper: 'Sem linhas presidenciais no snapshot TSE atual',
+      helper: 'Presidente · dados por seção agregados por município',
     },
     {
       label: 'Missão · Federal RS',
@@ -456,8 +456,7 @@ function App() {
         <h2>Dados oficiais, publicação estática.</h2>
         <div className="methodology-grid">
           <p>
-            <strong>Votação:</strong> {results.metadata.fonteVotacao}. Arquivo gerado pelo TSE em{' '}
-            {results.metadata.DT_GERACAO} às {results.metadata.HH_GERACAO}, turno {results.metadata.NR_TURNO}.
+            <strong>Votação:</strong> {results.metadata.fonteVotacao}. Deputados usam votação por município/zona; Presidente usa votação por seção agregada por município.
           </p>
           <p><strong>Candidaturas:</strong> {results.metadata.fonteCandidaturas}.</p>
           <p><strong>Mapa:</strong> {results.metadata.fonteMalha}.</p>
