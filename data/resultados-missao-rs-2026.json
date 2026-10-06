@@ -14,7 +14,10 @@
     "fonteVotacaoPresidente": "TSE - votacao_secao_2026_BR.zip",
     "presidente_DT_GERACAO": "05/10/2026",
     "presidente_HH_GERACAO": "09:50:34",
-    "presidente_DS_ELEICAO": "Eleição Geral Federal 2026"
+    "presidente_DS_ELEICAO": "Eleição Geral Federal 2026",
+    "fonteVotosValidos": "TSE - votacao_secao_2026_BR.zip (Presidente) + QT_VOTOS_NOMINAIS_VALIDOS em votacao_candidato_munzona_2026_RS.csv (Deputados)",
+    "fonteVotosLegenda": "TSE - votacao_partido_munzona_2026.zip; arquivo RS sem linhas no snapshot usado, portanto percentuais legislativos usam votos nominais válidos disponíveis.",
+    "notaPercentuais": "Percentuais calculados como votos do candidato/partido no município divididos pelo total de votos válidos do mesmo cargo no município. Nos cards gerais, o denominador é o total de votos válidos do cargo no RS."
   },
   "renan": {
     "SQ_CANDIDATO": "280002540694",
@@ -37,7 +40,10 @@
     "missaoDeputadoFederalRS": 71454,
     "missaoDeputadoEstadualRS": 30368,
     "candidatosFederaisMissaoRS": 16,
-    "candidatosEstaduaisMissaoRS": 6
+    "candidatosEstaduaisMissaoRS": 6,
+    "votosValidosPresidenteRS": 6423299,
+    "votosValidosDeputadoFederalRS": 5905067,
+    "votosValidosDeputadoEstadualRS": 5772830
   },
   "municipios": [
     {
@@ -51,7 +57,10 @@
       "renanPresidente": 49,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 2929,
+      "votosValidosDeputadoFederal": 2640,
+      "votosValidosDeputadoEstadual": 2600
     },
     {
       "codigoTSE": "84948",
@@ -64,7 +73,10 @@
       "renanPresidente": 24,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2719,
+      "votosValidosDeputadoFederal": 2580,
+      "votosValidosDeputadoEstadual": 2492
     },
     {
       "codigoTSE": "85014",
@@ -77,7 +89,10 @@
       "renanPresidente": 290,
       "deputadoFederalMissao": 398,
       "deputadoEstadualMissao": 32,
-      "totalMissaoLegislativo": 430
+      "totalMissaoLegislativo": 430,
+      "votosValidosPresidente": 10183,
+      "votosValidosDeputadoFederal": 9364,
+      "votosValidosDeputadoEstadual": 9183
     },
     {
       "codigoTSE": "85030",
@@ -90,7 +105,10 @@
       "renanPresidente": 83,
       "deputadoFederalMissao": 21,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 34
+      "totalMissaoLegislativo": 34,
+      "votosValidosPresidente": 4825,
+      "votosValidosDeputadoFederal": 4645,
+      "votosValidosDeputadoEstadual": 4466
     },
     {
       "codigoTSE": "85057",
@@ -103,7 +121,10 @@
       "renanPresidente": 82,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 19
+      "totalMissaoLegislativo": 19,
+      "votosValidosPresidente": 4531,
+      "votosValidosDeputadoFederal": 4318,
+      "votosValidosDeputadoEstadual": 4125
     },
     {
       "codigoTSE": "85073",
@@ -116,7 +137,10 @@
       "renanPresidente": 803,
       "deputadoFederalMissao": 141,
       "deputadoEstadualMissao": 121,
-      "totalMissaoLegislativo": 262
+      "totalMissaoLegislativo": 262,
+      "votosValidosPresidente": 39265,
+      "votosValidosDeputadoFederal": 37721,
+      "votosValidosDeputadoEstadual": 35251
     },
     {
       "codigoTSE": "85545",
@@ -129,7 +153,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 2558,
+      "votosValidosDeputadoFederal": 2391,
+      "votosValidosDeputadoEstadual": 2258
     },
     {
       "codigoTSE": "89001",
@@ -142,7 +169,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 1637,
+      "votosValidosDeputadoFederal": 1547,
+      "votosValidosDeputadoEstadual": 1501
     },
     {
       "codigoTSE": "85090",
@@ -155,7 +185,10 @@
       "renanPresidente": 69,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 4750,
+      "votosValidosDeputadoFederal": 4305,
+      "votosValidosDeputadoEstadual": 4043
     },
     {
       "codigoTSE": "84808",
@@ -168,7 +201,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 164,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 177
+      "totalMissaoLegislativo": 177,
+      "votosValidosPresidente": 1503,
+      "votosValidosDeputadoFederal": 1422,
+      "votosValidosDeputadoEstadual": 1382
     },
     {
       "codigoTSE": "86282",
@@ -181,7 +217,10 @@
       "renanPresidente": 49,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 21
+      "totalMissaoLegislativo": 21,
+      "votosValidosPresidente": 2329,
+      "votosValidosDeputadoFederal": 2211,
+      "votosValidosDeputadoEstadual": 2065
     },
     {
       "codigoTSE": "85111",
@@ -194,7 +233,10 @@
       "renanPresidente": 3250,
       "deputadoFederalMissao": 890,
       "deputadoEstadualMissao": 615,
-      "totalMissaoLegislativo": 1505
+      "totalMissaoLegislativo": 1505,
+      "votosValidosPresidente": 97894,
+      "votosValidosDeputadoFederal": 87944,
+      "votosValidosDeputadoEstadual": 87686
     },
     {
       "codigoTSE": "86045",
@@ -207,7 +249,10 @@
       "renanPresidente": 57,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 3440,
+      "votosValidosDeputadoFederal": 3309,
+      "votosValidosDeputadoEstadual": 3086
     },
     {
       "codigoTSE": "86304",
@@ -220,7 +265,10 @@
       "renanPresidente": 59,
       "deputadoFederalMissao": 30,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 44
+      "totalMissaoLegislativo": 44,
+      "votosValidosPresidente": 5049,
+      "votosValidosDeputadoFederal": 4796,
+      "votosValidosDeputadoEstadual": 4577
     },
     {
       "codigoTSE": "86100",
@@ -233,7 +281,10 @@
       "renanPresidente": 5,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 0
+      "totalMissaoLegislativo": 0,
+      "votosValidosPresidente": 1107,
+      "votosValidosDeputadoFederal": 1057,
+      "votosValidosDeputadoEstadual": 1029
     },
     {
       "codigoTSE": "85138",
@@ -246,7 +297,10 @@
       "renanPresidente": 62,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 35
+      "totalMissaoLegislativo": 35,
+      "votosValidosPresidente": 3935,
+      "votosValidosDeputadoFederal": 3735,
+      "votosValidosDeputadoEstadual": 3580
     },
     {
       "codigoTSE": "85154",
@@ -259,7 +313,10 @@
       "renanPresidente": 168,
       "deputadoFederalMissao": 32,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 60
+      "totalMissaoLegislativo": 60,
+      "votosValidosPresidente": 8871,
+      "votosValidosDeputadoFederal": 8482,
+      "votosValidosDeputadoEstadual": 7906
     },
     {
       "codigoTSE": "86320",
@@ -272,7 +329,10 @@
       "renanPresidente": 52,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2669,
+      "votosValidosDeputadoFederal": 2580,
+      "votosValidosDeputadoEstadual": 2458
     },
     {
       "codigoTSE": "88862",
@@ -285,7 +345,10 @@
       "renanPresidente": 111,
       "deputadoFederalMissao": 34,
       "deputadoEstadualMissao": 26,
-      "totalMissaoLegislativo": 60
+      "totalMissaoLegislativo": 60,
+      "votosValidosPresidente": 5121,
+      "votosValidosDeputadoFederal": 4803,
+      "votosValidosDeputadoEstadual": 4649
     },
     {
       "codigoTSE": "85170",
@@ -298,7 +361,10 @@
       "renanPresidente": 103,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 34
+      "totalMissaoLegislativo": 34,
+      "votosValidosPresidente": 5033,
+      "votosValidosDeputadoFederal": 4655,
+      "votosValidosDeputadoEstadual": 4485
     },
     {
       "codigoTSE": "85197",
@@ -311,7 +377,10 @@
       "renanPresidente": 407,
       "deputadoFederalMissao": 99,
       "deputadoEstadualMissao": 29,
-      "totalMissaoLegislativo": 128
+      "totalMissaoLegislativo": 128,
+      "votosValidosPresidente": 14382,
+      "votosValidosDeputadoFederal": 12853,
+      "votosValidosDeputadoEstadual": 13383
     },
     {
       "codigoTSE": "89028",
@@ -324,7 +393,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 2394,
+      "votosValidosDeputadoFederal": 2312,
+      "votosValidosDeputadoEstadual": 2212
     },
     {
       "codigoTSE": "85308",
@@ -337,7 +409,10 @@
       "renanPresidente": 203,
       "deputadoFederalMissao": 79,
       "deputadoEstadualMissao": 56,
-      "totalMissaoLegislativo": 135
+      "totalMissaoLegislativo": 135,
+      "votosValidosPresidente": 7047,
+      "votosValidosDeputadoFederal": 6623,
+      "votosValidosDeputadoEstadual": 6371
     },
     {
       "codigoTSE": "85235",
@@ -350,7 +425,10 @@
       "renanPresidente": 155,
       "deputadoFederalMissao": 510,
       "deputadoEstadualMissao": 23,
-      "totalMissaoLegislativo": 533
+      "totalMissaoLegislativo": 533,
+      "votosValidosPresidente": 7993,
+      "votosValidosDeputadoFederal": 7340,
+      "votosValidosDeputadoEstadual": 7097
     },
     {
       "codigoTSE": "85219",
@@ -363,7 +441,10 @@
       "renanPresidente": 193,
       "deputadoFederalMissao": 32,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 60
+      "totalMissaoLegislativo": 60,
+      "votosValidosPresidente": 7435,
+      "votosValidosDeputadoFederal": 6782,
+      "votosValidosDeputadoEstadual": 6337
     },
     {
       "codigoTSE": "85251",
@@ -376,7 +457,10 @@
       "renanPresidente": 229,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 31,
-      "totalMissaoLegislativo": 74
+      "totalMissaoLegislativo": 74,
+      "votosValidosPresidente": 10769,
+      "votosValidosDeputadoFederal": 9846,
+      "votosValidosDeputadoEstadual": 9529
     },
     {
       "codigoTSE": "85278",
@@ -389,7 +473,10 @@
       "renanPresidente": 101,
       "deputadoFederalMissao": 71,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 84
+      "totalMissaoLegislativo": 84,
+      "votosValidosPresidente": 6674,
+      "votosValidosDeputadoFederal": 6047,
+      "votosValidosDeputadoEstadual": 5894
     },
     {
       "codigoTSE": "85294",
@@ -402,7 +489,10 @@
       "renanPresidente": 71,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 39
+      "totalMissaoLegislativo": 39,
+      "votosValidosPresidente": 4838,
+      "votosValidosDeputadoFederal": 4542,
+      "votosValidosDeputadoEstadual": 4388
     },
     {
       "codigoTSE": "84735",
@@ -415,7 +505,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 2692,
+      "votosValidosDeputadoFederal": 2494,
+      "votosValidosDeputadoEstadual": 2340
     },
     {
       "codigoTSE": "85316",
@@ -428,7 +521,10 @@
       "renanPresidente": 1432,
       "deputadoFederalMissao": 427,
       "deputadoEstadualMissao": 235,
-      "totalMissaoLegislativo": 662
+      "totalMissaoLegislativo": 662,
+      "votosValidosPresidente": 60797,
+      "votosValidosDeputadoFederal": 49365,
+      "votosValidosDeputadoEstadual": 53127
     },
     {
       "codigoTSE": "88927",
@@ -441,7 +537,10 @@
       "renanPresidente": 147,
       "deputadoFederalMissao": 47,
       "deputadoEstadualMissao": 35,
-      "totalMissaoLegislativo": 82
+      "totalMissaoLegislativo": 82,
+      "votosValidosPresidente": 7314,
+      "votosValidosDeputadoFederal": 6891,
+      "votosValidosDeputadoEstadual": 6691
     },
     {
       "codigoTSE": "86223",
@@ -454,7 +553,10 @@
       "renanPresidente": 91,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 30
+      "totalMissaoLegislativo": 30,
+      "votosValidosPresidente": 4268,
+      "votosValidosDeputadoFederal": 4036,
+      "votosValidosDeputadoEstadual": 3851
     },
     {
       "codigoTSE": "85332",
@@ -467,7 +569,10 @@
       "renanPresidente": 50,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 4346,
+      "votosValidosDeputadoFederal": 3926,
+      "votosValidosDeputadoEstadual": 3741
     },
     {
       "codigoTSE": "86347",
@@ -480,7 +585,10 @@
       "renanPresidente": 88,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 3594,
+      "votosValidosDeputadoFederal": 3426,
+      "votosValidosDeputadoEstadual": 3243
     },
     {
       "codigoTSE": "86363",
@@ -493,7 +601,10 @@
       "renanPresidente": 24,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 1962,
+      "votosValidosDeputadoFederal": 1839,
+      "votosValidosDeputadoEstadual": 1709
     },
     {
       "codigoTSE": "88625",
@@ -506,7 +617,10 @@
       "renanPresidente": 58,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 2377,
+      "votosValidosDeputadoFederal": 2190,
+      "votosValidosDeputadoEstadual": 2133
     },
     {
       "codigoTSE": "85375",
@@ -519,7 +633,10 @@
       "renanPresidente": 177,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 31,
-      "totalMissaoLegislativo": 79
+      "totalMissaoLegislativo": 79,
+      "votosValidosPresidente": 7352,
+      "votosValidosDeputadoFederal": 6616,
+      "votosValidosDeputadoEstadual": 6504
     },
     {
       "codigoTSE": "86380",
@@ -532,7 +649,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1510,
+      "votosValidosDeputadoFederal": 1488,
+      "votosValidosDeputadoEstadual": 1428
     },
     {
       "codigoTSE": "86401",
@@ -545,7 +665,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 2284,
+      "votosValidosDeputadoFederal": 2187,
+      "votosValidosDeputadoEstadual": 2093
     },
     {
       "codigoTSE": "85359",
@@ -558,7 +681,10 @@
       "renanPresidente": 61,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 3195,
+      "votosValidosDeputadoFederal": 2877,
+      "votosValidosDeputadoEstadual": 2713
     },
     {
       "codigoTSE": "85391",
@@ -571,7 +697,10 @@
       "renanPresidente": 100,
       "deputadoFederalMissao": 669,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 680
+      "totalMissaoLegislativo": 680,
+      "votosValidosPresidente": 6079,
+      "votosValidosDeputadoFederal": 5780,
+      "votosValidosDeputadoEstadual": 5364
     },
     {
       "codigoTSE": "88420",
@@ -584,7 +713,10 @@
       "renanPresidente": 17,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 1612,
+      "votosValidosDeputadoFederal": 1529,
+      "votosValidosDeputadoEstadual": 1454
     },
     {
       "codigoTSE": "85413",
@@ -597,7 +729,10 @@
       "renanPresidente": 1952,
       "deputadoFederalMissao": 473,
       "deputadoEstadualMissao": 390,
-      "totalMissaoLegislativo": 863
+      "totalMissaoLegislativo": 863,
+      "votosValidosPresidente": 72859,
+      "votosValidosDeputadoFederal": 67478,
+      "votosValidosDeputadoEstadual": 65565
     },
     {
       "codigoTSE": "86428",
@@ -610,7 +745,10 @@
       "renanPresidente": 15,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 1634,
+      "votosValidosDeputadoFederal": 1539,
+      "votosValidosDeputadoEstadual": 1468
     },
     {
       "codigoTSE": "85430",
@@ -623,7 +761,10 @@
       "renanPresidente": 100,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 31
+      "totalMissaoLegislativo": 31,
+      "votosValidosPresidente": 4714,
+      "votosValidosDeputadoFederal": 4482,
+      "votosValidosDeputadoEstadual": 4386
     },
     {
       "codigoTSE": "89044",
@@ -636,7 +777,10 @@
       "renanPresidente": 20,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 1610,
+      "votosValidosDeputadoFederal": 1538,
+      "votosValidosDeputadoEstadual": 1489
     },
     {
       "codigoTSE": "89060",
@@ -649,7 +793,10 @@
       "renanPresidente": 32,
       "deputadoFederalMissao": 82,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 86
+      "totalMissaoLegislativo": 86,
+      "votosValidosPresidente": 1812,
+      "votosValidosDeputadoFederal": 1770,
+      "votosValidosDeputadoEstadual": 1707
     },
     {
       "codigoTSE": "88161",
@@ -662,7 +809,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 2059,
+      "votosValidosDeputadoFederal": 1927,
+      "votosValidosDeputadoEstadual": 1812
     },
     {
       "codigoTSE": "85456",
@@ -675,7 +825,10 @@
       "renanPresidente": 89,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 22
+      "totalMissaoLegislativo": 22,
+      "votosValidosPresidente": 6169,
+      "votosValidosDeputadoFederal": 5486,
+      "votosValidosDeputadoEstadual": 5396
     },
     {
       "codigoTSE": "98230",
@@ -688,7 +841,10 @@
       "renanPresidente": 214,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 44,
-      "totalMissaoLegislativo": 117
+      "totalMissaoLegislativo": 117,
+      "votosValidosPresidente": 8977,
+      "votosValidosDeputadoFederal": 8411,
+      "votosValidosDeputadoEstadual": 8057
     },
     {
       "codigoTSE": "86444",
@@ -701,7 +857,10 @@
       "renanPresidente": 29,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 36
+      "totalMissaoLegislativo": 36,
+      "votosValidosPresidente": 2055,
+      "votosValidosDeputadoFederal": 1983,
+      "votosValidosDeputadoEstadual": 1935
     },
     {
       "codigoTSE": "85472",
@@ -714,7 +873,10 @@
       "renanPresidente": 204,
       "deputadoFederalMissao": 61,
       "deputadoEstadualMissao": 27,
-      "totalMissaoLegislativo": 88
+      "totalMissaoLegislativo": 88,
+      "votosValidosPresidente": 7770,
+      "votosValidosDeputadoFederal": 7109,
+      "votosValidosDeputadoEstadual": 6942
     },
     {
       "codigoTSE": "84921",
@@ -727,7 +889,10 @@
       "renanPresidente": 122,
       "deputadoFederalMissao": 577,
       "deputadoEstadualMissao": 27,
-      "totalMissaoLegislativo": 604
+      "totalMissaoLegislativo": 604,
+      "votosValidosPresidente": 4286,
+      "votosValidosDeputadoFederal": 4119,
+      "votosValidosDeputadoEstadual": 3863
     },
     {
       "codigoTSE": "85499",
@@ -740,7 +905,10 @@
       "renanPresidente": 33,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 21
+      "totalMissaoLegislativo": 21,
+      "votosValidosPresidente": 3626,
+      "votosValidosDeputadoFederal": 3244,
+      "votosValidosDeputadoEstadual": 3251
     },
     {
       "codigoTSE": "89087",
@@ -753,7 +921,10 @@
       "renanPresidente": 19,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 2176,
+      "votosValidosDeputadoFederal": 2086,
+      "votosValidosDeputadoEstadual": 2036
     },
     {
       "codigoTSE": "85510",
@@ -766,7 +937,10 @@
       "renanPresidente": 18,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 2120,
+      "votosValidosDeputadoFederal": 1981,
+      "votosValidosDeputadoEstadual": 1905
     },
     {
       "codigoTSE": "85065",
@@ -779,7 +953,10 @@
       "renanPresidente": 103,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 26
+      "totalMissaoLegislativo": 26,
+      "votosValidosPresidente": 3176,
+      "votosValidosDeputadoFederal": 3023,
+      "votosValidosDeputadoEstadual": 2964
     },
     {
       "codigoTSE": "85537",
@@ -792,7 +969,10 @@
       "renanPresidente": 205,
       "deputadoFederalMissao": 58,
       "deputadoEstadualMissao": 39,
-      "totalMissaoLegislativo": 97
+      "totalMissaoLegislativo": 97,
+      "votosValidosPresidente": 10681,
+      "votosValidosDeputadoFederal": 9425,
+      "votosValidosDeputadoEstadual": 9042
     },
     {
       "codigoTSE": "85553",
@@ -805,7 +985,10 @@
       "renanPresidente": 368,
       "deputadoFederalMissao": 76,
       "deputadoEstadualMissao": 59,
-      "totalMissaoLegislativo": 135
+      "totalMissaoLegislativo": 135,
+      "votosValidosPresidente": 18038,
+      "votosValidosDeputadoFederal": 15880,
+      "votosValidosDeputadoEstadual": 15047
     },
     {
       "codigoTSE": "85570",
@@ -818,7 +1001,10 @@
       "renanPresidente": 98,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 6102,
+      "votosValidosDeputadoFederal": 5551,
+      "votosValidosDeputadoEstadual": 5471
     },
     {
       "codigoTSE": "85596",
@@ -831,7 +1017,10 @@
       "renanPresidente": 1171,
       "deputadoFederalMissao": 562,
       "deputadoEstadualMissao": 196,
-      "totalMissaoLegislativo": 758
+      "totalMissaoLegislativo": 758,
+      "votosValidosPresidente": 44367,
+      "votosValidosDeputadoFederal": 40211,
+      "votosValidosDeputadoEstadual": 40489
     },
     {
       "codigoTSE": "85618",
@@ -844,7 +1033,10 @@
       "renanPresidente": 2415,
       "deputadoFederalMissao": 875,
       "deputadoEstadualMissao": 545,
-      "totalMissaoLegislativo": 1420
+      "totalMissaoLegislativo": 1420,
+      "votosValidosPresidente": 75417,
+      "votosValidosDeputadoFederal": 69016,
+      "votosValidosDeputadoEstadual": 66458
     },
     {
       "codigoTSE": "85634",
@@ -857,7 +1049,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 3084,
+      "votosValidosDeputadoFederal": 2846,
+      "votosValidosDeputadoEstadual": 2699
     },
     {
       "codigoTSE": "85650",
@@ -870,7 +1065,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 3135,
+      "votosValidosDeputadoFederal": 2956,
+      "votosValidosDeputadoEstadual": 2809
     },
     {
       "codigoTSE": "85677",
@@ -883,7 +1081,10 @@
       "renanPresidente": 39,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 3462,
+      "votosValidosDeputadoFederal": 3270,
+      "votosValidosDeputadoEstadual": 3107
     },
     {
       "codigoTSE": "85693",
@@ -896,7 +1097,10 @@
       "renanPresidente": 898,
       "deputadoFederalMissao": 163,
       "deputadoEstadualMissao": 95,
-      "totalMissaoLegislativo": 258
+      "totalMissaoLegislativo": 258,
+      "votosValidosPresidente": 37280,
+      "votosValidosDeputadoFederal": 34909,
+      "votosValidosDeputadoEstadual": 33446
     },
     {
       "codigoTSE": "85960",
@@ -909,7 +1113,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 2162,
+      "votosValidosDeputadoFederal": 2022,
+      "votosValidosDeputadoEstadual": 1982
     },
     {
       "codigoTSE": "85715",
@@ -922,7 +1129,10 @@
       "renanPresidente": 58,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 3910,
+      "votosValidosDeputadoFederal": 3685,
+      "votosValidosDeputadoEstadual": 3541
     },
     {
       "codigoTSE": "86460",
@@ -935,7 +1145,10 @@
       "renanPresidente": 39,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 2272,
+      "votosValidosDeputadoFederal": 2167,
+      "votosValidosDeputadoEstadual": 2051
     },
     {
       "codigoTSE": "85731",
@@ -948,7 +1161,10 @@
       "renanPresidente": 85,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 4058,
+      "votosValidosDeputadoFederal": 3917,
+      "votosValidosDeputadoEstadual": 3785
     },
     {
       "codigoTSE": "85758",
@@ -961,7 +1177,10 @@
       "renanPresidente": 43,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 3882,
+      "votosValidosDeputadoFederal": 3732,
+      "votosValidosDeputadoEstadual": 3578
     },
     {
       "codigoTSE": "85774",
@@ -974,7 +1193,10 @@
       "renanPresidente": 1169,
       "deputadoFederalMissao": 349,
       "deputadoEstadualMissao": 226,
-      "totalMissaoLegislativo": 575
+      "totalMissaoLegislativo": 575,
+      "votosValidosPresidente": 40762,
+      "votosValidosDeputadoFederal": 38331,
+      "votosValidosDeputadoEstadual": 37744
     },
     {
       "codigoTSE": "85790",
@@ -987,7 +1209,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 3014,
+      "votosValidosDeputadoFederal": 2772,
+      "votosValidosDeputadoEstadual": 2643
     },
     {
       "codigoTSE": "85200",
@@ -1000,7 +1225,10 @@
       "renanPresidente": 49,
       "deputadoFederalMissao": 330,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 334
+      "totalMissaoLegislativo": 334,
+      "votosValidosPresidente": 2433,
+      "votosValidosDeputadoFederal": 2255,
+      "votosValidosDeputadoEstadual": 2144
     },
     {
       "codigoTSE": "85812",
@@ -1013,7 +1241,10 @@
       "renanPresidente": 486,
       "deputadoFederalMissao": 3068,
       "deputadoEstadualMissao": 114,
-      "totalMissaoLegislativo": 3182
+      "totalMissaoLegislativo": 3182,
+      "votosValidosPresidente": 16988,
+      "votosValidosDeputadoFederal": 15596,
+      "votosValidosDeputadoEstadual": 14921
     },
     {
       "codigoTSE": "85839",
@@ -1026,7 +1257,10 @@
       "renanPresidente": 78,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 4750,
+      "votosValidosDeputadoFederal": 4628,
+      "votosValidosDeputadoEstadual": 4487
     },
     {
       "codigoTSE": "86487",
@@ -1039,7 +1273,10 @@
       "renanPresidente": 116,
       "deputadoFederalMissao": 22,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 33
+      "totalMissaoLegislativo": 33,
+      "votosValidosPresidente": 5992,
+      "votosValidosDeputadoFederal": 5489,
+      "votosValidosDeputadoEstadual": 5368
     },
     {
       "codigoTSE": "85855",
@@ -1052,7 +1289,10 @@
       "renanPresidente": 683,
       "deputadoFederalMissao": 221,
       "deputadoEstadualMissao": 161,
-      "totalMissaoLegislativo": 382
+      "totalMissaoLegislativo": 382,
+      "votosValidosPresidente": 25342,
+      "votosValidosDeputadoFederal": 22240,
+      "votosValidosDeputadoEstadual": 22190
     },
     {
       "codigoTSE": "85871",
@@ -1065,7 +1305,10 @@
       "renanPresidente": 707,
       "deputadoFederalMissao": 76,
       "deputadoEstadualMissao": 49,
-      "totalMissaoLegislativo": 125
+      "totalMissaoLegislativo": 125,
+      "votosValidosPresidente": 32536,
+      "votosValidosDeputadoFederal": 30209,
+      "votosValidosDeputadoEstadual": 29051
     },
     {
       "codigoTSE": "85898",
@@ -1078,7 +1321,10 @@
       "renanPresidente": 6870,
       "deputadoFederalMissao": 2106,
       "deputadoEstadualMissao": 1587,
-      "totalMissaoLegislativo": 3693
+      "totalMissaoLegislativo": 3693,
+      "votosValidosPresidente": 185531,
+      "votosValidosDeputadoFederal": 164716,
+      "votosValidosDeputadoEstadual": 164461
     },
     {
       "codigoTSE": "89109",
@@ -1091,7 +1337,10 @@
       "renanPresidente": 53,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 22
+      "totalMissaoLegislativo": 22,
+      "votosValidosPresidente": 1625,
+      "votosValidosDeputadoFederal": 1561,
+      "votosValidosDeputadoEstadual": 1482
     },
     {
       "codigoTSE": "89125",
@@ -1104,7 +1353,10 @@
       "renanPresidente": 20,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1666,
+      "votosValidosDeputadoFederal": 1614,
+      "votosValidosDeputadoEstadual": 1545
     },
     {
       "codigoTSE": "89150",
@@ -1117,7 +1369,10 @@
       "renanPresidente": 1023,
       "deputadoFederalMissao": 484,
       "deputadoEstadualMissao": 259,
-      "totalMissaoLegislativo": 743
+      "totalMissaoLegislativo": 743,
+      "votosValidosPresidente": 33474,
+      "votosValidosDeputadoFederal": 31161,
+      "votosValidosDeputadoEstadual": 30681
     },
     {
       "codigoTSE": "89141",
@@ -1130,7 +1385,10 @@
       "renanPresidente": 28,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 2253,
+      "votosValidosDeputadoFederal": 2065,
+      "votosValidosDeputadoEstadual": 1999
     },
     {
       "codigoTSE": "89737",
@@ -1143,7 +1401,10 @@
       "renanPresidente": 425,
       "deputadoFederalMissao": 81,
       "deputadoEstadualMissao": 69,
-      "totalMissaoLegislativo": 150
+      "totalMissaoLegislativo": 150,
+      "votosValidosPresidente": 13750,
+      "votosValidosDeputadoFederal": 12334,
+      "votosValidosDeputadoEstadual": 11759
     },
     {
       "codigoTSE": "84891",
@@ -1156,7 +1417,10 @@
       "renanPresidente": 162,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 31,
-      "totalMissaoLegislativo": 74
+      "totalMissaoLegislativo": 74,
+      "votosValidosPresidente": 6268,
+      "votosValidosDeputadoFederal": 5916,
+      "votosValidosDeputadoEstadual": 5596
     },
     {
       "codigoTSE": "86509",
@@ -1169,7 +1433,10 @@
       "renanPresidente": 43,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 2295,
+      "votosValidosDeputadoFederal": 2135,
+      "votosValidosDeputadoEstadual": 2092
     },
     {
       "codigoTSE": "88200",
@@ -1182,7 +1449,10 @@
       "renanPresidente": 43,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 2902,
+      "votosValidosDeputadoFederal": 2783,
+      "votosValidosDeputadoEstadual": 2663
     },
     {
       "codigoTSE": "88340",
@@ -1195,7 +1465,10 @@
       "renanPresidente": 80,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 29
+      "totalMissaoLegislativo": 29,
+      "votosValidosPresidente": 4827,
+      "votosValidosDeputadoFederal": 4621,
+      "votosValidosDeputadoEstadual": 4363
     },
     {
       "codigoTSE": "85910",
@@ -1208,7 +1481,10 @@
       "renanPresidente": 691,
       "deputadoFederalMissao": 245,
       "deputadoEstadualMissao": 128,
-      "totalMissaoLegislativo": 373
+      "totalMissaoLegislativo": 373,
+      "votosValidosPresidente": 35112,
+      "votosValidosDeputadoFederal": 31839,
+      "votosValidosDeputadoEstadual": 31652
     },
     {
       "codigoTSE": "85936",
@@ -1221,7 +1497,10 @@
       "renanPresidente": 634,
       "deputadoFederalMissao": 158,
       "deputadoEstadualMissao": 126,
-      "totalMissaoLegislativo": 284
+      "totalMissaoLegislativo": 284,
+      "votosValidosPresidente": 19830,
+      "votosValidosDeputadoFederal": 18552,
+      "votosValidosDeputadoEstadual": 17841
     },
     {
       "codigoTSE": "86525",
@@ -1234,7 +1513,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 1
+      "totalMissaoLegislativo": 1,
+      "votosValidosPresidente": 1141,
+      "votosValidosDeputadoFederal": 1093,
+      "votosValidosDeputadoEstadual": 1039
     },
     {
       "codigoTSE": "85952",
@@ -1247,7 +1529,10 @@
       "renanPresidente": 107,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 15,
-      "totalMissaoLegislativo": 42
+      "totalMissaoLegislativo": 42,
+      "votosValidosPresidente": 6131,
+      "votosValidosDeputadoFederal": 5757,
+      "votosValidosDeputadoEstadual": 5572
     },
     {
       "codigoTSE": "85880",
@@ -1260,7 +1545,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 2411,
+      "votosValidosDeputadoFederal": 2225,
+      "votosValidosDeputadoEstadual": 2175
     },
     {
       "codigoTSE": "85979",
@@ -1273,7 +1561,10 @@
       "renanPresidente": 78,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 29
+      "totalMissaoLegislativo": 29,
+      "votosValidosPresidente": 6127,
+      "votosValidosDeputadoFederal": 5725,
+      "votosValidosDeputadoEstadual": 5514
     },
     {
       "codigoTSE": "85995",
@@ -1286,7 +1577,10 @@
       "renanPresidente": 8846,
       "deputadoFederalMissao": 2139,
       "deputadoEstadualMissao": 1702,
-      "totalMissaoLegislativo": 3841
+      "totalMissaoLegislativo": 3841,
+      "votosValidosPresidente": 266183,
+      "votosValidosDeputadoFederal": 243663,
+      "votosValidosDeputadoEstadual": 239103
     },
     {
       "codigoTSE": "86541",
@@ -1299,7 +1593,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 2250,
+      "votosValidosDeputadoFederal": 2105,
+      "votosValidosDeputadoEstadual": 2030
     },
     {
       "codigoTSE": "88641",
@@ -1312,7 +1609,10 @@
       "renanPresidente": 70,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 3799,
+      "votosValidosDeputadoFederal": 3466,
+      "votosValidosDeputadoEstadual": 3300
     },
     {
       "codigoTSE": "86088",
@@ -1325,7 +1625,10 @@
       "renanPresidente": 61,
       "deputadoFederalMissao": 338,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 343
+      "totalMissaoLegislativo": 343,
+      "votosValidosPresidente": 2709,
+      "votosValidosDeputadoFederal": 2508,
+      "votosValidosDeputadoEstadual": 2431
     },
     {
       "codigoTSE": "85227",
@@ -1338,7 +1641,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 1849,
+      "votosValidosDeputadoFederal": 1783,
+      "votosValidosDeputadoEstadual": 1696
     },
     {
       "codigoTSE": "85944",
@@ -1351,7 +1657,10 @@
       "renanPresidente": 103,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 21
+      "totalMissaoLegislativo": 21,
+      "votosValidosPresidente": 5494,
+      "votosValidosDeputadoFederal": 5282,
+      "votosValidosDeputadoEstadual": 4857
     },
     {
       "codigoTSE": "86010",
@@ -1364,7 +1673,10 @@
       "renanPresidente": 186,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 29,
-      "totalMissaoLegislativo": 67
+      "totalMissaoLegislativo": 67,
+      "votosValidosPresidente": 8100,
+      "votosValidosDeputadoFederal": 7597,
+      "votosValidosDeputadoEstadual": 7277
     },
     {
       "codigoTSE": "86037",
@@ -1377,7 +1689,10 @@
       "renanPresidente": 160,
       "deputadoFederalMissao": 51,
       "deputadoEstadualMissao": 39,
-      "totalMissaoLegislativo": 90
+      "totalMissaoLegislativo": 90,
+      "votosValidosPresidente": 6271,
+      "votosValidosDeputadoFederal": 5834,
+      "votosValidosDeputadoEstadual": 5651
     },
     {
       "codigoTSE": "86932",
@@ -1390,7 +1705,10 @@
       "renanPresidente": 559,
       "deputadoFederalMissao": 130,
       "deputadoEstadualMissao": 89,
-      "totalMissaoLegislativo": 219
+      "totalMissaoLegislativo": 219,
+      "votosValidosPresidente": 18861,
+      "votosValidosDeputadoFederal": 16929,
+      "votosValidosDeputadoEstadual": 16732
     },
     {
       "codigoTSE": "86568",
@@ -1403,7 +1721,10 @@
       "renanPresidente": 8,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 1
+      "totalMissaoLegislativo": 1,
+      "votosValidosPresidente": 2005,
+      "votosValidosDeputadoFederal": 1913,
+      "votosValidosDeputadoEstadual": 1829
     },
     {
       "codigoTSE": "86053",
@@ -1416,7 +1737,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 57,
-      "totalMissaoLegislativo": 72
+      "totalMissaoLegislativo": 72,
+      "votosValidosPresidente": 2876,
+      "votosValidosDeputadoFederal": 2691,
+      "votosValidosDeputadoEstadual": 2576
     },
     {
       "codigoTSE": "88846",
@@ -1429,7 +1753,10 @@
       "renanPresidente": 74,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 31
+      "totalMissaoLegislativo": 31,
+      "votosValidosPresidente": 3164,
+      "votosValidosDeputadoFederal": 2816,
+      "votosValidosDeputadoEstadual": 2655
     },
     {
       "codigoTSE": "88269",
@@ -1442,7 +1769,10 @@
       "renanPresidente": 136,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 3587,
+      "votosValidosDeputadoFederal": 3410,
+      "votosValidosDeputadoEstadual": 3230
     },
     {
       "codigoTSE": "85804",
@@ -1455,7 +1785,10 @@
       "renanPresidente": 168,
       "deputadoFederalMissao": 70,
       "deputadoEstadualMissao": 55,
-      "totalMissaoLegislativo": 125
+      "totalMissaoLegislativo": 125,
+      "votosValidosPresidente": 8343,
+      "votosValidosDeputadoFederal": 7712,
+      "votosValidosDeputadoEstadual": 7433
     },
     {
       "codigoTSE": "86070",
@@ -1468,7 +1801,10 @@
       "renanPresidente": 43,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 2874,
+      "votosValidosDeputadoFederal": 2750,
+      "votosValidosDeputadoEstadual": 2699
     },
     {
       "codigoTSE": "86584",
@@ -1481,7 +1817,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 1914,
+      "votosValidosDeputadoFederal": 1774,
+      "votosValidosDeputadoEstadual": 1759
     },
     {
       "codigoTSE": "86096",
@@ -1494,7 +1833,10 @@
       "renanPresidente": 24,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 2374,
+      "votosValidosDeputadoFederal": 2249,
+      "votosValidosDeputadoEstadual": 2195
     },
     {
       "codigoTSE": "86118",
@@ -1507,7 +1849,10 @@
       "renanPresidente": 66,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 35
+      "totalMissaoLegislativo": 35,
+      "votosValidosPresidente": 4720,
+      "votosValidosDeputadoFederal": 4405,
+      "votosValidosDeputadoEstadual": 4352
     },
     {
       "codigoTSE": "86134",
@@ -1520,7 +1865,10 @@
       "renanPresidente": 104,
       "deputadoFederalMissao": 34,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 50
+      "totalMissaoLegislativo": 50,
+      "votosValidosPresidente": 6334,
+      "votosValidosDeputadoFederal": 5941,
+      "votosValidosDeputadoEstadual": 5568
     },
     {
       "codigoTSE": "89168",
@@ -1533,7 +1881,10 @@
       "renanPresidente": 11,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1065,
+      "votosValidosDeputadoFederal": 1036,
+      "votosValidosDeputadoEstadual": 966
     },
     {
       "codigoTSE": "86606",
@@ -1546,7 +1897,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 2012,
+      "votosValidosDeputadoFederal": 1953,
+      "votosValidosDeputadoEstadual": 1898
     },
     {
       "codigoTSE": "86622",
@@ -1559,7 +1913,10 @@
       "renanPresidente": 61,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2236,
+      "votosValidosDeputadoFederal": 2140,
+      "votosValidosDeputadoEstadual": 2125
     },
     {
       "codigoTSE": "86150",
@@ -1572,7 +1929,10 @@
       "renanPresidente": 65,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 17
+      "totalMissaoLegislativo": 17,
+      "votosValidosPresidente": 4326,
+      "votosValidosDeputadoFederal": 4047,
+      "votosValidosDeputadoEstadual": 3808
     },
     {
       "codigoTSE": "89184",
@@ -1585,7 +1945,10 @@
       "renanPresidente": 21,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 1304,
+      "votosValidosDeputadoFederal": 1254,
+      "votosValidosDeputadoEstadual": 1171
     },
     {
       "codigoTSE": "89770",
@@ -1598,7 +1961,10 @@
       "renanPresidente": 88,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 28
+      "totalMissaoLegislativo": 28,
+      "votosValidosPresidente": 2813,
+      "votosValidosDeputadoFederal": 2684,
+      "votosValidosDeputadoEstadual": 2549
     },
     {
       "codigoTSE": "86649",
@@ -1611,7 +1977,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 60,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 65
+      "totalMissaoLegislativo": 65,
+      "votosValidosPresidente": 2310,
+      "votosValidosDeputadoFederal": 2194,
+      "votosValidosDeputadoEstadual": 2135
     },
     {
       "codigoTSE": "86177",
@@ -1624,7 +1993,10 @@
       "renanPresidente": 162,
       "deputadoFederalMissao": 22,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 50
+      "totalMissaoLegislativo": 50,
+      "votosValidosPresidente": 8136,
+      "votosValidosDeputadoFederal": 7768,
+      "votosValidosDeputadoEstadual": 7238
     },
     {
       "codigoTSE": "85464",
@@ -1637,7 +2009,10 @@
       "renanPresidente": 99,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 4826,
+      "votosValidosDeputadoFederal": 4705,
+      "votosValidosDeputadoEstadual": 4320
     },
     {
       "codigoTSE": "88528",
@@ -1650,7 +2025,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 2141,
+      "votosValidosDeputadoFederal": 2030,
+      "votosValidosDeputadoEstadual": 1891
     },
     {
       "codigoTSE": "86193",
@@ -1663,7 +2041,10 @@
       "renanPresidente": 706,
       "deputadoFederalMissao": 189,
       "deputadoEstadualMissao": 83,
-      "totalMissaoLegislativo": 272
+      "totalMissaoLegislativo": 272,
+      "votosValidosPresidente": 33828,
+      "votosValidosDeputadoFederal": 32004,
+      "votosValidosDeputadoEstadual": 30895
     },
     {
       "codigoTSE": "89206",
@@ -1676,7 +2057,10 @@
       "renanPresidente": 28,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 1595,
+      "votosValidosDeputadoFederal": 1526,
+      "votosValidosDeputadoEstadual": 1466
     },
     {
       "codigoTSE": "86215",
@@ -1689,7 +2073,10 @@
       "renanPresidente": 176,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 19,
-      "totalMissaoLegislativo": 87
+      "totalMissaoLegislativo": 87,
+      "votosValidosPresidente": 7336,
+      "votosValidosDeputadoFederal": 6791,
+      "votosValidosDeputadoEstadual": 6653
     },
     {
       "codigoTSE": "86231",
@@ -1702,7 +2089,10 @@
       "renanPresidente": 59,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 3312,
+      "votosValidosDeputadoFederal": 3162,
+      "votosValidosDeputadoEstadual": 3055
     },
     {
       "codigoTSE": "86665",
@@ -1715,7 +2105,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 2072,
+      "votosValidosDeputadoFederal": 2002,
+      "votosValidosDeputadoEstadual": 1917
     },
     {
       "codigoTSE": "85049",
@@ -1728,7 +2121,10 @@
       "renanPresidente": 24,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1919,
+      "votosValidosDeputadoFederal": 1805,
+      "votosValidosDeputadoEstadual": 1737
     },
     {
       "codigoTSE": "88188",
@@ -1741,7 +2137,10 @@
       "renanPresidente": 28,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 2423,
+      "votosValidosDeputadoFederal": 2348,
+      "votosValidosDeputadoEstadual": 2268
     },
     {
       "codigoTSE": "86258",
@@ -1754,7 +2153,10 @@
       "renanPresidente": 592,
       "deputadoFederalMissao": 178,
       "deputadoEstadualMissao": 97,
-      "totalMissaoLegislativo": 275
+      "totalMissaoLegislativo": 275,
+      "votosValidosPresidente": 20310,
+      "votosValidosDeputadoFederal": 18702,
+      "votosValidosDeputadoEstadual": 18647
     },
     {
       "codigoTSE": "86681",
@@ -1767,7 +2169,10 @@
       "renanPresidente": 14,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1604,
+      "votosValidosDeputadoFederal": 1523,
+      "votosValidosDeputadoEstadual": 1454
     },
     {
       "codigoTSE": "84824",
@@ -1780,7 +2185,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2465,
+      "votosValidosDeputadoFederal": 2370,
+      "votosValidosDeputadoEstadual": 2266
     },
     {
       "codigoTSE": "86274",
@@ -1793,7 +2201,10 @@
       "renanPresidente": 202,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 18,
-      "totalMissaoLegislativo": 41
+      "totalMissaoLegislativo": 41,
+      "votosValidosPresidente": 7783,
+      "votosValidosDeputadoFederal": 7103,
+      "votosValidosDeputadoEstadual": 6424
     },
     {
       "codigoTSE": "86290",
@@ -1806,7 +2217,10 @@
       "renanPresidente": 328,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 57
+      "totalMissaoLegislativo": 57,
+      "votosValidosPresidente": 20335,
+      "votosValidosDeputadoFederal": 18222,
+      "votosValidosDeputadoEstadual": 19181
     },
     {
       "codigoTSE": "88463",
@@ -1819,7 +2233,10 @@
       "renanPresidente": 59,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 2185,
+      "votosValidosDeputadoFederal": 2115,
+      "votosValidosDeputadoEstadual": 2023
     },
     {
       "codigoTSE": "86312",
@@ -1832,7 +2249,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 46,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 54
+      "totalMissaoLegislativo": 54,
+      "votosValidosPresidente": 2384,
+      "votosValidosDeputadoFederal": 2222,
+      "votosValidosDeputadoEstadual": 2230
     },
     {
       "codigoTSE": "84883",
@@ -1845,7 +2265,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 21
+      "totalMissaoLegislativo": 21,
+      "votosValidosPresidente": 3109,
+      "votosValidosDeputadoFederal": 2971,
+      "votosValidosDeputadoEstadual": 2832
     },
     {
       "codigoTSE": "88307",
@@ -1858,7 +2281,10 @@
       "renanPresidente": 16,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1612,
+      "votosValidosDeputadoFederal": 1522,
+      "votosValidosDeputadoEstadual": 1497
     },
     {
       "codigoTSE": "86240",
@@ -1871,7 +2297,10 @@
       "renanPresidente": 535,
       "deputadoFederalMissao": 124,
       "deputadoEstadualMissao": 95,
-      "totalMissaoLegislativo": 219
+      "totalMissaoLegislativo": 219,
+      "votosValidosPresidente": 19560,
+      "votosValidosDeputadoFederal": 17932,
+      "votosValidosDeputadoEstadual": 17362
     },
     {
       "codigoTSE": "86339",
@@ -1884,7 +2313,10 @@
       "renanPresidente": 261,
       "deputadoFederalMissao": 81,
       "deputadoEstadualMissao": 39,
-      "totalMissaoLegislativo": 120
+      "totalMissaoLegislativo": 120,
+      "votosValidosPresidente": 13492,
+      "votosValidosDeputadoFederal": 12444,
+      "votosValidosDeputadoEstadual": 12499
     },
     {
       "codigoTSE": "86355",
@@ -1897,7 +2329,10 @@
       "renanPresidente": 236,
       "deputadoFederalMissao": 122,
       "deputadoEstadualMissao": 46,
-      "totalMissaoLegislativo": 168
+      "totalMissaoLegislativo": 168,
+      "votosValidosPresidente": 13403,
+      "votosValidosDeputadoFederal": 11781,
+      "votosValidosDeputadoEstadual": 11118
     },
     {
       "codigoTSE": "86703",
@@ -1910,7 +2345,10 @@
       "renanPresidente": 10,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 922,
+      "votosValidosDeputadoFederal": 877,
+      "votosValidosDeputadoEstadual": 840
     },
     {
       "codigoTSE": "85103",
@@ -1923,7 +2361,10 @@
       "renanPresidente": 90,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 34
+      "totalMissaoLegislativo": 34,
+      "votosValidosPresidente": 5789,
+      "votosValidosDeputadoFederal": 5366,
+      "votosValidosDeputadoEstadual": 5227
     },
     {
       "codigoTSE": "85928",
@@ -1936,7 +2377,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 2014,
+      "votosValidosDeputadoFederal": 1921,
+      "votosValidosDeputadoEstadual": 1810
     },
     {
       "codigoTSE": "85081",
@@ -1949,7 +2393,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 2016,
+      "votosValidosDeputadoFederal": 1883,
+      "votosValidosDeputadoEstadual": 1788
     },
     {
       "codigoTSE": "86371",
@@ -1962,7 +2409,10 @@
       "renanPresidente": 1574,
       "deputadoFederalMissao": 325,
       "deputadoEstadualMissao": 210,
-      "totalMissaoLegislativo": 535
+      "totalMissaoLegislativo": 535,
+      "votosValidosPresidente": 62474,
+      "votosValidosDeputadoFederal": 57485,
+      "votosValidosDeputadoEstadual": 55634
     },
     {
       "codigoTSE": "85022",
@@ -1975,7 +2425,10 @@
       "renanPresidente": 35,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 26
+      "totalMissaoLegislativo": 26,
+      "votosValidosPresidente": 2352,
+      "votosValidosDeputadoFederal": 2235,
+      "votosValidosDeputadoEstadual": 2160
     },
     {
       "codigoTSE": "86410",
@@ -1988,7 +2441,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 3451,
+      "votosValidosDeputadoFederal": 3234,
+      "votosValidosDeputadoEstadual": 3057
     },
     {
       "codigoTSE": "86436",
@@ -2001,7 +2457,10 @@
       "renanPresidente": 59,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 4336,
+      "votosValidosDeputadoFederal": 4130,
+      "votosValidosDeputadoEstadual": 3884
     },
     {
       "codigoTSE": "86452",
@@ -2014,7 +2473,10 @@
       "renanPresidente": 23,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 2126,
+      "votosValidosDeputadoFederal": 2017,
+      "votosValidosDeputadoEstadual": 1897
     },
     {
       "codigoTSE": "88285",
@@ -2027,7 +2489,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 38
+      "totalMissaoLegislativo": 38,
+      "votosValidosPresidente": 2634,
+      "votosValidosDeputadoFederal": 2531,
+      "votosValidosDeputadoEstadual": 2385
     },
     {
       "codigoTSE": "86479",
@@ -2040,7 +2505,10 @@
       "renanPresidente": 154,
       "deputadoFederalMissao": 463,
       "deputadoEstadualMissao": 27,
-      "totalMissaoLegislativo": 490
+      "totalMissaoLegislativo": 490,
+      "votosValidosPresidente": 9864,
+      "votosValidosDeputadoFederal": 9211,
+      "votosValidosDeputadoEstadual": 8953
     },
     {
       "codigoTSE": "85286",
@@ -2053,7 +2521,10 @@
       "renanPresidente": 84,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 24
+      "totalMissaoLegislativo": 24,
+      "votosValidosPresidente": 3958,
+      "votosValidosDeputadoFederal": 3642,
+      "votosValidosDeputadoEstadual": 3547
     },
     {
       "codigoTSE": "86495",
@@ -2066,7 +2537,10 @@
       "renanPresidente": 901,
       "deputadoFederalMissao": 310,
       "deputadoEstadualMissao": 217,
-      "totalMissaoLegislativo": 527
+      "totalMissaoLegislativo": 527,
+      "votosValidosPresidente": 29144,
+      "votosValidosDeputadoFederal": 26853,
+      "votosValidosDeputadoEstadual": 26113
     },
     {
       "codigoTSE": "86517",
@@ -2079,7 +2553,10 @@
       "renanPresidente": 1694,
       "deputadoFederalMissao": 504,
       "deputadoEstadualMissao": 434,
-      "totalMissaoLegislativo": 938
+      "totalMissaoLegislativo": 938,
+      "votosValidosPresidente": 48146,
+      "votosValidosDeputadoFederal": 44135,
+      "votosValidosDeputadoEstadual": 42195
     },
     {
       "codigoTSE": "86533",
@@ -2092,7 +2569,10 @@
       "renanPresidente": 503,
       "deputadoFederalMissao": 208,
       "deputadoEstadualMissao": 78,
-      "totalMissaoLegislativo": 286
+      "totalMissaoLegislativo": 286,
+      "votosValidosPresidente": 19659,
+      "votosValidosDeputadoFederal": 17993,
+      "votosValidosDeputadoEstadual": 18074
     },
     {
       "codigoTSE": "88404",
@@ -2105,7 +2585,10 @@
       "renanPresidente": 28,
       "deputadoFederalMissao": 121,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 127
+      "totalMissaoLegislativo": 127,
+      "votosValidosPresidente": 2309,
+      "votosValidosDeputadoFederal": 2179,
+      "votosValidosDeputadoEstadual": 2099
     },
     {
       "codigoTSE": "85448",
@@ -2118,7 +2601,10 @@
       "renanPresidente": 21,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1993,
+      "votosValidosDeputadoFederal": 1839,
+      "votosValidosDeputadoEstadual": 1742
     },
     {
       "codigoTSE": "84930",
@@ -2131,7 +2617,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1994,
+      "votosValidosDeputadoFederal": 1911,
+      "votosValidosDeputadoEstadual": 1823
     },
     {
       "codigoTSE": "86550",
@@ -2144,7 +2633,10 @@
       "renanPresidente": 1224,
       "deputadoFederalMissao": 422,
       "deputadoEstadualMissao": 254,
-      "totalMissaoLegislativo": 676
+      "totalMissaoLegislativo": 676,
+      "votosValidosPresidente": 45361,
+      "votosValidosDeputadoFederal": 41994,
+      "votosValidosDeputadoEstadual": 40700
     },
     {
       "codigoTSE": "86576",
@@ -2157,7 +2649,10 @@
       "renanPresidente": 82,
       "deputadoFederalMissao": 117,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 133
+      "totalMissaoLegislativo": 133,
+      "votosValidosPresidente": 4339,
+      "votosValidosDeputadoFederal": 4104,
+      "votosValidosDeputadoEstadual": 4031
     },
     {
       "codigoTSE": "86029",
@@ -2170,7 +2665,10 @@
       "renanPresidente": 12,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1849,
+      "votosValidosDeputadoFederal": 1780,
+      "votosValidosDeputadoEstadual": 1661
     },
     {
       "codigoTSE": "88366",
@@ -2183,7 +2681,10 @@
       "renanPresidente": 59,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 2971,
+      "votosValidosDeputadoFederal": 2761,
+      "votosValidosDeputadoEstadual": 2677
     },
     {
       "codigoTSE": "86592",
@@ -2196,7 +2697,10 @@
       "renanPresidente": 273,
       "deputadoFederalMissao": 59,
       "deputadoEstadualMissao": 49,
-      "totalMissaoLegislativo": 108
+      "totalMissaoLegislativo": 108,
+      "votosValidosPresidente": 9010,
+      "votosValidosDeputadoFederal": 8543,
+      "votosValidosDeputadoEstadual": 8261
     },
     {
       "codigoTSE": "86614",
@@ -2209,7 +2713,10 @@
       "renanPresidente": 597,
       "deputadoFederalMissao": 166,
       "deputadoEstadualMissao": 126,
-      "totalMissaoLegislativo": 292
+      "totalMissaoLegislativo": 292,
+      "votosValidosPresidente": 20491,
+      "votosValidosDeputadoFederal": 19049,
+      "votosValidosDeputadoEstadual": 18423
     },
     {
       "codigoTSE": "88242",
@@ -2222,7 +2729,10 @@
       "renanPresidente": 21,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1417,
+      "votosValidosDeputadoFederal": 1350,
+      "votosValidosDeputadoEstadual": 1270
     },
     {
       "codigoTSE": "86630",
@@ -2235,7 +2745,10 @@
       "renanPresidente": 91,
       "deputadoFederalMissao": 66,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 69
+      "totalMissaoLegislativo": 69,
+      "votosValidosPresidente": 6062,
+      "votosValidosDeputadoFederal": 5631,
+      "votosValidosDeputadoEstadual": 5259
     },
     {
       "codigoTSE": "86657",
@@ -2248,7 +2761,10 @@
       "renanPresidente": 49,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 4222,
+      "votosValidosDeputadoFederal": 4019,
+      "votosValidosDeputadoEstadual": 3819
     },
     {
       "codigoTSE": "89222",
@@ -2261,7 +2777,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 31
+      "totalMissaoLegislativo": 31,
+      "votosValidosPresidente": 2153,
+      "votosValidosDeputadoFederal": 2061,
+      "votosValidosDeputadoEstadual": 1938
     },
     {
       "codigoTSE": "98272",
@@ -2274,7 +2793,10 @@
       "renanPresidente": 46,
       "deputadoFederalMissao": 153,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 157
+      "totalMissaoLegislativo": 157,
+      "votosValidosPresidente": 3074,
+      "votosValidosDeputadoFederal": 2985,
+      "votosValidosDeputadoEstadual": 2850
     },
     {
       "codigoTSE": "86673",
@@ -2287,7 +2809,10 @@
       "renanPresidente": 386,
       "deputadoFederalMissao": 163,
       "deputadoEstadualMissao": 72,
-      "totalMissaoLegislativo": 235
+      "totalMissaoLegislativo": 235,
+      "votosValidosPresidente": 19422,
+      "votosValidosDeputadoFederal": 17858,
+      "votosValidosDeputadoEstadual": 17275
     },
     {
       "codigoTSE": "86690",
@@ -2300,7 +2825,10 @@
       "renanPresidente": 526,
       "deputadoFederalMissao": 133,
       "deputadoEstadualMissao": 104,
-      "totalMissaoLegislativo": 237
+      "totalMissaoLegislativo": 237,
+      "votosValidosPresidente": 21903,
+      "votosValidosDeputadoFederal": 20440,
+      "votosValidosDeputadoEstadual": 19619
     },
     {
       "codigoTSE": "86720",
@@ -2313,7 +2841,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 1802,
+      "votosValidosDeputadoFederal": 1739,
+      "votosValidosDeputadoEstadual": 1650
     },
     {
       "codigoTSE": "86711",
@@ -2326,7 +2857,10 @@
       "renanPresidente": 70,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 27
+      "totalMissaoLegislativo": 27,
+      "votosValidosPresidente": 4304,
+      "votosValidosDeputadoFederal": 3928,
+      "votosValidosDeputadoEstadual": 3803
     },
     {
       "codigoTSE": "86738",
@@ -2339,7 +2873,10 @@
       "renanPresidente": 150,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 28
+      "totalMissaoLegislativo": 28,
+      "votosValidosPresidente": 4598,
+      "votosValidosDeputadoFederal": 4315,
+      "votosValidosDeputadoEstadual": 4210
     },
     {
       "codigoTSE": "86746",
@@ -2352,7 +2889,10 @@
       "renanPresidente": 16,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 1378,
+      "votosValidosDeputadoFederal": 1317,
+      "votosValidosDeputadoEstadual": 1308
     },
     {
       "codigoTSE": "86770",
@@ -2365,7 +2905,10 @@
       "renanPresidente": 202,
       "deputadoFederalMissao": 66,
       "deputadoEstadualMissao": 30,
-      "totalMissaoLegislativo": 96
+      "totalMissaoLegislativo": 96,
+      "votosValidosPresidente": 9950,
+      "votosValidosDeputadoFederal": 9180,
+      "votosValidosDeputadoEstadual": 8903
     },
     {
       "codigoTSE": "86797",
@@ -2378,7 +2921,10 @@
       "renanPresidente": 142,
       "deputadoFederalMissao": 24,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 40
+      "totalMissaoLegislativo": 40,
+      "votosValidosPresidente": 10128,
+      "votosValidosDeputadoFederal": 9401,
+      "votosValidosDeputadoEstadual": 9060
     },
     {
       "codigoTSE": "85502",
@@ -2391,7 +2937,10 @@
       "renanPresidente": 142,
       "deputadoFederalMissao": 47,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 75
+      "totalMissaoLegislativo": 75,
+      "votosValidosPresidente": 5103,
+      "votosValidosDeputadoFederal": 4690,
+      "votosValidosDeputadoEstadual": 4489
     },
     {
       "codigoTSE": "86819",
@@ -2404,7 +2953,10 @@
       "renanPresidente": 659,
       "deputadoFederalMissao": 241,
       "deputadoEstadualMissao": 131,
-      "totalMissaoLegislativo": 372
+      "totalMissaoLegislativo": 372,
+      "votosValidosPresidente": 26265,
+      "votosValidosDeputadoFederal": 23780,
+      "votosValidosDeputadoEstadual": 23607
     },
     {
       "codigoTSE": "86762",
@@ -2417,7 +2969,10 @@
       "renanPresidente": 23,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 2043,
+      "votosValidosDeputadoFederal": 1960,
+      "votosValidosDeputadoEstadual": 1879
     },
     {
       "codigoTSE": "86789",
@@ -2430,7 +2985,10 @@
       "renanPresidente": 50,
       "deputadoFederalMissao": 279,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 287
+      "totalMissaoLegislativo": 287,
+      "votosValidosPresidente": 2377,
+      "votosValidosDeputadoFederal": 2271,
+      "votosValidosDeputadoEstadual": 2125
     },
     {
       "codigoTSE": "86835",
@@ -2443,7 +3001,10 @@
       "renanPresidente": 4627,
       "deputadoFederalMissao": 1275,
       "deputadoEstadualMissao": 790,
-      "totalMissaoLegislativo": 2065
+      "totalMissaoLegislativo": 2065,
+      "votosValidosPresidente": 140630,
+      "votosValidosDeputadoFederal": 125201,
+      "votosValidosDeputadoEstadual": 124866
     },
     {
       "codigoTSE": "84867",
@@ -2456,7 +3017,10 @@
       "renanPresidente": 14,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1118,
+      "votosValidosDeputadoFederal": 1060,
+      "votosValidosDeputadoEstadual": 1029
     },
     {
       "codigoTSE": "86851",
@@ -2469,7 +3033,10 @@
       "renanPresidente": 1702,
       "deputadoFederalMissao": 360,
       "deputadoEstadualMissao": 284,
-      "totalMissaoLegislativo": 644
+      "totalMissaoLegislativo": 644,
+      "votosValidosPresidente": 54940,
+      "votosValidosDeputadoFederal": 48594,
+      "votosValidosDeputadoEstadual": 47511
     },
     {
       "codigoTSE": "86878",
@@ -2482,7 +3049,10 @@
       "renanPresidente": 374,
       "deputadoFederalMissao": 81,
       "deputadoEstadualMissao": 52,
-      "totalMissaoLegislativo": 133
+      "totalMissaoLegislativo": 133,
+      "votosValidosPresidente": 15402,
+      "votosValidosDeputadoFederal": 14385,
+      "votosValidosDeputadoEstadual": 13958
     },
     {
       "codigoTSE": "86894",
@@ -2495,7 +3065,10 @@
       "renanPresidente": 73,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 27
+      "totalMissaoLegislativo": 27,
+      "votosValidosPresidente": 4726,
+      "votosValidosDeputadoFederal": 4415,
+      "votosValidosDeputadoEstadual": 4185
     },
     {
       "codigoTSE": "85189",
@@ -2508,7 +3081,10 @@
       "renanPresidente": 100,
       "deputadoFederalMissao": 30,
       "deputadoEstadualMissao": 24,
-      "totalMissaoLegislativo": 54
+      "totalMissaoLegislativo": 54,
+      "votosValidosPresidente": 3473,
+      "votosValidosDeputadoFederal": 3220,
+      "votosValidosDeputadoEstadual": 3158
     },
     {
       "codigoTSE": "86398",
@@ -2521,7 +3097,10 @@
       "renanPresidente": 74,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 24
+      "totalMissaoLegislativo": 24,
+      "votosValidosPresidente": 3756,
+      "votosValidosDeputadoFederal": 3472,
+      "votosValidosDeputadoEstadual": 3309
     },
     {
       "codigoTSE": "88323",
@@ -2534,7 +3113,10 @@
       "renanPresidente": 50,
       "deputadoFederalMissao": 210,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 217
+      "totalMissaoLegislativo": 217,
+      "votosValidosPresidente": 2015,
+      "votosValidosDeputadoFederal": 1961,
+      "votosValidosDeputadoEstadual": 1848
     },
     {
       "codigoTSE": "86916",
@@ -2547,7 +3129,10 @@
       "renanPresidente": 224,
       "deputadoFederalMissao": 53,
       "deputadoEstadualMissao": 47,
-      "totalMissaoLegislativo": 100
+      "totalMissaoLegislativo": 100,
+      "votosValidosPresidente": 11902,
+      "votosValidosDeputadoFederal": 11242,
+      "votosValidosDeputadoEstadual": 10947
     },
     {
       "codigoTSE": "86800",
@@ -2560,7 +3145,10 @@
       "renanPresidente": 78,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 20,
-      "totalMissaoLegislativo": 35
+      "totalMissaoLegislativo": 35,
+      "votosValidosPresidente": 3651,
+      "votosValidosDeputadoFederal": 3375,
+      "votosValidosDeputadoEstadual": 3299
     },
     {
       "codigoTSE": "86959",
@@ -2573,7 +3161,10 @@
       "renanPresidente": 51,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 24
+      "totalMissaoLegislativo": 24,
+      "votosValidosPresidente": 3325,
+      "votosValidosDeputadoFederal": 3192,
+      "votosValidosDeputadoEstadual": 3061
     },
     {
       "codigoTSE": "84972",
@@ -2586,7 +3177,10 @@
       "renanPresidente": 85,
       "deputadoFederalMissao": 311,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 316
+      "totalMissaoLegislativo": 316,
+      "votosValidosPresidente": 2813,
+      "votosValidosDeputadoFederal": 2666,
+      "votosValidosDeputadoEstadual": 2569
     },
     {
       "codigoTSE": "86975",
@@ -2599,7 +3193,10 @@
       "renanPresidente": 63,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 3263,
+      "votosValidosDeputadoFederal": 3049,
+      "votosValidosDeputadoEstadual": 3025
     },
     {
       "codigoTSE": "86991",
@@ -2612,7 +3209,10 @@
       "renanPresidente": 48,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 4393,
+      "votosValidosDeputadoFederal": 4135,
+      "votosValidosDeputadoEstadual": 3943
     },
     {
       "codigoTSE": "84964",
@@ -2625,7 +3225,10 @@
       "renanPresidente": 32,
       "deputadoFederalMissao": 35,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 39
+      "totalMissaoLegislativo": 39,
+      "votosValidosPresidente": 2657,
+      "votosValidosDeputadoFederal": 2505,
+      "votosValidosDeputadoEstadual": 2418
     },
     {
       "codigoTSE": "87017",
@@ -2638,7 +3241,10 @@
       "renanPresidente": 263,
       "deputadoFederalMissao": 170,
       "deputadoEstadualMissao": 37,
-      "totalMissaoLegislativo": 207
+      "totalMissaoLegislativo": 207,
+      "votosValidosPresidente": 13472,
+      "votosValidosDeputadoFederal": 12627,
+      "votosValidosDeputadoEstadual": 12636
     },
     {
       "codigoTSE": "87033",
@@ -2651,7 +3257,10 @@
       "renanPresidente": 622,
       "deputadoFederalMissao": 157,
       "deputadoEstadualMissao": 65,
-      "totalMissaoLegislativo": 222
+      "totalMissaoLegislativo": 222,
+      "votosValidosPresidente": 21858,
+      "votosValidosDeputadoFederal": 20236,
+      "votosValidosDeputadoEstadual": 20495
     },
     {
       "codigoTSE": "87050",
@@ -2664,7 +3273,10 @@
       "renanPresidente": 1038,
       "deputadoFederalMissao": 386,
       "deputadoEstadualMissao": 218,
-      "totalMissaoLegislativo": 604
+      "totalMissaoLegislativo": 604,
+      "votosValidosPresidente": 49943,
+      "votosValidosDeputadoFederal": 46564,
+      "votosValidosDeputadoEstadual": 45867
     },
     {
       "codigoTSE": "87076",
@@ -2677,7 +3289,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 17
+      "totalMissaoLegislativo": 17,
+      "votosValidosPresidente": 2887,
+      "votosValidosDeputadoFederal": 2701,
+      "votosValidosDeputadoEstadual": 2620
     },
     {
       "codigoTSE": "85685",
@@ -2690,7 +3305,10 @@
       "renanPresidente": 423,
       "deputadoFederalMissao": 122,
       "deputadoEstadualMissao": 83,
-      "totalMissaoLegislativo": 205
+      "totalMissaoLegislativo": 205,
+      "votosValidosPresidente": 17026,
+      "votosValidosDeputadoFederal": 15872,
+      "votosValidosDeputadoEstadual": 15411
     },
     {
       "codigoTSE": "85782",
@@ -2703,7 +3321,10 @@
       "renanPresidente": 68,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 2198,
+      "votosValidosDeputadoFederal": 2061,
+      "votosValidosDeputadoEstadual": 2002
     },
     {
       "codigoTSE": "87092",
@@ -2716,7 +3337,10 @@
       "renanPresidente": 69,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 4470,
+      "votosValidosDeputadoFederal": 4187,
+      "votosValidosDeputadoEstadual": 4024
     },
     {
       "codigoTSE": "86827",
@@ -2729,7 +3353,10 @@
       "renanPresidente": 11,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1572,
+      "votosValidosDeputadoFederal": 1521,
+      "votosValidosDeputadoEstadual": 1456
     },
     {
       "codigoTSE": "84999",
@@ -2742,7 +3369,10 @@
       "renanPresidente": 82,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 4456,
+      "votosValidosDeputadoFederal": 4262,
+      "votosValidosDeputadoEstadual": 3998
     },
     {
       "codigoTSE": "85243",
@@ -2755,7 +3385,10 @@
       "renanPresidente": 20,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 1743,
+      "votosValidosDeputadoFederal": 1684,
+      "votosValidosDeputadoEstadual": 1626
     },
     {
       "codigoTSE": "87114",
@@ -2768,7 +3401,10 @@
       "renanPresidente": 72,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 39
+      "totalMissaoLegislativo": 39,
+      "votosValidosPresidente": 4419,
+      "votosValidosDeputadoFederal": 4084,
+      "votosValidosDeputadoEstadual": 3845
     },
     {
       "codigoTSE": "88382",
@@ -2781,7 +3417,10 @@
       "renanPresidente": 51,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 36
+      "totalMissaoLegislativo": 36,
+      "votosValidosPresidente": 3540,
+      "votosValidosDeputadoFederal": 3350,
+      "votosValidosDeputadoEstadual": 3224
     },
     {
       "codigoTSE": "85901",
@@ -2794,7 +3433,10 @@
       "renanPresidente": 18,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 2050,
+      "votosValidosDeputadoFederal": 1992,
+      "votosValidosDeputadoEstadual": 1898
     },
     {
       "codigoTSE": "86843",
@@ -2807,7 +3449,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 1389,
+      "votosValidosDeputadoFederal": 1325,
+      "votosValidosDeputadoEstadual": 1280
     },
     {
       "codigoTSE": "87130",
@@ -2820,7 +3465,10 @@
       "renanPresidente": 346,
       "deputadoFederalMissao": 67,
       "deputadoEstadualMissao": 55,
-      "totalMissaoLegislativo": 122
+      "totalMissaoLegislativo": 122,
+      "votosValidosPresidente": 18057,
+      "votosValidosDeputadoFederal": 17012,
+      "votosValidosDeputadoEstadual": 16505
     },
     {
       "codigoTSE": "89249",
@@ -2833,7 +3481,10 @@
       "renanPresidente": 64,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 42
+      "totalMissaoLegislativo": 42,
+      "votosValidosPresidente": 2771,
+      "votosValidosDeputadoFederal": 2698,
+      "votosValidosDeputadoEstadual": 2595
     },
     {
       "codigoTSE": "87157",
@@ -2846,7 +3497,10 @@
       "renanPresidente": 39,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2626,
+      "votosValidosDeputadoFederal": 2516,
+      "votosValidosDeputadoEstadual": 2381
     },
     {
       "codigoTSE": "85626",
@@ -2859,7 +3513,10 @@
       "renanPresidente": 10,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 1357,
+      "votosValidosDeputadoFederal": 1267,
+      "votosValidosDeputadoEstadual": 1239
     },
     {
       "codigoTSE": "87173",
@@ -2872,7 +3529,10 @@
       "renanPresidente": 471,
       "deputadoFederalMissao": 156,
       "deputadoEstadualMissao": 95,
-      "totalMissaoLegislativo": 251
+      "totalMissaoLegislativo": 251,
+      "votosValidosPresidente": 14394,
+      "votosValidosDeputadoFederal": 13481,
+      "votosValidosDeputadoEstadual": 13279
     },
     {
       "codigoTSE": "84786",
@@ -2885,7 +3545,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 26
+      "totalMissaoLegislativo": 26,
+      "votosValidosPresidente": 2623,
+      "votosValidosDeputadoFederal": 2548,
+      "votosValidosDeputadoEstadual": 2379
     },
     {
       "codigoTSE": "89265",
@@ -2898,7 +3561,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 72,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 83
+      "totalMissaoLegislativo": 83,
+      "votosValidosPresidente": 1663,
+      "votosValidosDeputadoFederal": 1554,
+      "votosValidosDeputadoEstadual": 1498
     },
     {
       "codigoTSE": "87190",
@@ -2911,7 +3577,10 @@
       "renanPresidente": 48,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 2433,
+      "votosValidosDeputadoFederal": 2321,
+      "votosValidosDeputadoEstadual": 2181
     },
     {
       "codigoTSE": "87211",
@@ -2924,7 +3593,10 @@
       "renanPresidente": 406,
       "deputadoFederalMissao": 98,
       "deputadoEstadualMissao": 69,
-      "totalMissaoLegislativo": 167
+      "totalMissaoLegislativo": 167,
+      "votosValidosPresidente": 14181,
+      "votosValidosDeputadoFederal": 12939,
+      "votosValidosDeputadoEstadual": 12574
     },
     {
       "codigoTSE": "87238",
@@ -2937,7 +3609,10 @@
       "renanPresidente": 87,
       "deputadoFederalMissao": 28,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 41
+      "totalMissaoLegislativo": 41,
+      "votosValidosPresidente": 6646,
+      "votosValidosDeputadoFederal": 6148,
+      "votosValidosDeputadoEstadual": 5958
     },
     {
       "codigoTSE": "84905",
@@ -2950,7 +3625,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 2660,
+      "votosValidosDeputadoFederal": 2536,
+      "votosValidosDeputadoEstadual": 2374
     },
     {
       "codigoTSE": "88587",
@@ -2963,7 +3641,10 @@
       "renanPresidente": 21,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 1
+      "totalMissaoLegislativo": 1,
+      "votosValidosPresidente": 2131,
+      "votosValidosDeputadoFederal": 1891,
+      "votosValidosDeputadoEstadual": 1842
     },
     {
       "codigoTSE": "98299",
@@ -2976,7 +3657,10 @@
       "renanPresidente": 39,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 4923,
+      "votosValidosDeputadoFederal": 4622,
+      "votosValidosDeputadoEstadual": 4447
     },
     {
       "codigoTSE": "87254",
@@ -2989,7 +3673,10 @@
       "renanPresidente": 172,
       "deputadoFederalMissao": 45,
       "deputadoEstadualMissao": 17,
-      "totalMissaoLegislativo": 62
+      "totalMissaoLegislativo": 62,
+      "votosValidosPresidente": 11341,
+      "votosValidosDeputadoFederal": 10458,
+      "votosValidosDeputadoEstadual": 10159
     },
     {
       "codigoTSE": "89281",
@@ -3002,7 +3689,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 208,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 210
+      "totalMissaoLegislativo": 210,
+      "votosValidosPresidente": 1787,
+      "votosValidosDeputadoFederal": 1671,
+      "votosValidosDeputadoEstadual": 1602
     },
     {
       "codigoTSE": "86886",
@@ -3015,7 +3705,10 @@
       "renanPresidente": 33,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 75
+      "totalMissaoLegislativo": 75,
+      "votosValidosPresidente": 1456,
+      "votosValidosDeputadoFederal": 1416,
+      "votosValidosDeputadoEstadual": 1380
     },
     {
       "codigoTSE": "87270",
@@ -3028,7 +3721,10 @@
       "renanPresidente": 280,
       "deputadoFederalMissao": 46,
       "deputadoEstadualMissao": 23,
-      "totalMissaoLegislativo": 69
+      "totalMissaoLegislativo": 69,
+      "votosValidosPresidente": 15374,
+      "votosValidosDeputadoFederal": 13883,
+      "votosValidosDeputadoEstadual": 13891
     },
     {
       "codigoTSE": "85260",
@@ -3041,7 +3737,10 @@
       "renanPresidente": 106,
       "deputadoFederalMissao": 550,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 553
+      "totalMissaoLegislativo": 553,
+      "votosValidosPresidente": 3806,
+      "votosValidosDeputadoFederal": 3670,
+      "votosValidosDeputadoEstadual": 3443
     },
     {
       "codigoTSE": "87297",
@@ -3054,7 +3753,10 @@
       "renanPresidente": 1393,
       "deputadoFederalMissao": 464,
       "deputadoEstadualMissao": 204,
-      "totalMissaoLegislativo": 668
+      "totalMissaoLegislativo": 668,
+      "votosValidosPresidente": 50061,
+      "votosValidosDeputadoFederal": 46775,
+      "votosValidosDeputadoEstadual": 46365
     },
     {
       "codigoTSE": "86860",
@@ -3067,7 +3769,10 @@
       "renanPresidente": 12,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1544,
+      "votosValidosDeputadoFederal": 1498,
+      "votosValidosDeputadoEstadual": 1402
     },
     {
       "codigoTSE": "87319",
@@ -3080,7 +3785,10 @@
       "renanPresidente": 50,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 4019,
+      "votosValidosDeputadoFederal": 3684,
+      "votosValidosDeputadoEstadual": 3649
     },
     {
       "codigoTSE": "87335",
@@ -3093,7 +3801,10 @@
       "renanPresidente": 53,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 3262,
+      "votosValidosDeputadoFederal": 3077,
+      "votosValidosDeputadoEstadual": 2818
     },
     {
       "codigoTSE": "86908",
@@ -3106,7 +3817,10 @@
       "renanPresidente": 102,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 34
+      "totalMissaoLegislativo": 34,
+      "votosValidosPresidente": 3812,
+      "votosValidosDeputadoFederal": 3535,
+      "votosValidosDeputadoEstadual": 3393
     },
     {
       "codigoTSE": "86924",
@@ -3119,7 +3833,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 1217,
+      "votosValidosDeputadoFederal": 1142,
+      "votosValidosDeputadoEstadual": 1112
     },
     {
       "codigoTSE": "88447",
@@ -3132,7 +3849,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2795,
+      "votosValidosDeputadoFederal": 2623,
+      "votosValidosDeputadoEstadual": 2621
     },
     {
       "codigoTSE": "87351",
@@ -3145,7 +3865,10 @@
       "renanPresidente": 51,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 3879,
+      "votosValidosDeputadoFederal": 3658,
+      "votosValidosDeputadoEstadual": 3451
     },
     {
       "codigoTSE": "88943",
@@ -3158,7 +3881,10 @@
       "renanPresidente": 39,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 2575,
+      "votosValidosDeputadoFederal": 2483,
+      "votosValidosDeputadoEstadual": 2359
     },
     {
       "codigoTSE": "86940",
@@ -3171,7 +3897,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 4195,
+      "votosValidosDeputadoFederal": 3999,
+      "votosValidosDeputadoEstadual": 3773
     },
     {
       "codigoTSE": "86967",
@@ -3184,7 +3913,10 @@
       "renanPresidente": 98,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 28
+      "totalMissaoLegislativo": 28,
+      "votosValidosPresidente": 4632,
+      "votosValidosDeputadoFederal": 4379,
+      "votosValidosDeputadoEstadual": 4274
     },
     {
       "codigoTSE": "86983",
@@ -3197,7 +3929,10 @@
       "renanPresidente": 55,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 2037,
+      "votosValidosDeputadoFederal": 1944,
+      "votosValidosDeputadoEstadual": 1913
     },
     {
       "codigoTSE": "87378",
@@ -3210,7 +3945,10 @@
       "renanPresidente": 565,
       "deputadoFederalMissao": 169,
       "deputadoEstadualMissao": 119,
-      "totalMissaoLegislativo": 288
+      "totalMissaoLegislativo": 288,
+      "votosValidosPresidente": 25800,
+      "votosValidosDeputadoFederal": 24198,
+      "votosValidosDeputadoEstadual": 23329
     },
     {
       "codigoTSE": "87394",
@@ -3223,7 +3961,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 3137,
+      "votosValidosDeputadoFederal": 2998,
+      "votosValidosDeputadoEstadual": 2870
     },
     {
       "codigoTSE": "87009",
@@ -3236,7 +3977,10 @@
       "renanPresidente": 41,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 2711,
+      "votosValidosDeputadoFederal": 2466,
+      "votosValidosDeputadoEstadual": 2342
     },
     {
       "codigoTSE": "87416",
@@ -3249,7 +3993,10 @@
       "renanPresidente": 32,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1729,
+      "votosValidosDeputadoFederal": 1628,
+      "votosValidosDeputadoEstadual": 1582
     },
     {
       "codigoTSE": "88820",
@@ -3262,7 +4009,10 @@
       "renanPresidente": 52,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 30
+      "totalMissaoLegislativo": 30,
+      "votosValidosPresidente": 2784,
+      "votosValidosDeputadoFederal": 2590,
+      "votosValidosDeputadoEstadual": 2541
     },
     {
       "codigoTSE": "87432",
@@ -3275,7 +4025,10 @@
       "renanPresidente": 36,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 2961,
+      "votosValidosDeputadoFederal": 2752,
+      "votosValidosDeputadoEstadual": 2605
     },
     {
       "codigoTSE": "87025",
@@ -3288,7 +4041,10 @@
       "renanPresidente": 54,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 37
+      "totalMissaoLegislativo": 37,
+      "votosValidosPresidente": 2471,
+      "votosValidosDeputadoFederal": 2339,
+      "votosValidosDeputadoEstadual": 2299
     },
     {
       "codigoTSE": "87041",
@@ -3301,7 +4057,10 @@
       "renanPresidente": 97,
       "deputadoFederalMissao": 35,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 45
+      "totalMissaoLegislativo": 45,
+      "votosValidosPresidente": 3364,
+      "votosValidosDeputadoFederal": 3128,
+      "votosValidosDeputadoEstadual": 3074
     },
     {
       "codigoTSE": "89303",
@@ -3314,7 +4073,10 @@
       "renanPresidente": 9,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 0
+      "totalMissaoLegislativo": 0,
+      "votosValidosPresidente": 1314,
+      "votosValidosDeputadoFederal": 1238,
+      "votosValidosDeputadoEstadual": 1181
     },
     {
       "codigoTSE": "87459",
@@ -3327,7 +4089,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 3020,
+      "votosValidosDeputadoFederal": 2893,
+      "votosValidosDeputadoEstadual": 2708
     },
     {
       "codigoTSE": "87068",
@@ -3340,7 +4105,10 @@
       "renanPresidente": 77,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 29
+      "totalMissaoLegislativo": 29,
+      "votosValidosPresidente": 4765,
+      "votosValidosDeputadoFederal": 4343,
+      "votosValidosDeputadoEstadual": 4154
     },
     {
       "codigoTSE": "87475",
@@ -3353,7 +4121,10 @@
       "renanPresidente": 72,
       "deputadoFederalMissao": 28,
       "deputadoEstadualMissao": 19,
-      "totalMissaoLegislativo": 47
+      "totalMissaoLegislativo": 47,
+      "votosValidosPresidente": 3525,
+      "votosValidosDeputadoFederal": 3331,
+      "votosValidosDeputadoEstadual": 3187
     },
     {
       "codigoTSE": "85820",
@@ -3366,7 +4137,10 @@
       "renanPresidente": 15,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1232,
+      "votosValidosDeputadoFederal": 1188,
+      "votosValidosDeputadoEstadual": 1158
     },
     {
       "codigoTSE": "88803",
@@ -3379,7 +4153,10 @@
       "renanPresidente": 33,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2483,
+      "votosValidosDeputadoFederal": 2295,
+      "votosValidosDeputadoEstadual": 2294
     },
     {
       "codigoTSE": "87084",
@@ -3392,7 +4169,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2498,
+      "votosValidosDeputadoFederal": 2384,
+      "votosValidosDeputadoEstadual": 2307
     },
     {
       "codigoTSE": "87491",
@@ -3405,7 +4185,10 @@
       "renanPresidente": 1042,
       "deputadoFederalMissao": 308,
       "deputadoEstadualMissao": 165,
-      "totalMissaoLegislativo": 473
+      "totalMissaoLegislativo": 473,
+      "votosValidosPresidente": 35296,
+      "votosValidosDeputadoFederal": 31982,
+      "votosValidosDeputadoEstadual": 32089
     },
     {
       "codigoTSE": "87106",
@@ -3418,7 +4201,10 @@
       "renanPresidente": 35,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 2208,
+      "votosValidosDeputadoFederal": 2112,
+      "votosValidosDeputadoEstadual": 2085
     },
     {
       "codigoTSE": "87122",
@@ -3431,7 +4217,10 @@
       "renanPresidente": 85,
       "deputadoFederalMissao": 25,
       "deputadoEstadualMissao": 21,
-      "totalMissaoLegislativo": 46
+      "totalMissaoLegislativo": 46,
+      "votosValidosPresidente": 2626,
+      "votosValidosDeputadoFederal": 2533,
+      "votosValidosDeputadoEstadual": 2432
     },
     {
       "codigoTSE": "86185",
@@ -3444,7 +4233,10 @@
       "renanPresidente": 77,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 19
+      "totalMissaoLegislativo": 19,
+      "votosValidosPresidente": 3971,
+      "votosValidosDeputadoFederal": 3689,
+      "votosValidosDeputadoEstadual": 3495
     },
     {
       "codigoTSE": "87149",
@@ -3457,7 +4249,10 @@
       "renanPresidente": 124,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 4560,
+      "votosValidosDeputadoFederal": 4287,
+      "votosValidosDeputadoEstadual": 4195
     },
     {
       "codigoTSE": "87513",
@@ -3470,7 +4265,10 @@
       "renanPresidente": 103,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 19,
-      "totalMissaoLegislativo": 42
+      "totalMissaoLegislativo": 42,
+      "votosValidosPresidente": 6559,
+      "votosValidosDeputadoFederal": 6166,
+      "votosValidosDeputadoEstadual": 5798
     },
     {
       "codigoTSE": "87530",
@@ -3483,7 +4281,10 @@
       "renanPresidente": 57,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 3139,
+      "votosValidosDeputadoFederal": 2940,
+      "votosValidosDeputadoEstadual": 2968
     },
     {
       "codigoTSE": "88544",
@@ -3496,7 +4297,10 @@
       "renanPresidente": 14,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 1
+      "totalMissaoLegislativo": 1,
+      "votosValidosPresidente": 2139,
+      "votosValidosDeputadoFederal": 2020,
+      "votosValidosDeputadoEstadual": 1960
     },
     {
       "codigoTSE": "87165",
@@ -3509,7 +4313,10 @@
       "renanPresidente": 21,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 1728,
+      "votosValidosDeputadoFederal": 1642,
+      "votosValidosDeputadoEstadual": 1608
     },
     {
       "codigoTSE": "87556",
@@ -3522,7 +4329,10 @@
       "renanPresidente": 197,
       "deputadoFederalMissao": 152,
       "deputadoEstadualMissao": 56,
-      "totalMissaoLegislativo": 208
+      "totalMissaoLegislativo": 208,
+      "votosValidosPresidente": 10991,
+      "votosValidosDeputadoFederal": 10348,
+      "votosValidosDeputadoEstadual": 10039
     },
     {
       "codigoTSE": "87181",
@@ -3535,7 +4345,10 @@
       "renanPresidente": 9,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1846,
+      "votosValidosDeputadoFederal": 1780,
+      "votosValidosDeputadoEstadual": 1729
     },
     {
       "codigoTSE": "87572",
@@ -3548,7 +4361,10 @@
       "renanPresidente": 83,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 7257,
+      "votosValidosDeputadoFederal": 6663,
+      "votosValidosDeputadoEstadual": 6414
     },
     {
       "codigoTSE": "86169",
@@ -3561,7 +4377,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 20,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 2278,
+      "votosValidosDeputadoFederal": 2147,
+      "votosValidosDeputadoEstadual": 2138
     },
     {
       "codigoTSE": "87599",
@@ -3574,7 +4393,10 @@
       "renanPresidente": 72,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 28
+      "totalMissaoLegislativo": 28,
+      "votosValidosPresidente": 3334,
+      "votosValidosDeputadoFederal": 3128,
+      "votosValidosDeputadoEstadual": 3002
     },
     {
       "codigoTSE": "87610",
@@ -3587,7 +4409,10 @@
       "renanPresidente": 104,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 27,
-      "totalMissaoLegislativo": 58
+      "totalMissaoLegislativo": 58,
+      "votosValidosPresidente": 6010,
+      "votosValidosDeputadoFederal": 5684,
+      "votosValidosDeputadoEstadual": 5491
     },
     {
       "codigoTSE": "87203",
@@ -3600,7 +4425,10 @@
       "renanPresidente": 33,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1736,
+      "votosValidosDeputadoFederal": 1702,
+      "votosValidosDeputadoEstadual": 1641
     },
     {
       "codigoTSE": "87637",
@@ -3613,7 +4441,10 @@
       "renanPresidente": 43,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 22
+      "totalMissaoLegislativo": 22,
+      "votosValidosPresidente": 2299,
+      "votosValidosDeputadoFederal": 2196,
+      "votosValidosDeputadoEstadual": 2091
     },
     {
       "codigoTSE": "88226",
@@ -3626,7 +4457,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 2233,
+      "votosValidosDeputadoFederal": 2110,
+      "votosValidosDeputadoEstadual": 2073
     },
     {
       "codigoTSE": "85120",
@@ -3639,7 +4473,10 @@
       "renanPresidente": 50,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 3304,
+      "votosValidosDeputadoFederal": 3199,
+      "votosValidosDeputadoEstadual": 3107
     },
     {
       "codigoTSE": "84816",
@@ -3652,7 +4489,10 @@
       "renanPresidente": 290,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 36,
-      "totalMissaoLegislativo": 104
+      "totalMissaoLegislativo": 104,
+      "votosValidosPresidente": 11877,
+      "votosValidosDeputadoFederal": 10962,
+      "votosValidosDeputadoEstadual": 10710
     },
     {
       "codigoTSE": "87220",
@@ -3665,7 +4505,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 35
+      "totalMissaoLegislativo": 35,
+      "votosValidosPresidente": 2018,
+      "votosValidosDeputadoFederal": 1922,
+      "votosValidosDeputadoEstadual": 1815
     },
     {
       "codigoTSE": "87653",
@@ -3678,7 +4521,10 @@
       "renanPresidente": 67,
       "deputadoFederalMissao": 113,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 118
+      "totalMissaoLegislativo": 118,
+      "votosValidosPresidente": 4049,
+      "votosValidosDeputadoFederal": 3887,
+      "votosValidosDeputadoEstadual": 3807
     },
     {
       "codigoTSE": "87670",
@@ -3691,7 +4537,10 @@
       "renanPresidente": 485,
       "deputadoFederalMissao": 141,
       "deputadoEstadualMissao": 115,
-      "totalMissaoLegislativo": 256
+      "totalMissaoLegislativo": 256,
+      "votosValidosPresidente": 14838,
+      "votosValidosDeputadoFederal": 13816,
+      "votosValidosDeputadoEstadual": 13501
     },
     {
       "codigoTSE": "87696",
@@ -3704,7 +4553,10 @@
       "renanPresidente": 419,
       "deputadoFederalMissao": 72,
       "deputadoEstadualMissao": 55,
-      "totalMissaoLegislativo": 127
+      "totalMissaoLegislativo": 127,
+      "votosValidosPresidente": 15402,
+      "votosValidosDeputadoFederal": 14282,
+      "votosValidosDeputadoEstadual": 13853
     },
     {
       "codigoTSE": "88560",
@@ -3717,7 +4569,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1678,
+      "votosValidosDeputadoFederal": 1619,
+      "votosValidosDeputadoEstadual": 1578
     },
     {
       "codigoTSE": "84751",
@@ -3730,7 +4585,10 @@
       "renanPresidente": 55,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 2650,
+      "votosValidosDeputadoFederal": 2508,
+      "votosValidosDeputadoEstadual": 2402
     },
     {
       "codigoTSE": "87246",
@@ -3743,7 +4601,10 @@
       "renanPresidente": 493,
       "deputadoFederalMissao": 158,
       "deputadoEstadualMissao": 119,
-      "totalMissaoLegislativo": 277
+      "totalMissaoLegislativo": 277,
+      "votosValidosPresidente": 15362,
+      "votosValidosDeputadoFederal": 14042,
+      "votosValidosDeputadoEstadual": 13614
     },
     {
       "codigoTSE": "87262",
@@ -3756,7 +4617,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 3061,
+      "votosValidosDeputadoFederal": 2932,
+      "votosValidosDeputadoEstadual": 2777
     },
     {
       "codigoTSE": "88684",
@@ -3769,7 +4633,10 @@
       "renanPresidente": 66,
       "deputadoFederalMissao": 267,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 273
+      "totalMissaoLegislativo": 273,
+      "votosValidosPresidente": 2967,
+      "votosValidosDeputadoFederal": 2729,
+      "votosValidosDeputadoEstadual": 2701
     },
     {
       "codigoTSE": "87718",
@@ -3782,7 +4649,10 @@
       "renanPresidente": 4011,
       "deputadoFederalMissao": 1338,
       "deputadoEstadualMissao": 984,
-      "totalMissaoLegislativo": 2322
+      "totalMissaoLegislativo": 2322,
+      "votosValidosPresidente": 132272,
+      "votosValidosDeputadoFederal": 120991,
+      "votosValidosDeputadoEstadual": 117612
     },
     {
       "codigoTSE": "87289",
@@ -3795,7 +4665,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2478,
+      "votosValidosDeputadoFederal": 2375,
+      "votosValidosDeputadoEstadual": 2252
     },
     {
       "codigoTSE": "87300",
@@ -3808,7 +4681,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 1574,
+      "votosValidosDeputadoFederal": 1527,
+      "votosValidosDeputadoEstadual": 1455
     },
     {
       "codigoTSE": "89320",
@@ -3821,7 +4697,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1281,
+      "votosValidosDeputadoFederal": 1278,
+      "votosValidosDeputadoEstadual": 1197
     },
     {
       "codigoTSE": "87734",
@@ -3834,7 +4713,10 @@
       "renanPresidente": 779,
       "deputadoFederalMissao": 215,
       "deputadoEstadualMissao": 144,
-      "totalMissaoLegislativo": 359
+      "totalMissaoLegislativo": 359,
+      "votosValidosPresidente": 27733,
+      "votosValidosDeputadoFederal": 26293,
+      "votosValidosDeputadoEstadual": 25397
     },
     {
       "codigoTSE": "87750",
@@ -3847,7 +4729,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 2929,
+      "votosValidosDeputadoFederal": 2796,
+      "votosValidosDeputadoEstadual": 2598
     },
     {
       "codigoTSE": "89672",
@@ -3860,7 +4745,10 @@
       "renanPresidente": 123,
       "deputadoFederalMissao": 37,
       "deputadoEstadualMissao": 23,
-      "totalMissaoLegislativo": 60
+      "totalMissaoLegislativo": 60,
+      "votosValidosPresidente": 7666,
+      "votosValidosDeputadoFederal": 7297,
+      "votosValidosDeputadoEstadual": 6908
     },
     {
       "codigoTSE": "87777",
@@ -3873,7 +4761,10 @@
       "renanPresidente": 286,
       "deputadoFederalMissao": 141,
       "deputadoEstadualMissao": 67,
-      "totalMissaoLegislativo": 208
+      "totalMissaoLegislativo": 208,
+      "votosValidosPresidente": 18843,
+      "votosValidosDeputadoFederal": 17538,
+      "votosValidosDeputadoEstadual": 16828
     },
     {
       "codigoTSE": "87793",
@@ -3886,7 +4777,10 @@
       "renanPresidente": 79,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 38
+      "totalMissaoLegislativo": 38,
+      "votosValidosPresidente": 4738,
+      "votosValidosDeputadoFederal": 4437,
+      "votosValidosDeputadoEstadual": 4246
     },
     {
       "codigoTSE": "87815",
@@ -3899,7 +4793,10 @@
       "renanPresidente": 536,
       "deputadoFederalMissao": 193,
       "deputadoEstadualMissao": 134,
-      "totalMissaoLegislativo": 327
+      "totalMissaoLegislativo": 327,
+      "votosValidosPresidente": 25809,
+      "votosValidosDeputadoFederal": 23895,
+      "votosValidosDeputadoEstadual": 23061
     },
     {
       "codigoTSE": "84980",
@@ -3912,7 +4809,10 @@
       "renanPresidente": 131,
       "deputadoFederalMissao": 150,
       "deputadoEstadualMissao": 33,
-      "totalMissaoLegislativo": 183
+      "totalMissaoLegislativo": 183,
+      "votosValidosPresidente": 6282,
+      "votosValidosDeputadoFederal": 5804,
+      "votosValidosDeputadoEstadual": 5558
     },
     {
       "codigoTSE": "87831",
@@ -3925,7 +4825,10 @@
       "renanPresidente": 85,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 5040,
+      "votosValidosDeputadoFederal": 4646,
+      "votosValidosDeputadoEstadual": 4467
     },
     {
       "codigoTSE": "85987",
@@ -3938,7 +4841,10 @@
       "renanPresidente": 94,
       "deputadoFederalMissao": 93,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 107
+      "totalMissaoLegislativo": 107,
+      "votosValidosPresidente": 4290,
+      "votosValidosDeputadoFederal": 4038,
+      "votosValidosDeputadoEstadual": 3875
     },
     {
       "codigoTSE": "87327",
@@ -3951,7 +4857,10 @@
       "renanPresidente": 72,
       "deputadoFederalMissao": 21,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 33
+      "totalMissaoLegislativo": 33,
+      "votosValidosPresidente": 2802,
+      "votosValidosDeputadoFederal": 2638,
+      "votosValidosDeputadoEstadual": 2593
     },
     {
       "codigoTSE": "98256",
@@ -3964,7 +4873,10 @@
       "renanPresidente": 910,
       "deputadoFederalMissao": 239,
       "deputadoEstadualMissao": 119,
-      "totalMissaoLegislativo": 358
+      "totalMissaoLegislativo": 358,
+      "votosValidosPresidente": 31077,
+      "votosValidosDeputadoFederal": 28802,
+      "votosValidosDeputadoEstadual": 29025
     },
     {
       "codigoTSE": "88889",
@@ -3977,7 +4889,10 @@
       "renanPresidente": 67,
       "deputadoFederalMissao": 230,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 235
+      "totalMissaoLegislativo": 235,
+      "votosValidosPresidente": 2921,
+      "votosValidosDeputadoFederal": 2773,
+      "votosValidosDeputadoEstadual": 2672
     },
     {
       "codigoTSE": "87343",
@@ -3990,7 +4905,10 @@
       "renanPresidente": 93,
       "deputadoFederalMissao": 384,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 390
+      "totalMissaoLegislativo": 390,
+      "votosValidosPresidente": 4339,
+      "votosValidosDeputadoFederal": 4074,
+      "votosValidosDeputadoEstadual": 3965
     },
     {
       "codigoTSE": "87858",
@@ -4003,7 +4921,10 @@
       "renanPresidente": 3428,
       "deputadoFederalMissao": 1112,
       "deputadoEstadualMissao": 625,
-      "totalMissaoLegislativo": 1737
+      "totalMissaoLegislativo": 1737,
+      "votosValidosPresidente": 115827,
+      "votosValidosDeputadoFederal": 108537,
+      "votosValidosDeputadoEstadual": 106409
     },
     {
       "codigoTSE": "89346",
@@ -4016,7 +4937,10 @@
       "renanPresidente": 15,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 1904,
+      "votosValidosDeputadoFederal": 1827,
+      "votosValidosDeputadoEstadual": 1739
     },
     {
       "codigoTSE": "85146",
@@ -4029,7 +4953,10 @@
       "renanPresidente": 98,
       "deputadoFederalMissao": 22,
       "deputadoEstadualMissao": 25,
-      "totalMissaoLegislativo": 47
+      "totalMissaoLegislativo": 47,
+      "votosValidosPresidente": 4848,
+      "votosValidosDeputadoFederal": 4603,
+      "votosValidosDeputadoEstadual": 4341
     },
     {
       "codigoTSE": "89567",
@@ -4042,7 +4969,10 @@
       "renanPresidente": 11,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 1437,
+      "votosValidosDeputadoFederal": 1387,
+      "votosValidosDeputadoEstadual": 1334
     },
     {
       "codigoTSE": "87874",
@@ -4055,7 +4985,10 @@
       "renanPresidente": 111,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 17,
-      "totalMissaoLegislativo": 40
+      "totalMissaoLegislativo": 40,
+      "votosValidosPresidente": 4878,
+      "votosValidosDeputadoFederal": 4457,
+      "votosValidosDeputadoEstadual": 4227
     },
     {
       "codigoTSE": "87890",
@@ -4068,7 +5001,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 19
+      "totalMissaoLegislativo": 19,
+      "votosValidosPresidente": 2467,
+      "votosValidosDeputadoFederal": 2351,
+      "votosValidosDeputadoEstadual": 2239
     },
     {
       "codigoTSE": "87912",
@@ -4081,7 +5017,10 @@
       "renanPresidente": 6035,
       "deputadoFederalMissao": 960,
       "deputadoEstadualMissao": 827,
-      "totalMissaoLegislativo": 1787
+      "totalMissaoLegislativo": 1787,
+      "votosValidosPresidente": 183921,
+      "votosValidosDeputadoFederal": 169462,
+      "votosValidosDeputadoEstadual": 163030
     },
     {
       "codigoTSE": "87360",
@@ -4094,7 +5033,10 @@
       "renanPresidente": 106,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 21,
-      "totalMissaoLegislativo": 52
+      "totalMissaoLegislativo": 52,
+      "votosValidosPresidente": 3744,
+      "votosValidosDeputadoFederal": 3520,
+      "votosValidosDeputadoEstadual": 3403
     },
     {
       "codigoTSE": "85340",
@@ -4107,7 +5049,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 2092,
+      "votosValidosDeputadoFederal": 2011,
+      "votosValidosDeputadoEstadual": 1893
     },
     {
       "codigoTSE": "89362",
@@ -4120,7 +5065,10 @@
       "renanPresidente": 9,
       "deputadoFederalMissao": 0,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 0
+      "totalMissaoLegislativo": 0,
+      "votosValidosPresidente": 1925,
+      "votosValidosDeputadoFederal": 1827,
+      "votosValidosDeputadoEstadual": 1769
     },
     {
       "codigoTSE": "87386",
@@ -4133,7 +5081,10 @@
       "renanPresidente": 29,
       "deputadoFederalMissao": 42,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 44
+      "totalMissaoLegislativo": 44,
+      "votosValidosPresidente": 2717,
+      "votosValidosDeputadoFederal": 2550,
+      "votosValidosDeputadoEstadual": 2488
     },
     {
       "codigoTSE": "87408",
@@ -4146,7 +5097,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 3050,
+      "votosValidosDeputadoFederal": 2939,
+      "votosValidosDeputadoEstadual": 2839
     },
     {
       "codigoTSE": "87939",
@@ -4159,7 +5113,10 @@
       "renanPresidente": 117,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 17,
-      "totalMissaoLegislativo": 34
+      "totalMissaoLegislativo": 34,
+      "votosValidosPresidente": 6435,
+      "votosValidosDeputadoFederal": 5756,
+      "votosValidosDeputadoEstadual": 5405
     },
     {
       "codigoTSE": "89540",
@@ -4172,7 +5129,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 2010,
+      "votosValidosDeputadoFederal": 1937,
+      "votosValidosDeputadoEstadual": 1826
     },
     {
       "codigoTSE": "84778",
@@ -4185,7 +5145,10 @@
       "renanPresidente": 13,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1618,
+      "votosValidosDeputadoFederal": 1543,
+      "votosValidosDeputadoEstadual": 1433
     },
     {
       "codigoTSE": "87955",
@@ -4198,7 +5161,10 @@
       "renanPresidente": 178,
       "deputadoFederalMissao": 36,
       "deputadoEstadualMissao": 25,
-      "totalMissaoLegislativo": 61
+      "totalMissaoLegislativo": 61,
+      "votosValidosPresidente": 10329,
+      "votosValidosDeputadoFederal": 9237,
+      "votosValidosDeputadoEstadual": 8792
     },
     {
       "codigoTSE": "87971",
@@ -4211,7 +5177,10 @@
       "renanPresidente": 90,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 54
+      "totalMissaoLegislativo": 54,
+      "votosValidosPresidente": 5892,
+      "votosValidosDeputadoFederal": 5226,
+      "votosValidosDeputadoEstadual": 4954
     },
     {
       "codigoTSE": "86126",
@@ -4224,7 +5193,10 @@
       "renanPresidente": 32,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 1653,
+      "votosValidosDeputadoFederal": 1578,
+      "votosValidosDeputadoEstadual": 1515
     },
     {
       "codigoTSE": "87424",
@@ -4237,7 +5209,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 2798,
+      "votosValidosDeputadoFederal": 2697,
+      "votosValidosDeputadoEstadual": 2630
     },
     {
       "codigoTSE": "87440",
@@ -4250,7 +5225,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1568,
+      "votosValidosDeputadoFederal": 1521,
+      "votosValidosDeputadoEstadual": 1436
     },
     {
       "codigoTSE": "87998",
@@ -4263,7 +5241,10 @@
       "renanPresidente": 585,
       "deputadoFederalMissao": 202,
       "deputadoEstadualMissao": 141,
-      "totalMissaoLegislativo": 343
+      "totalMissaoLegislativo": 343,
+      "votosValidosPresidente": 19778,
+      "votosValidosDeputadoFederal": 18168,
+      "votosValidosDeputadoEstadual": 17617
     },
     {
       "codigoTSE": "88013",
@@ -4276,7 +5257,10 @@
       "renanPresidente": 24187,
       "deputadoFederalMissao": 6837,
       "deputadoEstadualMissao": 4940,
-      "totalMissaoLegislativo": 11777
+      "totalMissaoLegislativo": 11777,
+      "votosValidosPresidente": 776811,
+      "votosValidosDeputadoFederal": 711449,
+      "votosValidosDeputadoEstadual": 700066
     },
     {
       "codigoTSE": "88030",
@@ -4289,7 +5273,10 @@
       "renanPresidente": 36,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 2947,
+      "votosValidosDeputadoFederal": 2795,
+      "votosValidosDeputadoEstadual": 2665
     },
     {
       "codigoTSE": "87467",
@@ -4302,7 +5289,10 @@
       "renanPresidente": 19,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 1792,
+      "votosValidosDeputadoFederal": 1701,
+      "votosValidosDeputadoEstadual": 1635
     },
     {
       "codigoTSE": "87483",
@@ -4315,7 +5305,10 @@
       "renanPresidente": 23,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1400,
+      "votosValidosDeputadoFederal": 1337,
+      "votosValidosDeputadoEstadual": 1306
     },
     {
       "codigoTSE": "88056",
@@ -4328,7 +5321,10 @@
       "renanPresidente": 83,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 18,
-      "totalMissaoLegislativo": 36
+      "totalMissaoLegislativo": 36,
+      "votosValidosPresidente": 6296,
+      "votosValidosDeputadoFederal": 5986,
+      "votosValidosDeputadoEstadual": 5633
     },
     {
       "codigoTSE": "85421",
@@ -4341,7 +5337,10 @@
       "renanPresidente": 20,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 1302,
+      "votosValidosDeputadoFederal": 1248,
+      "votosValidosDeputadoEstadual": 1192
     },
     {
       "codigoTSE": "87505",
@@ -4354,7 +5353,10 @@
       "renanPresidente": 35,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 2266,
+      "votosValidosDeputadoFederal": 2156,
+      "votosValidosDeputadoEstadual": 2079
     },
     {
       "codigoTSE": "84760",
@@ -4367,7 +5369,10 @@
       "renanPresidente": 90,
       "deputadoFederalMissao": 261,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 270
+      "totalMissaoLegislativo": 270,
+      "votosValidosPresidente": 4039,
+      "votosValidosDeputadoFederal": 3837,
+      "votosValidosDeputadoEstadual": 3627
     },
     {
       "codigoTSE": "85405",
@@ -4380,7 +5385,10 @@
       "renanPresidente": 11,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1570,
+      "votosValidosDeputadoFederal": 1491,
+      "votosValidosDeputadoEstadual": 1433
     },
     {
       "codigoTSE": "88072",
@@ -4393,7 +5401,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2828,
+      "votosValidosDeputadoFederal": 2673,
+      "votosValidosDeputadoEstadual": 2502
     },
     {
       "codigoTSE": "88099",
@@ -4406,7 +5417,10 @@
       "renanPresidente": 223,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 76
+      "totalMissaoLegislativo": 76,
+      "votosValidosPresidente": 12756,
+      "votosValidosDeputadoFederal": 11095,
+      "votosValidosDeputadoEstadual": 11319
     },
     {
       "codigoTSE": "89389",
@@ -4419,7 +5433,10 @@
       "renanPresidente": 7,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1376,
+      "votosValidosDeputadoFederal": 1320,
+      "votosValidosDeputadoEstadual": 1252
     },
     {
       "codigoTSE": "87521",
@@ -4432,7 +5449,10 @@
       "renanPresidente": 16,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1686,
+      "votosValidosDeputadoFederal": 1528,
+      "votosValidosDeputadoEstadual": 1464
     },
     {
       "codigoTSE": "84875",
@@ -4445,7 +5465,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 72,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 76
+      "totalMissaoLegislativo": 76,
+      "votosValidosPresidente": 3183,
+      "votosValidosDeputadoFederal": 3078,
+      "votosValidosDeputadoEstadual": 3049
     },
     {
       "codigoTSE": "88110",
@@ -4458,7 +5481,10 @@
       "renanPresidente": 33,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 5095,
+      "votosValidosDeputadoFederal": 4822,
+      "votosValidosDeputadoEstadual": 4567
     },
     {
       "codigoTSE": "85766",
@@ -4471,7 +5497,10 @@
       "renanPresidente": 20,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 8
+      "totalMissaoLegislativo": 8,
+      "votosValidosPresidente": 1658,
+      "votosValidosDeputadoFederal": 1615,
+      "votosValidosDeputadoEstadual": 1532
     },
     {
       "codigoTSE": "88137",
@@ -4484,7 +5513,10 @@
       "renanPresidente": 132,
       "deputadoFederalMissao": 52,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 62
+      "totalMissaoLegislativo": 62,
+      "votosValidosPresidente": 9363,
+      "votosValidosDeputadoFederal": 8767,
+      "votosValidosDeputadoEstadual": 8580
     },
     {
       "codigoTSE": "87548",
@@ -4497,7 +5529,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 2138,
+      "votosValidosDeputadoFederal": 1946,
+      "votosValidosDeputadoEstadual": 1792
     },
     {
       "codigoTSE": "88153",
@@ -4510,7 +5545,10 @@
       "renanPresidente": 3190,
       "deputadoFederalMissao": 948,
       "deputadoEstadualMissao": 693,
-      "totalMissaoLegislativo": 1641
+      "totalMissaoLegislativo": 1641,
+      "votosValidosPresidente": 103287,
+      "votosValidosDeputadoFederal": 91855,
+      "votosValidosDeputadoEstadual": 89435
     },
     {
       "codigoTSE": "88170",
@@ -4523,7 +5561,10 @@
       "renanPresidente": 447,
       "deputadoFederalMissao": 540,
       "deputadoEstadualMissao": 53,
-      "totalMissaoLegislativo": 593
+      "totalMissaoLegislativo": 593,
+      "votosValidosPresidente": 20635,
+      "votosValidosDeputadoFederal": 19074,
+      "votosValidosDeputadoEstadual": 18610
     },
     {
       "codigoTSE": "85740",
@@ -4536,7 +5577,10 @@
       "renanPresidente": 101,
       "deputadoFederalMissao": 104,
       "deputadoEstadualMissao": 20,
-      "totalMissaoLegislativo": 124
+      "totalMissaoLegislativo": 124,
+      "votosValidosPresidente": 3544,
+      "votosValidosDeputadoFederal": 3331,
+      "votosValidosDeputadoEstadual": 3209
     },
     {
       "codigoTSE": "88196",
@@ -4549,7 +5593,10 @@
       "renanPresidente": 115,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 40
+      "totalMissaoLegislativo": 40,
+      "votosValidosPresidente": 6079,
+      "votosValidosDeputadoFederal": 5544,
+      "votosValidosDeputadoEstadual": 5569
     },
     {
       "codigoTSE": "88218",
@@ -4562,7 +5609,10 @@
       "renanPresidente": 78,
       "deputadoFederalMissao": 29,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 38
+      "totalMissaoLegislativo": 38,
+      "votosValidosPresidente": 4323,
+      "votosValidosDeputadoFederal": 4103,
+      "votosValidosDeputadoEstadual": 3900
     },
     {
       "codigoTSE": "89400",
@@ -4575,7 +5625,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 1867,
+      "votosValidosDeputadoFederal": 1821,
+      "votosValidosDeputadoEstadual": 1715
     },
     {
       "codigoTSE": "88234",
@@ -4588,7 +5641,10 @@
       "renanPresidente": 277,
       "deputadoFederalMissao": 104,
       "deputadoEstadualMissao": 39,
-      "totalMissaoLegislativo": 143
+      "totalMissaoLegislativo": 143,
+      "votosValidosPresidente": 13333,
+      "votosValidosDeputadoFederal": 12278,
+      "votosValidosDeputadoEstadual": 12034
     },
     {
       "codigoTSE": "88250",
@@ -4601,7 +5657,10 @@
       "renanPresidente": 105,
       "deputadoFederalMissao": 37,
       "deputadoEstadualMissao": 25,
-      "totalMissaoLegislativo": 62
+      "totalMissaoLegislativo": 62,
+      "votosValidosPresidente": 6027,
+      "votosValidosDeputadoFederal": 5675,
+      "votosValidosDeputadoEstadual": 5376
     },
     {
       "codigoTSE": "88277",
@@ -4614,7 +5673,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 3681,
+      "votosValidosDeputadoFederal": 3568,
+      "votosValidosDeputadoEstadual": 3324
     },
     {
       "codigoTSE": "88293",
@@ -4627,7 +5689,10 @@
       "renanPresidente": 40,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 19
+      "totalMissaoLegislativo": 19,
+      "votosValidosPresidente": 4296,
+      "votosValidosDeputadoFederal": 4060,
+      "votosValidosDeputadoEstadual": 3894
     },
     {
       "codigoTSE": "88315",
@@ -4640,7 +5705,10 @@
       "renanPresidente": 391,
       "deputadoFederalMissao": 146,
       "deputadoEstadualMissao": 69,
-      "totalMissaoLegislativo": 215
+      "totalMissaoLegislativo": 215,
+      "votosValidosPresidente": 21835,
+      "votosValidosDeputadoFederal": 19786,
+      "votosValidosDeputadoEstadual": 19675
     },
     {
       "codigoTSE": "87564",
@@ -4653,7 +5721,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1757,
+      "votosValidosDeputadoFederal": 1694,
+      "votosValidosDeputadoEstadual": 1612
     },
     {
       "codigoTSE": "85561",
@@ -4666,7 +5737,10 @@
       "renanPresidente": 24,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 2104,
+      "votosValidosDeputadoFederal": 1994,
+      "votosValidosDeputadoEstadual": 1926
     },
     {
       "codigoTSE": "89753",
@@ -4679,7 +5753,10 @@
       "renanPresidente": 106,
       "deputadoFederalMissao": 209,
       "deputadoEstadualMissao": 23,
-      "totalMissaoLegislativo": 232
+      "totalMissaoLegislativo": 232,
+      "votosValidosPresidente": 6064,
+      "votosValidosDeputadoFederal": 5525,
+      "votosValidosDeputadoEstadual": 5311
     },
     {
       "codigoTSE": "87580",
@@ -4692,7 +5769,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 2262,
+      "votosValidosDeputadoFederal": 2169,
+      "votosValidosDeputadoEstadual": 2101
     },
     {
       "codigoTSE": "88331",
@@ -4705,7 +5785,10 @@
       "renanPresidente": 130,
       "deputadoFederalMissao": 42,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 70
+      "totalMissaoLegislativo": 70,
+      "votosValidosPresidente": 4607,
+      "votosValidosDeputadoFederal": 4304,
+      "votosValidosDeputadoEstadual": 4221
     },
     {
       "codigoTSE": "88358",
@@ -4718,7 +5801,10 @@
       "renanPresidente": 193,
       "deputadoFederalMissao": 50,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 78
+      "totalMissaoLegislativo": 78,
+      "votosValidosPresidente": 10597,
+      "votosValidosDeputadoFederal": 9714,
+      "votosValidosDeputadoEstadual": 9443
     },
     {
       "codigoTSE": "88455",
@@ -4731,7 +5817,10 @@
       "renanPresidente": 1103,
       "deputadoFederalMissao": 235,
       "deputadoEstadualMissao": 74,
-      "totalMissaoLegislativo": 309
+      "totalMissaoLegislativo": 309,
+      "votosValidosPresidente": 48689,
+      "votosValidosDeputadoFederal": 43726,
+      "votosValidosDeputadoEstadual": 44761
     },
     {
       "codigoTSE": "88374",
@@ -4744,7 +5833,10 @@
       "renanPresidente": 67,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 33
+      "totalMissaoLegislativo": 33,
+      "votosValidosPresidente": 5354,
+      "votosValidosDeputadoFederal": 5027,
+      "votosValidosDeputadoEstadual": 4752
     },
     {
       "codigoTSE": "89247",
@@ -4757,7 +5849,10 @@
       "renanPresidente": 29,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 1580,
+      "votosValidosDeputadoFederal": 1520,
+      "votosValidosDeputadoEstadual": 1483
     },
     {
       "codigoTSE": "87602",
@@ -4770,7 +5865,10 @@
       "renanPresidente": 104,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 52
+      "totalMissaoLegislativo": 52,
+      "votosValidosPresidente": 4685,
+      "votosValidosDeputadoFederal": 4338,
+      "votosValidosDeputadoEstadual": 4260
     },
     {
       "codigoTSE": "88390",
@@ -4783,7 +5881,10 @@
       "renanPresidente": 2704,
       "deputadoFederalMissao": 9363,
       "deputadoEstadualMissao": 469,
-      "totalMissaoLegislativo": 9832
+      "totalMissaoLegislativo": 9832,
+      "votosValidosPresidente": 81462,
+      "votosValidosDeputadoFederal": 75198,
+      "votosValidosDeputadoEstadual": 74010
     },
     {
       "codigoTSE": "89443",
@@ -4796,7 +5897,10 @@
       "renanPresidente": 28,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 2146,
+      "votosValidosDeputadoFederal": 2077,
+      "votosValidosDeputadoEstadual": 1978
     },
     {
       "codigoTSE": "88412",
@@ -4809,7 +5913,10 @@
       "renanPresidente": 4031,
       "deputadoFederalMissao": 1262,
       "deputadoEstadualMissao": 667,
-      "totalMissaoLegislativo": 1929
+      "totalMissaoLegislativo": 1929,
+      "votosValidosPresidente": 152009,
+      "votosValidosDeputadoFederal": 139957,
+      "votosValidosDeputadoEstadual": 137385
     },
     {
       "codigoTSE": "86207",
@@ -4822,7 +5929,10 @@
       "renanPresidente": 116,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 30
+      "totalMissaoLegislativo": 30,
+      "votosValidosPresidente": 4490,
+      "votosValidosDeputadoFederal": 4247,
+      "votosValidosDeputadoEstadual": 4110
     },
     {
       "codigoTSE": "88471",
@@ -4835,7 +5945,10 @@
       "renanPresidente": 1043,
       "deputadoFederalMissao": 203,
       "deputadoEstadualMissao": 190,
-      "totalMissaoLegislativo": 393
+      "totalMissaoLegislativo": 393,
+      "votosValidosPresidente": 46181,
+      "votosValidosDeputadoFederal": 44246,
+      "votosValidosDeputadoEstadual": 42319
     },
     {
       "codigoTSE": "87629",
@@ -4848,7 +5961,10 @@
       "renanPresidente": 35,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 1408,
+      "votosValidosDeputadoFederal": 1371,
+      "votosValidosDeputadoEstadual": 1323
     },
     {
       "codigoTSE": "88498",
@@ -4861,7 +5977,10 @@
       "renanPresidente": 327,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 48,
-      "totalMissaoLegislativo": 116
+      "totalMissaoLegislativo": 116,
+      "votosValidosPresidente": 15616,
+      "votosValidosDeputadoFederal": 14169,
+      "votosValidosDeputadoEstadual": 13612
     },
     {
       "codigoTSE": "88439",
@@ -4874,7 +5993,10 @@
       "renanPresidente": 68,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 4553,
+      "votosValidosDeputadoFederal": 4187,
+      "votosValidosDeputadoEstadual": 3886
     },
     {
       "codigoTSE": "88510",
@@ -4887,7 +6009,10 @@
       "renanPresidente": 548,
       "deputadoFederalMissao": 144,
       "deputadoEstadualMissao": 77,
-      "totalMissaoLegislativo": 221
+      "totalMissaoLegislativo": 221,
+      "votosValidosPresidente": 27834,
+      "votosValidosDeputadoFederal": 25357,
+      "votosValidosDeputadoEstadual": 25652
     },
     {
       "codigoTSE": "88536",
@@ -4900,7 +6025,10 @@
       "renanPresidente": 957,
       "deputadoFederalMissao": 209,
       "deputadoEstadualMissao": 129,
-      "totalMissaoLegislativo": 338
+      "totalMissaoLegislativo": 338,
+      "votosValidosPresidente": 43375,
+      "votosValidosDeputadoFederal": 39872,
+      "votosValidosDeputadoEstadual": 39368
     },
     {
       "codigoTSE": "88552",
@@ -4913,7 +6041,10 @@
       "renanPresidente": 613,
       "deputadoFederalMissao": 167,
       "deputadoEstadualMissao": 92,
-      "totalMissaoLegislativo": 259
+      "totalMissaoLegislativo": 259,
+      "votosValidosPresidente": 25037,
+      "votosValidosDeputadoFederal": 23082,
+      "votosValidosDeputadoEstadual": 22455
     },
     {
       "codigoTSE": "88579",
@@ -4926,7 +6057,10 @@
       "renanPresidente": 71,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 29
+      "totalMissaoLegislativo": 29,
+      "votosValidosPresidente": 6124,
+      "votosValidosDeputadoFederal": 5732,
+      "votosValidosDeputadoEstadual": 5495
     },
     {
       "codigoTSE": "87645",
@@ -4939,7 +6073,10 @@
       "renanPresidente": 38,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1690,
+      "votosValidosDeputadoFederal": 1616,
+      "votosValidosDeputadoEstadual": 1561
     },
     {
       "codigoTSE": "87661",
@@ -4952,7 +6089,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 1859,
+      "votosValidosDeputadoFederal": 1771,
+      "votosValidosDeputadoEstadual": 1714
     },
     {
       "codigoTSE": "88595",
@@ -4965,7 +6105,10 @@
       "renanPresidente": 120,
       "deputadoFederalMissao": 35,
       "deputadoEstadualMissao": 19,
-      "totalMissaoLegislativo": 54
+      "totalMissaoLegislativo": 54,
+      "votosValidosPresidente": 8888,
+      "votosValidosDeputadoFederal": 8328,
+      "votosValidosDeputadoEstadual": 7932
     },
     {
       "codigoTSE": "88617",
@@ -4978,7 +6121,10 @@
       "renanPresidente": 219,
       "deputadoFederalMissao": 39,
       "deputadoEstadualMissao": 20,
-      "totalMissaoLegislativo": 59
+      "totalMissaoLegislativo": 59,
+      "votosValidosPresidente": 10572,
+      "votosValidosDeputadoFederal": 10067,
+      "votosValidosDeputadoEstadual": 9768
     },
     {
       "codigoTSE": "87688",
@@ -4991,7 +6137,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1762,
+      "votosValidosDeputadoFederal": 1676,
+      "votosValidosDeputadoEstadual": 1592
     },
     {
       "codigoTSE": "88633",
@@ -5004,7 +6153,10 @@
       "renanPresidente": 592,
       "deputadoFederalMissao": 160,
       "deputadoEstadualMissao": 67,
-      "totalMissaoLegislativo": 227
+      "totalMissaoLegislativo": 227,
+      "votosValidosPresidente": 33364,
+      "votosValidosDeputadoFederal": 30713,
+      "votosValidosDeputadoEstadual": 30988
     },
     {
       "codigoTSE": "84832",
@@ -5017,7 +6169,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 2057,
+      "votosValidosDeputadoFederal": 1910,
+      "votosValidosDeputadoEstadual": 1837
     },
     {
       "codigoTSE": "88650",
@@ -5030,7 +6185,10 @@
       "renanPresidente": 193,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 27,
-      "totalMissaoLegislativo": 70
+      "totalMissaoLegislativo": 70,
+      "votosValidosPresidente": 10403,
+      "votosValidosDeputadoFederal": 9313,
+      "votosValidosDeputadoEstadual": 9034
     },
     {
       "codigoTSE": "88676",
@@ -5043,7 +6201,10 @@
       "renanPresidente": 204,
       "deputadoFederalMissao": 48,
       "deputadoEstadualMissao": 43,
-      "totalMissaoLegislativo": 91
+      "totalMissaoLegislativo": 91,
+      "votosValidosPresidente": 12062,
+      "votosValidosDeputadoFederal": 10933,
+      "votosValidosDeputadoEstadual": 10481
     },
     {
       "codigoTSE": "88692",
@@ -5056,7 +6217,10 @@
       "renanPresidente": 560,
       "deputadoFederalMissao": 186,
       "deputadoEstadualMissao": 100,
-      "totalMissaoLegislativo": 286
+      "totalMissaoLegislativo": 286,
+      "votosValidosPresidente": 30760,
+      "votosValidosDeputadoFederal": 26684,
+      "votosValidosDeputadoEstadual": 27991
     },
     {
       "codigoTSE": "88714",
@@ -5069,7 +6233,10 @@
       "renanPresidente": 331,
       "deputadoFederalMissao": 65,
       "deputadoEstadualMissao": 46,
-      "totalMissaoLegislativo": 111
+      "totalMissaoLegislativo": 111,
+      "votosValidosPresidente": 11750,
+      "votosValidosDeputadoFederal": 11055,
+      "votosValidosDeputadoEstadual": 10551
     },
     {
       "codigoTSE": "84859",
@@ -5082,7 +6249,10 @@
       "renanPresidente": 50,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 21
+      "totalMissaoLegislativo": 21,
+      "votosValidosPresidente": 3339,
+      "votosValidosDeputadoFederal": 3108,
+      "votosValidosDeputadoEstadual": 2972
     },
     {
       "codigoTSE": "87700",
@@ -5095,7 +6265,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 74
+      "totalMissaoLegislativo": 74,
+      "votosValidosPresidente": 2012,
+      "votosValidosDeputadoFederal": 1908,
+      "votosValidosDeputadoEstadual": 1894
     },
     {
       "codigoTSE": "84794",
@@ -5108,7 +6281,10 @@
       "renanPresidente": 41,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 2085,
+      "votosValidosDeputadoFederal": 2041,
+      "votosValidosDeputadoEstadual": 1947
     },
     {
       "codigoTSE": "87769",
@@ -5121,7 +6297,10 @@
       "renanPresidente": 18,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1870,
+      "votosValidosDeputadoFederal": 1761,
+      "votosValidosDeputadoEstadual": 1690
     },
     {
       "codigoTSE": "85588",
@@ -5134,7 +6313,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 14,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 17
+      "totalMissaoLegislativo": 17,
+      "votosValidosPresidente": 1558,
+      "votosValidosDeputadoFederal": 1478,
+      "votosValidosDeputadoEstadual": 1382
     },
     {
       "codigoTSE": "85324",
@@ -5147,7 +6329,10 @@
       "renanPresidente": 60,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 47
+      "totalMissaoLegislativo": 47,
+      "votosValidosPresidente": 3166,
+      "votosValidosDeputadoFederal": 2996,
+      "votosValidosDeputadoEstadual": 2885
     },
     {
       "codigoTSE": "87742",
@@ -5160,7 +6345,10 @@
       "renanPresidente": 52,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 1880,
+      "votosValidosDeputadoFederal": 1801,
+      "votosValidosDeputadoEstadual": 1753
     },
     {
       "codigoTSE": "88730",
@@ -5173,7 +6361,10 @@
       "renanPresidente": 373,
       "deputadoFederalMissao": 83,
       "deputadoEstadualMissao": 33,
-      "totalMissaoLegislativo": 116
+      "totalMissaoLegislativo": 116,
+      "votosValidosPresidente": 15110,
+      "votosValidosDeputadoFederal": 13841,
+      "votosValidosDeputadoEstadual": 13670
     },
     {
       "codigoTSE": "88757",
@@ -5186,7 +6377,10 @@
       "renanPresidente": 63,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 4666,
+      "votosValidosDeputadoFederal": 4217,
+      "votosValidosDeputadoEstadual": 4103
     },
     {
       "codigoTSE": "89460",
@@ -5199,7 +6393,10 @@
       "renanPresidente": 47,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 1711,
+      "votosValidosDeputadoFederal": 1591,
+      "votosValidosDeputadoEstadual": 1561
     },
     {
       "codigoTSE": "87726",
@@ -5212,7 +6409,10 @@
       "renanPresidente": 21,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 1
+      "totalMissaoLegislativo": 1,
+      "votosValidosPresidente": 2513,
+      "votosValidosDeputadoFederal": 2323,
+      "votosValidosDeputadoEstadual": 2227
     },
     {
       "codigoTSE": "88773",
@@ -5225,7 +6425,10 @@
       "renanPresidente": 3790,
       "deputadoFederalMissao": 1101,
       "deputadoEstadualMissao": 888,
-      "totalMissaoLegislativo": 1989
+      "totalMissaoLegislativo": 1989,
+      "votosValidosPresidente": 119529,
+      "votosValidosDeputadoFederal": 110904,
+      "votosValidosDeputadoEstadual": 106262
     },
     {
       "codigoTSE": "88790",
@@ -5238,7 +6441,10 @@
       "renanPresidente": 553,
       "deputadoFederalMissao": 90,
       "deputadoEstadualMissao": 57,
-      "totalMissaoLegislativo": 147
+      "totalMissaoLegislativo": 147,
+      "votosValidosPresidente": 26394,
+      "votosValidosDeputadoFederal": 24589,
+      "votosValidosDeputadoEstadual": 24445
     },
     {
       "codigoTSE": "88811",
@@ -5251,7 +6457,10 @@
       "renanPresidente": 324,
       "deputadoFederalMissao": 79,
       "deputadoEstadualMissao": 38,
-      "totalMissaoLegislativo": 117
+      "totalMissaoLegislativo": 117,
+      "votosValidosPresidente": 19071,
+      "votosValidosDeputadoFederal": 17496,
+      "votosValidosDeputadoEstadual": 17154
     },
     {
       "codigoTSE": "88838",
@@ -5264,7 +6473,10 @@
       "renanPresidente": 301,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 66,
-      "totalMissaoLegislativo": 139
+      "totalMissaoLegislativo": 139,
+      "votosValidosPresidente": 13501,
+      "votosValidosDeputadoFederal": 12522,
+      "votosValidosDeputadoEstadual": 11824
     },
     {
       "codigoTSE": "88854",
@@ -5277,7 +6489,10 @@
       "renanPresidente": 58,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 3946,
+      "votosValidosDeputadoFederal": 3679,
+      "votosValidosDeputadoEstadual": 3675
     },
     {
       "codigoTSE": "87785",
@@ -5290,7 +6505,10 @@
       "renanPresidente": 36,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 2342,
+      "votosValidosDeputadoFederal": 2226,
+      "votosValidosDeputadoEstadual": 2166
     },
     {
       "codigoTSE": "85480",
@@ -5303,7 +6521,10 @@
       "renanPresidente": 52,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 17
+      "totalMissaoLegislativo": 17,
+      "votosValidosPresidente": 4504,
+      "votosValidosDeputadoFederal": 4168,
+      "votosValidosDeputadoEstadual": 4044
     },
     {
       "codigoTSE": "88870",
@@ -5316,7 +6537,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 13
+      "totalMissaoLegislativo": 13,
+      "votosValidosPresidente": 3204,
+      "votosValidosDeputadoFederal": 2975,
+      "votosValidosDeputadoEstadual": 2805
     },
     {
       "codigoTSE": "88897",
@@ -5329,7 +6553,10 @@
       "renanPresidente": 61,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 4187,
+      "votosValidosDeputadoFederal": 4017,
+      "votosValidosDeputadoEstadual": 3901
     },
     {
       "codigoTSE": "87807",
@@ -5342,7 +6569,10 @@
       "renanPresidente": 68,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 2693,
+      "votosValidosDeputadoFederal": 2525,
+      "votosValidosDeputadoEstadual": 2413
     },
     {
       "codigoTSE": "89486",
@@ -5355,7 +6585,10 @@
       "renanPresidente": 15,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1252,
+      "votosValidosDeputadoFederal": 1214,
+      "votosValidosDeputadoEstadual": 1134
     },
     {
       "codigoTSE": "87823",
@@ -5368,7 +6601,10 @@
       "renanPresidente": 49,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 9,
-      "totalMissaoLegislativo": 20
+      "totalMissaoLegislativo": 20,
+      "votosValidosPresidente": 2132,
+      "votosValidosDeputadoFederal": 2020,
+      "votosValidosDeputadoEstadual": 1957
     },
     {
       "codigoTSE": "88919",
@@ -5381,7 +6617,10 @@
       "renanPresidente": 199,
       "deputadoFederalMissao": 53,
       "deputadoEstadualMissao": 25,
-      "totalMissaoLegislativo": 78
+      "totalMissaoLegislativo": 78,
+      "votosValidosPresidente": 9413,
+      "votosValidosDeputadoFederal": 8500,
+      "votosValidosDeputadoEstadual": 8273
     },
     {
       "codigoTSE": "88935",
@@ -5394,7 +6633,10 @@
       "renanPresidente": 298,
       "deputadoFederalMissao": 91,
       "deputadoEstadualMissao": 56,
-      "totalMissaoLegislativo": 147
+      "totalMissaoLegislativo": 147,
+      "votosValidosPresidente": 13624,
+      "votosValidosDeputadoFederal": 12574,
+      "votosValidosDeputadoEstadual": 12116
     },
     {
       "codigoTSE": "88951",
@@ -5407,7 +6649,10 @@
       "renanPresidente": 188,
       "deputadoFederalMissao": 39,
       "deputadoEstadualMissao": 22,
-      "totalMissaoLegislativo": 61
+      "totalMissaoLegislativo": 61,
+      "votosValidosPresidente": 12651,
+      "votosValidosDeputadoFederal": 11544,
+      "votosValidosDeputadoEstadual": 11127
     },
     {
       "codigoTSE": "88978",
@@ -5420,7 +6665,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 2459,
+      "votosValidosDeputadoFederal": 2330,
+      "votosValidosDeputadoEstadual": 2219
     },
     {
       "codigoTSE": "87840",
@@ -5433,7 +6681,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1761,
+      "votosValidosDeputadoFederal": 1668,
+      "votosValidosDeputadoEstadual": 1618
     },
     {
       "codigoTSE": "87866",
@@ -5446,7 +6697,10 @@
       "renanPresidente": 6,
       "deputadoFederalMissao": 1,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 2
+      "totalMissaoLegislativo": 2,
+      "votosValidosPresidente": 1874,
+      "votosValidosDeputadoFederal": 1788,
+      "votosValidosDeputadoEstadual": 1738
     },
     {
       "codigoTSE": "85383",
@@ -5459,7 +6713,10 @@
       "renanPresidente": 48,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 2008,
+      "votosValidosDeputadoFederal": 1902,
+      "votosValidosDeputadoEstadual": 1852
     },
     {
       "codigoTSE": "86754",
@@ -5472,7 +6729,10 @@
       "renanPresidente": 93,
       "deputadoFederalMissao": 23,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 27
+      "totalMissaoLegislativo": 27,
+      "votosValidosPresidente": 5000,
+      "votosValidosDeputadoFederal": 4616,
+      "votosValidosDeputadoEstadual": 4458
     },
     {
       "codigoTSE": "88994",
@@ -5485,7 +6745,10 @@
       "renanPresidente": 1272,
       "deputadoFederalMissao": 411,
       "deputadoEstadualMissao": 321,
-      "totalMissaoLegislativo": 732
+      "totalMissaoLegislativo": 732,
+      "votosValidosPresidente": 48604,
+      "votosValidosDeputadoFederal": 44721,
+      "votosValidosDeputadoEstadual": 43850
     },
     {
       "codigoTSE": "89010",
@@ -5498,7 +6761,10 @@
       "renanPresidente": 2488,
       "deputadoFederalMissao": 759,
       "deputadoEstadualMissao": 480,
-      "totalMissaoLegislativo": 1239
+      "totalMissaoLegislativo": 1239,
+      "votosValidosPresidente": 73310,
+      "votosValidosDeputadoFederal": 65628,
+      "votosValidosDeputadoEstadual": 65071
     },
     {
       "codigoTSE": "89036",
@@ -5511,7 +6777,10 @@
       "renanPresidente": 265,
       "deputadoFederalMissao": 108,
       "deputadoEstadualMissao": 49,
-      "totalMissaoLegislativo": 157
+      "totalMissaoLegislativo": 157,
+      "votosValidosPresidente": 14061,
+      "votosValidosDeputadoFederal": 13204,
+      "votosValidosDeputadoEstadual": 12730
     },
     {
       "codigoTSE": "89052",
@@ -5524,7 +6793,10 @@
       "renanPresidente": 134,
       "deputadoFederalMissao": 31,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 47
+      "totalMissaoLegislativo": 47,
+      "votosValidosPresidente": 7530,
+      "votosValidosDeputadoFederal": 7042,
+      "votosValidosDeputadoEstadual": 6692
     },
     {
       "codigoTSE": "85707",
@@ -5537,7 +6809,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 2038,
+      "votosValidosDeputadoFederal": 1902,
+      "votosValidosDeputadoEstadual": 1827
     },
     {
       "codigoTSE": "85529",
@@ -5550,7 +6825,10 @@
       "renanPresidente": 85,
       "deputadoFederalMissao": 338,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 345
+      "totalMissaoLegislativo": 345,
+      "votosValidosPresidente": 4462,
+      "votosValidosDeputadoFederal": 4071,
+      "votosValidosDeputadoEstadual": 3947
     },
     {
       "codigoTSE": "89079",
@@ -5563,7 +6841,10 @@
       "renanPresidente": 69,
       "deputadoFederalMissao": 49,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 61
+      "totalMissaoLegislativo": 61,
+      "votosValidosPresidente": 3566,
+      "votosValidosDeputadoFederal": 3437,
+      "votosValidosDeputadoEstadual": 3348
     },
     {
       "codigoTSE": "88765",
@@ -5576,7 +6857,10 @@
       "renanPresidente": 23,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2257,
+      "votosValidosDeputadoFederal": 2213,
+      "votosValidosDeputadoEstadual": 2136
     },
     {
       "codigoTSE": "87882",
@@ -5589,7 +6873,10 @@
       "renanPresidente": 62,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 19
+      "totalMissaoLegislativo": 19,
+      "votosValidosPresidente": 3169,
+      "votosValidosDeputadoFederal": 2956,
+      "votosValidosDeputadoEstadual": 2811
     },
     {
       "codigoTSE": "89095",
@@ -5602,7 +6889,10 @@
       "renanPresidente": 226,
       "deputadoFederalMissao": 75,
       "deputadoEstadualMissao": 57,
-      "totalMissaoLegislativo": 132
+      "totalMissaoLegislativo": 132,
+      "votosValidosPresidente": 10359,
+      "votosValidosDeputadoFederal": 9722,
+      "votosValidosDeputadoEstadual": 9314
     },
     {
       "codigoTSE": "87904",
@@ -5615,7 +6905,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 54,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 55
+      "totalMissaoLegislativo": 55,
+      "votosValidosPresidente": 1632,
+      "votosValidosDeputadoFederal": 1539,
+      "votosValidosDeputadoEstadual": 1435
     },
     {
       "codigoTSE": "89117",
@@ -5628,7 +6921,10 @@
       "renanPresidente": 64,
       "deputadoFederalMissao": 24,
       "deputadoEstadualMissao": 10,
-      "totalMissaoLegislativo": 34
+      "totalMissaoLegislativo": 34,
+      "votosValidosPresidente": 4154,
+      "votosValidosDeputadoFederal": 3950,
+      "votosValidosDeputadoEstadual": 3796
     },
     {
       "codigoTSE": "87920",
@@ -5641,7 +6937,10 @@
       "renanPresidente": 103,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 24
+      "totalMissaoLegislativo": 24,
+      "votosValidosPresidente": 4167,
+      "votosValidosDeputadoFederal": 3927,
+      "votosValidosDeputadoEstadual": 3768
     },
     {
       "codigoTSE": "88706",
@@ -5654,7 +6953,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 10
+      "totalMissaoLegislativo": 10,
+      "votosValidosPresidente": 1427,
+      "votosValidosDeputadoFederal": 1305,
+      "votosValidosDeputadoEstadual": 1249
     },
     {
       "codigoTSE": "89133",
@@ -5667,7 +6969,10 @@
       "renanPresidente": 64,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 17
+      "totalMissaoLegislativo": 17,
+      "votosValidosPresidente": 2791,
+      "votosValidosDeputadoFederal": 2617,
+      "votosValidosDeputadoEstadual": 2510
     },
     {
       "codigoTSE": "84956",
@@ -5680,7 +6985,10 @@
       "renanPresidente": 22,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 21
+      "totalMissaoLegislativo": 21,
+      "votosValidosPresidente": 1665,
+      "votosValidosDeputadoFederal": 1552,
+      "votosValidosDeputadoEstadual": 1494
     },
     {
       "codigoTSE": "87947",
@@ -5693,7 +7001,10 @@
       "renanPresidente": 165,
       "deputadoFederalMissao": 557,
       "deputadoEstadualMissao": 22,
-      "totalMissaoLegislativo": 579
+      "totalMissaoLegislativo": 579,
+      "votosValidosPresidente": 5519,
+      "votosValidosDeputadoFederal": 5257,
+      "votosValidosDeputadoEstadual": 5003
     },
     {
       "codigoTSE": "89176",
@@ -5706,7 +7017,10 @@
       "renanPresidente": 212,
       "deputadoFederalMissao": 1019,
       "deputadoEstadualMissao": 59,
-      "totalMissaoLegislativo": 1078
+      "totalMissaoLegislativo": 1078,
+      "votosValidosPresidente": 8230,
+      "votosValidosDeputadoFederal": 7614,
+      "votosValidosDeputadoEstadual": 7448
     },
     {
       "codigoTSE": "89192",
@@ -5719,7 +7033,10 @@
       "renanPresidente": 316,
       "deputadoFederalMissao": 256,
       "deputadoEstadualMissao": 40,
-      "totalMissaoLegislativo": 296
+      "totalMissaoLegislativo": 296,
+      "votosValidosPresidente": 16932,
+      "votosValidosDeputadoFederal": 15808,
+      "votosValidosDeputadoEstadual": 15499
     },
     {
       "codigoTSE": "88722",
@@ -5732,7 +7049,10 @@
       "renanPresidente": 46,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 3194,
+      "votosValidosDeputadoFederal": 2993,
+      "votosValidosDeputadoEstadual": 2876
     },
     {
       "codigoTSE": "89214",
@@ -5745,7 +7065,10 @@
       "renanPresidente": 270,
       "deputadoFederalMissao": 110,
       "deputadoEstadualMissao": 36,
-      "totalMissaoLegislativo": 146
+      "totalMissaoLegislativo": 146,
+      "votosValidosPresidente": 14364,
+      "votosValidosDeputadoFederal": 13232,
+      "votosValidosDeputadoEstadual": 13325
     },
     {
       "codigoTSE": "89230",
@@ -5758,7 +7081,10 @@
       "renanPresidente": 154,
       "deputadoFederalMissao": 211,
       "deputadoEstadualMissao": 28,
-      "totalMissaoLegislativo": 239
+      "totalMissaoLegislativo": 239,
+      "votosValidosPresidente": 6362,
+      "votosValidosDeputadoFederal": 5889,
+      "votosValidosDeputadoEstadual": 5772
     },
     {
       "codigoTSE": "89257",
@@ -5771,7 +7097,10 @@
       "renanPresidente": 164,
       "deputadoFederalMissao": 38,
       "deputadoEstadualMissao": 19,
-      "totalMissaoLegislativo": 57
+      "totalMissaoLegislativo": 57,
+      "votosValidosPresidente": 8673,
+      "votosValidosDeputadoFederal": 7958,
+      "votosValidosDeputadoEstadual": 7978
     },
     {
       "codigoTSE": "89273",
@@ -5784,7 +7113,10 @@
       "renanPresidente": 806,
       "deputadoFederalMissao": 304,
       "deputadoEstadualMissao": 169,
-      "totalMissaoLegislativo": 473
+      "totalMissaoLegislativo": 473,
+      "votosValidosPresidente": 31468,
+      "votosValidosDeputadoFederal": 29024,
+      "votosValidosDeputadoEstadual": 28872
     },
     {
       "codigoTSE": "89290",
@@ -5797,7 +7129,10 @@
       "renanPresidente": 296,
       "deputadoFederalMissao": 92,
       "deputadoEstadualMissao": 34,
-      "totalMissaoLegislativo": 126
+      "totalMissaoLegislativo": 126,
+      "votosValidosPresidente": 14938,
+      "votosValidosDeputadoFederal": 13767,
+      "votosValidosDeputadoEstadual": 13508
     },
     {
       "codigoTSE": "85669",
@@ -5810,7 +7145,10 @@
       "renanPresidente": 35,
       "deputadoFederalMissao": 12,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 2328,
+      "votosValidosDeputadoFederal": 2233,
+      "votosValidosDeputadoEstadual": 2108
     },
     {
       "codigoTSE": "89710",
@@ -5823,7 +7161,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 3297,
+      "votosValidosDeputadoFederal": 3160,
+      "votosValidosDeputadoEstadual": 2987
     },
     {
       "codigoTSE": "89311",
@@ -5836,7 +7177,10 @@
       "renanPresidente": 107,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 22,
-      "totalMissaoLegislativo": 48
+      "totalMissaoLegislativo": 48,
+      "votosValidosPresidente": 8401,
+      "votosValidosDeputadoFederal": 7864,
+      "votosValidosDeputadoEstadual": 7610
     },
     {
       "codigoTSE": "85162",
@@ -5849,7 +7193,10 @@
       "renanPresidente": 156,
       "deputadoFederalMissao": 46,
       "deputadoEstadualMissao": 39,
-      "totalMissaoLegislativo": 85
+      "totalMissaoLegislativo": 85,
+      "votosValidosPresidente": 5913,
+      "votosValidosDeputadoFederal": 5643,
+      "votosValidosDeputadoEstadual": 5332
     },
     {
       "codigoTSE": "98213",
@@ -5862,7 +7209,10 @@
       "renanPresidente": 546,
       "deputadoFederalMissao": 174,
       "deputadoEstadualMissao": 94,
-      "totalMissaoLegislativo": 268
+      "totalMissaoLegislativo": 268,
+      "votosValidosPresidente": 20455,
+      "votosValidosDeputadoFederal": 18850,
+      "votosValidosDeputadoEstadual": 18192
     },
     {
       "codigoTSE": "89508",
@@ -5875,7 +7225,10 @@
       "renanPresidente": 29,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 2219,
+      "votosValidosDeputadoFederal": 2122,
+      "votosValidosDeputadoEstadual": 2071
     },
     {
       "codigoTSE": "87963",
@@ -5888,7 +7241,10 @@
       "renanPresidente": 56,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 3537,
+      "votosValidosDeputadoFederal": 3280,
+      "votosValidosDeputadoEstadual": 3181
     },
     {
       "codigoTSE": "88900",
@@ -5901,7 +7257,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2130,
+      "votosValidosDeputadoFederal": 2016,
+      "votosValidosDeputadoEstadual": 1931
     },
     {
       "codigoTSE": "89338",
@@ -5914,7 +7273,10 @@
       "renanPresidente": 736,
       "deputadoFederalMissao": 204,
       "deputadoEstadualMissao": 150,
-      "totalMissaoLegislativo": 354
+      "totalMissaoLegislativo": 354,
+      "votosValidosPresidente": 24447,
+      "votosValidosDeputadoFederal": 22629,
+      "votosValidosDeputadoEstadual": 21955
     },
     {
       "codigoTSE": "89354",
@@ -5927,7 +7289,10 @@
       "renanPresidente": 692,
       "deputadoFederalMissao": 248,
       "deputadoEstadualMissao": 157,
-      "totalMissaoLegislativo": 405
+      "totalMissaoLegislativo": 405,
+      "votosValidosPresidente": 26993,
+      "votosValidosDeputadoFederal": 24694,
+      "votosValidosDeputadoEstadual": 23914
     },
     {
       "codigoTSE": "87980",
@@ -5940,7 +7305,10 @@
       "renanPresidente": 34,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 0,
-      "totalMissaoLegislativo": 9
+      "totalMissaoLegislativo": 9,
+      "votosValidosPresidente": 1676,
+      "votosValidosDeputadoFederal": 1572,
+      "votosValidosDeputadoEstadual": 1585
     },
     {
       "codigoTSE": "84743",
@@ -5953,7 +7321,10 @@
       "renanPresidente": 37,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2054,
+      "votosValidosDeputadoFederal": 1958,
+      "votosValidosDeputadoEstadual": 1893
     },
     {
       "codigoTSE": "85367",
@@ -5966,7 +7337,10 @@
       "renanPresidente": 163,
       "deputadoFederalMissao": 43,
       "deputadoEstadualMissao": 32,
-      "totalMissaoLegislativo": 75
+      "totalMissaoLegislativo": 75,
+      "votosValidosPresidente": 6780,
+      "votosValidosDeputadoFederal": 6534,
+      "votosValidosDeputadoEstadual": 6259
     },
     {
       "codigoTSE": "89370",
@@ -5979,7 +7353,10 @@
       "renanPresidente": 419,
       "deputadoFederalMissao": 90,
       "deputadoEstadualMissao": 60,
-      "totalMissaoLegislativo": 150
+      "totalMissaoLegislativo": 150,
+      "votosValidosPresidente": 14053,
+      "votosValidosDeputadoFederal": 13143,
+      "votosValidosDeputadoEstadual": 12909
     },
     {
       "codigoTSE": "89397",
@@ -5992,7 +7369,10 @@
       "renanPresidente": 280,
       "deputadoFederalMissao": 82,
       "deputadoEstadualMissao": 54,
-      "totalMissaoLegislativo": 136
+      "totalMissaoLegislativo": 136,
+      "votosValidosPresidente": 15148,
+      "votosValidosDeputadoFederal": 14079,
+      "votosValidosDeputadoEstadual": 13758
     },
     {
       "codigoTSE": "88005",
@@ -6005,7 +7385,10 @@
       "renanPresidente": 54,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 17,
-      "totalMissaoLegislativo": 33
+      "totalMissaoLegislativo": 33,
+      "votosValidosPresidente": 2562,
+      "votosValidosDeputadoFederal": 2459,
+      "votosValidosDeputadoEstadual": 2353
     },
     {
       "codigoTSE": "86142",
@@ -6018,7 +7401,10 @@
       "renanPresidente": 52,
       "deputadoFederalMissao": 17,
       "deputadoEstadualMissao": 15,
-      "totalMissaoLegislativo": 32
+      "totalMissaoLegislativo": 32,
+      "votosValidosPresidente": 3176,
+      "votosValidosDeputadoFederal": 3028,
+      "votosValidosDeputadoEstadual": 2814
     },
     {
       "codigoTSE": "89419",
@@ -6031,7 +7417,10 @@
       "renanPresidente": 374,
       "deputadoFederalMissao": 152,
       "deputadoEstadualMissao": 161,
-      "totalMissaoLegislativo": 313
+      "totalMissaoLegislativo": 313,
+      "votosValidosPresidente": 14624,
+      "votosValidosDeputadoFederal": 13188,
+      "votosValidosDeputadoEstadual": 13014
     },
     {
       "codigoTSE": "85006",
@@ -6044,7 +7433,10 @@
       "renanPresidente": 88,
       "deputadoFederalMissao": 15,
       "deputadoEstadualMissao": 14,
-      "totalMissaoLegislativo": 29
+      "totalMissaoLegislativo": 29,
+      "votosValidosPresidente": 4522,
+      "votosValidosDeputadoFederal": 4195,
+      "votosValidosDeputadoEstadual": 3944
     },
     {
       "codigoTSE": "89435",
@@ -6057,7 +7449,10 @@
       "renanPresidente": 406,
       "deputadoFederalMissao": 99,
       "deputadoEstadualMissao": 58,
-      "totalMissaoLegislativo": 157
+      "totalMissaoLegislativo": 157,
+      "votosValidosPresidente": 16294,
+      "votosValidosDeputadoFederal": 14635,
+      "votosValidosDeputadoEstadual": 14691
     },
     {
       "codigoTSE": "89451",
@@ -6070,7 +7465,10 @@
       "renanPresidente": 61,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 11,
-      "totalMissaoLegislativo": 24
+      "totalMissaoLegislativo": 24,
+      "votosValidosPresidente": 3927,
+      "votosValidosDeputadoFederal": 3730,
+      "votosValidosDeputadoEstadual": 3620
     },
     {
       "codigoTSE": "84840",
@@ -6083,7 +7481,10 @@
       "renanPresidente": 42,
       "deputadoFederalMissao": 73,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 80
+      "totalMissaoLegislativo": 80,
+      "votosValidosPresidente": 2635,
+      "votosValidosDeputadoFederal": 2530,
+      "votosValidosDeputadoEstadual": 2385
     },
     {
       "codigoTSE": "88021",
@@ -6096,7 +7497,10 @@
       "renanPresidente": 18,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 6
+      "totalMissaoLegislativo": 6,
+      "votosValidosPresidente": 1097,
+      "votosValidosDeputadoFederal": 1022,
+      "votosValidosDeputadoEstadual": 987
     },
     {
       "codigoTSE": "89478",
@@ -6109,7 +7513,10 @@
       "renanPresidente": 204,
       "deputadoFederalMissao": 77,
       "deputadoEstadualMissao": 43,
-      "totalMissaoLegislativo": 120
+      "totalMissaoLegislativo": 120,
+      "votosValidosPresidente": 11865,
+      "votosValidosDeputadoFederal": 10949,
+      "votosValidosDeputadoEstadual": 10558
     },
     {
       "codigoTSE": "85723",
@@ -6122,7 +7529,10 @@
       "renanPresidente": 99,
       "deputadoFederalMissao": 27,
       "deputadoEstadualMissao": 16,
-      "totalMissaoLegislativo": 43
+      "totalMissaoLegislativo": 43,
+      "votosValidosPresidente": 3641,
+      "votosValidosDeputadoFederal": 3374,
+      "votosValidosDeputadoEstadual": 3311
     },
     {
       "codigoTSE": "89494",
@@ -6135,7 +7545,10 @@
       "renanPresidente": 101,
       "deputadoFederalMissao": 26,
       "deputadoEstadualMissao": 12,
-      "totalMissaoLegislativo": 38
+      "totalMissaoLegislativo": 38,
+      "votosValidosPresidente": 5811,
+      "votosValidosDeputadoFederal": 5519,
+      "votosValidosDeputadoEstadual": 5306
     },
     {
       "codigoTSE": "88501",
@@ -6148,7 +7561,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 2706,
+      "votosValidosDeputadoFederal": 2574,
+      "votosValidosDeputadoEstadual": 2472
     },
     {
       "codigoTSE": "88609",
@@ -6161,7 +7577,10 @@
       "renanPresidente": 26,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 1594,
+      "votosValidosDeputadoFederal": 1545,
+      "votosValidosDeputadoEstadual": 1486
     },
     {
       "codigoTSE": "88048",
@@ -6174,7 +7593,10 @@
       "renanPresidente": 28,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 1241,
+      "votosValidosDeputadoFederal": 1174,
+      "votosValidosDeputadoEstadual": 1128
     },
     {
       "codigoTSE": "88480",
@@ -6187,7 +7609,10 @@
       "renanPresidente": 11,
       "deputadoFederalMissao": 3,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 4
+      "totalMissaoLegislativo": 4,
+      "votosValidosPresidente": 1981,
+      "votosValidosDeputadoFederal": 1884,
+      "votosValidosDeputadoEstadual": 1804
     },
     {
       "codigoTSE": "89516",
@@ -6200,7 +7625,10 @@
       "renanPresidente": 1354,
       "deputadoFederalMissao": 961,
       "deputadoEstadualMissao": 250,
-      "totalMissaoLegislativo": 1211
+      "totalMissaoLegislativo": 1211,
+      "votosValidosPresidente": 58712,
+      "votosValidosDeputadoFederal": 52785,
+      "votosValidosDeputadoEstadual": 52734
     },
     {
       "codigoTSE": "89532",
@@ -6213,7 +7641,10 @@
       "renanPresidente": 669,
       "deputadoFederalMissao": 147,
       "deputadoEstadualMissao": 80,
-      "totalMissaoLegislativo": 227
+      "totalMissaoLegislativo": 227,
+      "votosValidosPresidente": 35401,
+      "votosValidosDeputadoFederal": 31228,
+      "votosValidosDeputadoEstadual": 31828
     },
     {
       "codigoTSE": "88064",
@@ -6226,7 +7657,10 @@
       "renanPresidente": 164,
       "deputadoFederalMissao": 1176,
       "deputadoEstadualMissao": 17,
-      "totalMissaoLegislativo": 1193
+      "totalMissaoLegislativo": 1193,
+      "votosValidosPresidente": 6281,
+      "votosValidosDeputadoFederal": 5893,
+      "votosValidosDeputadoEstadual": 5548
     },
     {
       "codigoTSE": "88080",
@@ -6239,7 +7673,10 @@
       "renanPresidente": 91,
       "deputadoFederalMissao": 19,
       "deputadoEstadualMissao": 18,
-      "totalMissaoLegislativo": 37
+      "totalMissaoLegislativo": 37,
+      "votosValidosPresidente": 4006,
+      "votosValidosDeputadoFederal": 3796,
+      "votosValidosDeputadoEstadual": 3604
     },
     {
       "codigoTSE": "88668",
@@ -6252,7 +7689,10 @@
       "renanPresidente": 45,
       "deputadoFederalMissao": 83,
       "deputadoEstadualMissao": 4,
-      "totalMissaoLegislativo": 87
+      "totalMissaoLegislativo": 87,
+      "votosValidosPresidente": 2415,
+      "votosValidosDeputadoFederal": 2303,
+      "votosValidosDeputadoEstadual": 2192
     },
     {
       "codigoTSE": "84913",
@@ -6265,7 +7705,10 @@
       "renanPresidente": 24,
       "deputadoFederalMissao": 5,
       "deputadoEstadualMissao": 2,
-      "totalMissaoLegislativo": 7
+      "totalMissaoLegislativo": 7,
+      "votosValidosPresidente": 1608,
+      "votosValidosDeputadoFederal": 1513,
+      "votosValidosDeputadoEstadual": 1459
     },
     {
       "codigoTSE": "89559",
@@ -6278,7 +7721,10 @@
       "renanPresidente": 1098,
       "deputadoFederalMissao": 773,
       "deputadoEstadualMissao": 180,
-      "totalMissaoLegislativo": 953
+      "totalMissaoLegislativo": 953,
+      "votosValidosPresidente": 41073,
+      "votosValidosDeputadoFederal": 37758,
+      "votosValidosDeputadoEstadual": 36821
     },
     {
       "codigoTSE": "89575",
@@ -6291,7 +7737,10 @@
       "renanPresidente": 385,
       "deputadoFederalMissao": 1525,
       "deputadoEstadualMissao": 66,
-      "totalMissaoLegislativo": 1591
+      "totalMissaoLegislativo": 1591,
+      "votosValidosPresidente": 16015,
+      "votosValidosDeputadoFederal": 14775,
+      "votosValidosDeputadoEstadual": 14342
     },
     {
       "codigoTSE": "89591",
@@ -6304,7 +7753,10 @@
       "renanPresidente": 343,
       "deputadoFederalMissao": 68,
       "deputadoEstadualMissao": 67,
-      "totalMissaoLegislativo": 135
+      "totalMissaoLegislativo": 135,
+      "votosValidosPresidente": 15046,
+      "votosValidosDeputadoFederal": 14126,
+      "votosValidosDeputadoEstadual": 13271
     },
     {
       "codigoTSE": "88781",
@@ -6317,7 +7769,10 @@
       "renanPresidente": 31,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 12
+      "totalMissaoLegislativo": 12,
+      "votosValidosPresidente": 2003,
+      "votosValidosDeputadoFederal": 1945,
+      "votosValidosDeputadoEstadual": 1889
     },
     {
       "codigoTSE": "89613",
@@ -6330,7 +7785,10 @@
       "renanPresidente": 36,
       "deputadoFederalMissao": 13,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 18
+      "totalMissaoLegislativo": 18,
+      "votosValidosPresidente": 3285,
+      "votosValidosDeputadoFederal": 3138,
+      "votosValidosDeputadoEstadual": 2973
     },
     {
       "codigoTSE": "89630",
@@ -6343,7 +7801,10 @@
       "renanPresidente": 3797,
       "deputadoFederalMissao": 960,
       "deputadoEstadualMissao": 652,
-      "totalMissaoLegislativo": 1612
+      "totalMissaoLegislativo": 1612,
+      "votosValidosPresidente": 116306,
+      "votosValidosDeputadoFederal": 103699,
+      "votosValidosDeputadoEstadual": 102869
     },
     {
       "codigoTSE": "89656",
@@ -6356,7 +7817,10 @@
       "renanPresidente": 35,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2923,
+      "votosValidosDeputadoFederal": 2744,
+      "votosValidosDeputadoEstadual": 2639
     },
     {
       "codigoTSE": "89699",
@@ -6369,7 +7833,10 @@
       "renanPresidente": 41,
       "deputadoFederalMissao": 18,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 25
+      "totalMissaoLegislativo": 25,
+      "votosValidosPresidente": 2075,
+      "votosValidosDeputadoFederal": 1971,
+      "votosValidosDeputadoEstadual": 1941
     },
     {
       "codigoTSE": "86061",
@@ -6382,7 +7849,10 @@
       "renanPresidente": 58,
       "deputadoFederalMissao": 11,
       "deputadoEstadualMissao": 13,
-      "totalMissaoLegislativo": 24
+      "totalMissaoLegislativo": 24,
+      "votosValidosPresidente": 2888,
+      "votosValidosDeputadoFederal": 2658,
+      "votosValidosDeputadoEstadual": 2562
     },
     {
       "codigoTSE": "88749",
@@ -6395,7 +7865,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 9,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 14
+      "totalMissaoLegislativo": 14,
+      "votosValidosPresidente": 1802,
+      "votosValidosDeputadoFederal": 1710,
+      "votosValidosDeputadoEstadual": 1652
     },
     {
       "codigoTSE": "85642",
@@ -6408,7 +7881,10 @@
       "renanPresidente": 41,
       "deputadoFederalMissao": 7,
       "deputadoEstadualMissao": 8,
-      "totalMissaoLegislativo": 15
+      "totalMissaoLegislativo": 15,
+      "votosValidosPresidente": 3020,
+      "votosValidosDeputadoFederal": 2881,
+      "votosValidosDeputadoEstadual": 2745
     },
     {
       "codigoTSE": "88102",
@@ -6421,7 +7897,10 @@
       "renanPresidente": 44,
       "deputadoFederalMissao": 10,
       "deputadoEstadualMissao": 6,
-      "totalMissaoLegislativo": 16
+      "totalMissaoLegislativo": 16,
+      "votosValidosPresidente": 2744,
+      "votosValidosDeputadoFederal": 2540,
+      "votosValidosDeputadoEstadual": 2488
     },
     {
       "codigoTSE": "85600",
@@ -6434,7 +7913,10 @@
       "renanPresidente": 27,
       "deputadoFederalMissao": 4,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 5
+      "totalMissaoLegislativo": 5,
+      "votosValidosPresidente": 2093,
+      "votosValidosDeputadoFederal": 1976,
+      "votosValidosDeputadoEstadual": 1867
     },
     {
       "codigoTSE": "85863",
@@ -6447,7 +7929,10 @@
       "renanPresidente": 25,
       "deputadoFederalMissao": 2,
       "deputadoEstadualMissao": 1,
-      "totalMissaoLegislativo": 3
+      "totalMissaoLegislativo": 3,
+      "votosValidosPresidente": 1338,
+      "votosValidosDeputadoFederal": 1295,
+      "votosValidosDeputadoEstadual": 1240
     },
     {
       "codigoTSE": "85847",
@@ -6460,7 +7945,10 @@
       "renanPresidente": 29,
       "deputadoFederalMissao": 8,
       "deputadoEstadualMissao": 3,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2094,
+      "votosValidosDeputadoFederal": 1980,
+      "votosValidosDeputadoEstadual": 1863
     },
     {
       "codigoTSE": "88129",
@@ -6473,7 +7961,10 @@
       "renanPresidente": 43,
       "deputadoFederalMissao": 6,
       "deputadoEstadualMissao": 5,
-      "totalMissaoLegislativo": 11
+      "totalMissaoLegislativo": 11,
+      "votosValidosPresidente": 2658,
+      "votosValidosDeputadoFederal": 2511,
+      "votosValidosDeputadoEstadual": 2412
     },
     {
       "codigoTSE": "89524",
@@ -6486,7 +7977,10 @@
       "renanPresidente": 66,
       "deputadoFederalMissao": 16,
       "deputadoEstadualMissao": 7,
-      "totalMissaoLegislativo": 23
+      "totalMissaoLegislativo": 23,
+      "votosValidosPresidente": 2270,
+      "votosValidosDeputadoFederal": 2136,
+      "votosValidosDeputadoEstadual": 2076
     },
     {
       "codigoTSE": "88145",
@@ -6499,7 +7993,10 @@
       "renanPresidente": 263,
       "deputadoFederalMissao": 96,
       "deputadoEstadualMissao": 43,
-      "totalMissaoLegislativo": 139
+      "totalMissaoLegislativo": 139,
+      "votosValidosPresidente": 11455,
+      "votosValidosDeputadoFederal": 10806,
+      "votosValidosDeputadoEstadual": 10520
     }
   ],
   "deputadoFederal": [
