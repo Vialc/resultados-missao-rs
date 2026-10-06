@@ -14,6 +14,7 @@ Site público para documentar a votação do Partido Missão no Rio Grande do Su
 
 - TSE `consulta_cand_2026.zip`
 - TSE `votacao_candidato_munzona_2026.zip`
+- TSE `votacao_secao_2026_BR.zip` para Presidente, agregado por municípios do RS
 - IBGE API de malhas, UF 43, municípios
 
 ## Desenvolvimento
@@ -27,10 +28,12 @@ npm run dev
 
 ## Deploy
 
-GitHub Pages via `.github/workflows/pages.yml`.
+Dokploy, no VPS da campanha, via `.github/workflows/ci-cd.yml`.
 
-URL esperada:
+URL pública atual:
 
 ```text
-https://vialc.github.io/resultados-missao-rs/
+https://app-index-back-end-sensor-9s36f7-0acc0f-31-97-84-234.sslip.io/
 ```
+
+O workflow sincroniza o repositório para `/opt/cicd/resultados-missao-rs`, builda a imagem `127.0.0.1:5000/resultados-missao-rs:latest` no VPS, envia para o registry local e aciona o app Dokploy `Resultados Missão RS`.

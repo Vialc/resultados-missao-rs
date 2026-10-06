@@ -1,0 +1,131 @@
+name: CI/CD
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: cicd-resultados-missao-rs-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  validate:
+    name: Validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate data
+        run: npm test
+
+      - name: Build for Dokploy root path
+        env:
+          VITE_BASE_PATH: /
+        run: npm run build
+
+  deploy:
+    name: Deploy Dokploy
+    needs: validate
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Prepare SSH
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          set -euo pipefail
+          install -m 700 -d ~/.ssh
+          umask 077
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keygen -y -f ~/.ssh/id_ed25519 >/dev/null
+          {
+            echo 'Host *'
+            echo '  StrictHostKeyChecking accept-new'
+            echo '  UserKnownHostsFile ~/.ssh/known_hosts'
+            echo '  IdentityFile ~/.ssh/id_ed25519'
+            echo '  IdentitiesOnly yes'
+          } > ~/.ssh/config
+          chmod 600 ~/.ssh/config
+
+      - name: Sync sources to VPS
+        run: |
+          set -euo pipefail
+          tar \
+            --exclude='.git' \
+            --exclude='node_modules' \
+            --exclude='dist' \
+            --exclude='.env' \
+            --exclude='.env.*' \
+            -czf - . | \
+          ssh root@"${{ secrets.IP_VPS }}" \
+            "rm -rf /opt/cicd/resultados-missao-rs && mkdir -p /opt/cicd/resultados-missao-rs && tar -xzf - -C /opt/cicd/resultados-missao-rs"
+
+      - name: Build image and redeploy through Dokploy
+        run: |
+          ssh root@"${{ secrets.IP_VPS }}" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          APP_ID='WSpwJyJKIRiR_cnw95mX_'
+          SERVICE_NAME='app-index-back-end-sensor-9s36f7'
+          cd /opt/cicd/resultados-missao-rs
+
+          echo '[deploy] Build static image'
+          docker build --build-arg VITE_BASE_PATH=/ -t 127.0.0.1:5000/resultados-missao-rs:latest .
+
+          echo '[deploy] Push to local registry'
+          docker push 127.0.0.1:5000/resultados-missao-rs:latest
+
+          echo '[deploy] Trigger Dokploy deployApplication'
+          C=$(docker ps --format '{{.Names}}' | grep -m1 '^dokploy\.')
+          cat > /tmp/deploy-resultados-missao-rs.mjs <<'JS'
+          import { deployApplication, updateApplication } from "@dokploy/server/services/application.js";
+          const applicationId = process.env.APP_ID;
+          if (!applicationId) throw new Error("APP_ID missing");
+          await updateApplication(applicationId, {
+            sourceType: "docker",
+            dockerImage: "127.0.0.1:5000/resultados-missao-rs:latest",
+            buildType: "nixpacks",
+            autoDeploy: true,
+          });
+          await deployApplication({
+            applicationId,
+            titleLog: "GitHub Actions deploy",
+            descriptionLog: `Deploy resultados-missao-rs ${process.env.GITHUB_SHA || "main"}`,
+          });
+          console.log(JSON.stringify({ ok: true, applicationId }));
+          process.exit(0);
+          JS
+          docker cp /tmp/deploy-resultados-missao-rs.mjs "$C":/app/deploy-resultados-missao-rs.mjs
+          docker exec -e APP_ID="$APP_ID" -e GITHUB_SHA="${GITHUB_SHA:-}" "$C" sh -lc 'cd /app && node /app/deploy-resultados-missao-rs.mjs'
+
+          echo '[deploy] Wait for service'
+          for i in $(seq 1 24); do
+            replicas=$(docker service ls --filter name="$SERVICE_NAME" --format '{{.Replicas}}' | head -1 || true)
+            echo "poll=$i replicas=${replicas:-missing}"
+            [ "$replicas" = '1/1' ] && exit 0
+            docker service ps "$SERVICE_NAME" --no-trunc --format '{{.Name}} {{.CurrentState}} {{.Error}}' | sed -n '1,4p' || true
+            sleep 5
+          done
+          docker service ps "$SERVICE_NAME" --no-trunc || true
+          exit 1
+          REMOTE
+
+      - name: Public smoke test
+        run: |
+          set -euo pipefail
+          URL='https://app-index-back-end-sensor-9s36f7-0acc0f-31-97-84-234.sslip.io/'
+          HTML=$(curl -L --max-time 60 -sS "$URL")
+          printf '%s' "$HTML" | grep -q 'Resultados Missão RS 2026'
