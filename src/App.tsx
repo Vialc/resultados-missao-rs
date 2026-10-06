@@ -4,6 +4,7 @@ import resultsJson from '../data/resultados-missao-rs-2026.json';
 import geoJson from '../data/rs-municipios.json';
 
 type TabKey = 'renanPresidente' | 'deputadoFederalMissao' | 'deputadoEstadualMissao';
+type ViewMode = 'votes' | 'percent';
 
 type Municipio = {
   codigoTSE: string;
@@ -17,6 +18,9 @@ type Municipio = {
   deputadoFederalMissao: number;
   deputadoEstadualMissao: number;
   totalMissaoLegislativo: number;
+  votosValidosPresidente: number;
+  votosValidosDeputadoFederal: number;
+  votosValidosDeputadoEstadual: number;
 };
 
 type Candidate = {
@@ -71,6 +75,48 @@ const tabConfig: Record<TabKey, { title: string; eyebrow: string; description: s
   },
 };
 
+const viewModeConfig: Record<ViewMode, { title: string; helper: string; mapScale: string; municipioLabel: string }> = {
+  votes: {
+    title: 'Votos absolutos',
+    helper: 'Quantidade de votos no município',
+    mapScale: 'Escala por votos',
+    municipioLabel: 'Votos',
+  },
+  percent: {
+    title: '% dos votos válidos',
+    helper: 'Votos divididos pelo total de votos válidos do cargo no município',
+    mapScale: 'Escala por % dos válidos',
+    municipioLabel: '% dos válidos',
+  },
+};
+
+const validVoteFieldByTab: Record<
+  TabKey,
+  'votosValidosPresidente' | 'votosValidosDeputadoFederal' | 'votosValidosDeputadoEstadual'
+> = {
+  renanPresidente: 'votosValidosPresidente',
+  deputadoFederalMissao: 'votosValidosDeputadoFederal',
+  deputadoEstadualMissao: 'votosValidosDeputadoEstadual',
+};
+
+const totalVotesKeyByTab: Record<
+  TabKey,
+  'renanPresidenteRS' | 'missaoDeputadoFederalRS' | 'missaoDeputadoEstadualRS'
+> = {
+  renanPresidente: 'renanPresidenteRS',
+  deputadoFederalMissao: 'missaoDeputadoFederalRS',
+  deputadoEstadualMissao: 'missaoDeputadoEstadualRS',
+};
+
+const totalValidVotesKeyByTab: Record<
+  TabKey,
+  'votosValidosPresidenteRS' | 'votosValidosDeputadoFederalRS' | 'votosValidosDeputadoEstadualRS'
+> = {
+  renanPresidente: 'votosValidosPresidenteRS',
+  deputadoFederalMissao: 'votosValidosDeputadoFederalRS',
+  deputadoEstadualMissao: 'votosValidosDeputadoEstadualRS',
+};
+
 const numberFormatter = new Intl.NumberFormat('pt-BR');
 const percentFormatter = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 2 });
 
@@ -78,8 +124,47 @@ function formatNumber(value: number | null | undefined) {
   return numberFormatter.format(value ?? 0);
 }
 
+function formatPercent(value: number | null | undefined) {
+  return `${percentFormatter.format(value ?? 0)}%`;
+}
+
 function getVotes(municipio: Municipio, tab: TabKey) {
   return municipio[tab] ?? 0;
+}
+
+function getValidVotes(municipio: Municipio, tab: TabKey) {
+  return municipio[validVoteFieldByTab[tab]] ?? 0;
+}
+
+function getVotePercent(municipio: Municipio, tab: TabKey) {
+  const validVotes = getValidVotes(municipio, tab);
+  return validVotes ? (getVotes(municipio, tab) / validVotes) * 100 : 0;
+}
+
+function getDisplayValue(municipio: Municipio, tab: TabKey, viewMode: ViewMode) {
+  return viewMode === 'percent' ? getVotePercent(municipio, tab) : getVotes(municipio, tab);
+}
+
+function formatDisplayValue(value: number, viewMode: ViewMode) {
+  return viewMode === 'percent' ? formatPercent(value) : formatNumber(value);
+}
+
+function getTotalVotes(tab: TabKey) {
+  return results.totais[totalVotesKeyByTab[tab]] ?? 0;
+}
+
+function getTotalValidVotes(tab: TabKey) {
+  return results.totais[totalValidVotesKeyByTab[tab]] ?? 0;
+}
+
+function describeMunicipioMetric(municipio: Municipio, tab: TabKey, viewMode: ViewMode) {
+  const votes = getVotes(municipio, tab);
+  const validVotes = getValidVotes(municipio, tab);
+  const percent = getVotePercent(municipio, tab);
+  if (viewMode === 'percent') {
+    return `${formatPercent(percent)} dos votos válidos (${formatNumber(votes)} de ${formatNumber(validVotes)} votos)`;
+  }
+  return `${formatNumber(votes)} votos (${formatPercent(percent)} dos válidos)`;
 }
 
 function normalizeText(text: string) {
@@ -155,15 +240,17 @@ function colorForValue(value: number, max: number) {
 
 function ResultsMap({
   activeTab,
+  viewMode,
   selectedCode,
   onSelect,
 }: {
   activeTab: TabKey;
+  viewMode: ViewMode;
   selectedCode: string | null;
   onSelect: (codigoTSE: string) => void;
 }) {
   const byIbge = useMemo(() => new Map(results.municipios.map((m) => [m.codigoIBGE, m])), []);
-  const max = useMemo(() => Math.max(...results.municipios.map((m) => getVotes(m, activeTab))), [activeTab]);
+  const max = useMemo(() => Math.max(...results.municipios.map((m) => getDisplayValue(m, activeTab, viewMode))), [activeTab, viewMode]);
 
   return (
     <section className="map-card" aria-label="Mapa interativo do Rio Grande do Sul">
@@ -172,39 +259,40 @@ function ResultsMap({
           <p className="section-kicker">Mapa municipal</p>
           <h2>{tabConfig[activeTab].title}</h2>
         </div>
-        <span className="map-scale">Escala por votos</span>
+        <span className="map-scale">{viewModeConfig[viewMode].mapScale}</span>
       </div>
       <svg className="rs-map" viewBox={`0 0 ${mapWidth} ${mapHeight}`} role="img" aria-label="Mapa do RS por município">
         <rect x="0" y="0" width={mapWidth} height={mapHeight} rx="28" fill="#fff9e8" />
         {geo.features.map((feature) => {
           const ibge = feature.properties.codarea ?? feature.properties.id ?? '';
           const municipio = byIbge.get(ibge);
-          const votes = municipio ? getVotes(municipio, activeTab) : 0;
+          const value = municipio ? getDisplayValue(municipio, activeTab, viewMode) : 0;
           const isSelected = municipio?.codigoTSE === selectedCode;
           const path = geometryToPath(feature);
+          const metricLabel = municipio ? describeMunicipioMetric(municipio, activeTab, viewMode) : 'Município sem dados';
           return (
             <path
               key={ibge}
               d={path}
               className={`municipio-shape${isSelected ? ' selected' : ''}`}
-              fill={colorForValue(votes, max)}
+              fill={colorForValue(value, max)}
               stroke={isSelected ? '#111111' : '#ffffff'}
               strokeWidth={isSelected ? 2.6 : 0.65}
               onClick={() => municipio && onSelect(municipio.codigoTSE)}
               onMouseEnter={() => municipio && onSelect(municipio.codigoTSE)}
               tabIndex={municipio ? 0 : -1}
               role="button"
-              aria-label={municipio ? `${municipio.nome}: ${formatNumber(votes)} votos` : 'Município sem dados'}
+              aria-label={municipio ? `${municipio.nome}: ${metricLabel}` : 'Município sem dados'}
             >
-              <title>{municipio ? `${municipio.nome} · ${formatNumber(votes)} votos` : ibge}</title>
+              <title>{municipio ? `${municipio.nome} · ${metricLabel}` : ibge}</title>
             </path>
           );
         })}
       </svg>
       <div className="legend" aria-hidden="true">
-        <span>0</span>
+        <span>{formatDisplayValue(0, viewMode)}</span>
         <div className="legend-gradient" />
-        <span>{formatNumber(max)}</span>
+        <span>{formatDisplayValue(max, viewMode)}</span>
       </div>
     </section>
   );
@@ -212,10 +300,12 @@ function ResultsMap({
 
 function MunicipalityPanel({
   activeTab,
+  viewMode,
   selectedCode,
   setSelectedCode,
 }: {
   activeTab: TabKey;
+  viewMode: ViewMode;
   selectedCode: string | null;
   setSelectedCode: (code: string) => void;
 }) {
@@ -225,12 +315,14 @@ function MunicipalityPanel({
     const q = normalizeText(query.trim());
     return results.municipios
       .filter((m) => !q || normalizeText(m.nome).includes(q))
-      .sort((a, b) => getVotes(b, activeTab) - getVotes(a, activeTab) || a.nome.localeCompare(b.nome, 'pt-BR'));
-  }, [query, activeTab]);
+      .sort((a, b) => getDisplayValue(b, activeTab, viewMode) - getDisplayValue(a, activeTab, viewMode) || a.nome.localeCompare(b.nome, 'pt-BR'));
+  }, [query, activeTab, viewMode]);
 
   const selectedVotes = getVotes(selected, activeTab);
-  const total = results.municipios.reduce((sum, m) => sum + getVotes(m, activeTab), 0);
+  const selectedValidVotes = getValidVotes(selected, activeTab);
+  const total = getTotalVotes(activeTab);
   const share = total ? (selectedVotes / total) * 100 : 0;
+  const selectedDisplay = getDisplayValue(selected, activeTab, viewMode);
 
   return (
     <section className="list-card" aria-label="Lista de municípios e votações">
@@ -239,20 +331,24 @@ function MunicipalityPanel({
         <h2>{selected.nome}</h2>
         <div className="selected-grid">
           <div>
-            <span>{tabConfig[activeTab].valueLabel}</span>
-            <strong>{formatNumber(selectedVotes)}</strong>
+            <span>{viewMode === 'percent' ? '% dos votos válidos' : tabConfig[activeTab].valueLabel}</span>
+            <strong>{formatDisplayValue(selectedDisplay, viewMode)}</strong>
+            <small>{formatNumber(selectedVotes)} votos de {formatNumber(selectedValidVotes)} válidos</small>
           </div>
           <div>
-            <span>Participação no total</span>
-            <strong>{percentFormatter.format(share)}%</strong>
+            <span>Votos válidos do cargo</span>
+            <strong>{formatNumber(selectedValidVotes)}</strong>
+            <small>Denominador municipal do percentual</small>
+          </div>
+          <div>
+            <span>Peso no total da aba</span>
+            <strong>{formatPercent(share)}</strong>
+            <small>Participação do município no total estadual desta visão</small>
           </div>
           <div>
             <span>População</span>
             <strong>{selected.populacao ? formatNumber(selected.populacao) : '—'}</strong>
-          </div>
-          <div>
-            <span>Códigos</span>
-            <strong>{selected.codigoTSE} · {selected.codigoIBGE}</strong>
+            <small>Códigos {selected.codigoTSE} · {selected.codigoIBGE}</small>
           </div>
         </div>
       </div>
@@ -273,7 +369,8 @@ function MunicipalityPanel({
             <tr>
               <th>#</th>
               <th>Município</th>
-              <th>{tabConfig[activeTab].valueLabel}</th>
+              <th>{viewMode === 'percent' ? '% válidos' : tabConfig[activeTab].valueLabel}</th>
+              <th>Válidos cargo</th>
               <th>Federal</th>
               <th>Estadual</th>
             </tr>
@@ -291,7 +388,8 @@ function MunicipalityPanel({
                     {m.nome}
                   </button>
                 </td>
-                <td>{formatNumber(getVotes(m, activeTab))}</td>
+                <td title={describeMunicipioMetric(m, activeTab, viewMode)}>{formatDisplayValue(getDisplayValue(m, activeTab, viewMode), viewMode)}</td>
+                <td>{formatNumber(getValidVotes(m, activeTab))}</td>
                 <td>{formatNumber(m.deputadoFederalMissao)}</td>
                 <td>{formatNumber(m.deputadoEstadualMissao)}</td>
               </tr>
@@ -303,12 +401,14 @@ function MunicipalityPanel({
   );
 }
 
-function CandidateRanking({ activeTab }: { activeTab: TabKey }) {
+function CandidateRanking({ activeTab, viewMode }: { activeTab: TabKey; viewMode: ViewMode }) {
   const candidates = activeTab === 'deputadoFederalMissao'
     ? results.deputadoFederal
     : activeTab === 'deputadoEstadualMissao'
       ? results.deputadoEstadual
       : [];
+  const municipioByCode = useMemo(() => new Map(results.municipios.map((m) => [m.codigoTSE, m])), []);
+  const validTotal = getTotalValidVotes(activeTab);
 
   if (activeTab === 'renanPresidente') {
     return (
@@ -327,76 +427,103 @@ function CandidateRanking({ activeTab }: { activeTab: TabKey }) {
         <h3>{activeTab === 'deputadoFederalMissao' ? 'Deputado Federal' : 'Deputado Estadual'}</h3>
       </div>
       <div className="ranking-grid">
-        {candidates.map((candidate, index) => (
-          <article key={candidate.sqCandidato} className="candidate-card">
-            <span className="candidate-rank">#{index + 1}</span>
-            <div>
-              <h4>{candidate.urna}</h4>
-              <p>nº {candidate.numero} · {candidate.situacao}</p>
-            </div>
-            <strong>{formatNumber(candidate.votos)}</strong>
-            <details>
-              <summary>Top municípios</summary>
-              <ol>
-                {candidate.topMunicipios.slice(0, 5).map((city) => (
-                  <li key={`${candidate.sqCandidato}-${city.codigoTSE}`}>
-                    <span>{city.municipio}</span>
-                    <b>{formatNumber(city.votos)}</b>
-                  </li>
-                ))}
-              </ol>
-            </details>
-          </article>
-        ))}
+        {candidates.map((candidate, index) => {
+          const candidatePercent = validTotal ? (candidate.votos / validTotal) * 100 : 0;
+          return (
+            <article key={candidate.sqCandidato} className="candidate-card">
+              <span className="candidate-rank">#{index + 1}</span>
+              <div>
+                <h4>{candidate.urna}</h4>
+                <p>nº {candidate.numero} · {candidate.situacao}</p>
+              </div>
+              <strong>{viewMode === 'percent' ? formatPercent(candidatePercent) : formatNumber(candidate.votos)}</strong>
+              <span className="metric-subtext">
+                {viewMode === 'percent'
+                  ? `${formatNumber(candidate.votos)} votos de ${formatNumber(validTotal)} válidos no RS`
+                  : `${formatPercent(candidatePercent)} dos votos válidos no RS`}
+              </span>
+              <details>
+                <summary>Top municípios</summary>
+                <ol>
+                  {candidate.topMunicipios.slice(0, 5).map((city) => {
+                    const cityData = municipioByCode.get(city.codigoTSE);
+                    const cityValid = cityData ? getValidVotes(cityData, activeTab) : 0;
+                    const cityPercent = cityValid ? (city.votos / cityValid) * 100 : 0;
+                    return (
+                      <li key={`${candidate.sqCandidato}-${city.codigoTSE}`}>
+                        <span>{city.municipio}</span>
+                        <b>{viewMode === 'percent' ? formatPercent(cityPercent) : formatNumber(city.votos)}</b>
+                      </li>
+                    );
+                  })}
+                </ol>
+              </details>
+            </article>
+          );
+        })}
       </div>
     </section>
   );
 }
 
-function SummaryCards() {
+function SummaryCards({ viewMode }: { viewMode: ViewMode }) {
   const cards = [
     {
       label: 'Renan Santos no RS',
-      value: results.totais.renanPresidenteRS,
+      votes: results.totais.renanPresidenteRS,
+      validVotes: results.totais.votosValidosPresidenteRS,
       helper: 'Presidente · dados por seção agregados por município',
     },
     {
       label: 'Missão · Federal RS',
-      value: results.totais.missaoDeputadoFederalRS,
+      votes: results.totais.missaoDeputadoFederalRS,
+      validVotes: results.totais.votosValidosDeputadoFederalRS,
       helper: `${results.totais.candidatosFederaisMissaoRS} candidatos`,
     },
     {
       label: 'Missão · Estadual RS',
-      value: results.totais.missaoDeputadoEstadualRS,
+      votes: results.totais.missaoDeputadoEstadualRS,
+      validVotes: results.totais.votosValidosDeputadoEstadualRS,
       helper: `${results.totais.candidatosEstaduaisMissaoRS} candidatos`,
     },
     {
       label: 'Municípios cobertos',
-      value: results.totais.municipios,
+      votes: results.totais.municipios,
+      validVotes: null,
       helper: 'Malha municipal IBGE + votação TSE',
     },
   ];
 
   return (
     <section className="summary-grid" aria-label="Resumo dos resultados">
-      {cards.map((card) => (
-        <article className="summary-card" key={card.label}>
-          <span>{card.label}</span>
-          <strong>{formatNumber(card.value)}</strong>
-          <p>{card.helper}</p>
-        </article>
-      ))}
+      {cards.map((card) => {
+        const percent = card.validVotes ? (card.votes / card.validVotes) * 100 : 0;
+        const value = card.validVotes && viewMode === 'percent' ? formatPercent(percent) : formatNumber(card.votes);
+        const helper = card.validVotes
+          ? viewMode === 'percent'
+            ? `${formatNumber(card.votes)} votos de ${formatNumber(card.validVotes)} válidos`
+            : `${card.helper} · ${formatPercent(percent)} dos válidos`
+          : card.helper;
+        return (
+          <article className="summary-card" key={card.label}>
+            <span>{card.label}</span>
+            <strong>{value}</strong>
+            <p>{helper}</p>
+          </article>
+        );
+      })}
     </section>
   );
 }
 
 function App() {
   const [activeTab, setActiveTab] = useState<TabKey>('renanPresidente');
+  const [viewMode, setViewMode] = useState<ViewMode>('votes');
   const [selectedCode, setSelectedCode] = useState<string | null>(null);
 
   const sortedByActive = useMemo(
-    () => [...results.municipios].sort((a, b) => getVotes(b, activeTab) - getVotes(a, activeTab) || a.nome.localeCompare(b.nome, 'pt-BR')),
-    [activeTab]
+    () => [...results.municipios].sort((a, b) => getDisplayValue(b, activeTab, viewMode) - getDisplayValue(a, activeTab, viewMode) || a.nome.localeCompare(b.nome, 'pt-BR')),
+    [activeTab, viewMode]
   );
 
   useEffect(() => {
@@ -423,7 +550,7 @@ function App() {
         </section>
       </header>
 
-      <SummaryCards />
+      <SummaryCards viewMode={viewMode} />
 
       <section className="tabs" aria-label="Navegação entre visões de votação">
         {(Object.keys(tabConfig) as TabKey[]).map((tab) => (
@@ -439,17 +566,37 @@ function App() {
         ))}
       </section>
 
+      <section className="view-mode-card" aria-label="Formato de visualização dos votos">
+        <div>
+          <p className="section-kicker">Formato de visualização</p>
+          <h2>{viewModeConfig[viewMode].title}</h2>
+          <p>{viewModeConfig[viewMode].helper}</p>
+        </div>
+        <div className="view-toggle" role="group" aria-label="Alternar entre votos absolutos e percentual dos votos válidos">
+          {(['votes', 'percent'] as ViewMode[]).map((mode) => (
+            <button
+              key={mode}
+              type="button"
+              className={viewMode === mode ? 'active' : ''}
+              onClick={() => setViewMode(mode)}
+            >
+              {mode === 'votes' ? 'Votos' : '% dos válidos'}
+            </button>
+          ))}
+        </div>
+      </section>
+
       <section className="active-intro">
         <p className="section-kicker">{tabConfig[activeTab].eyebrow}</p>
         <h2>{tabConfig[activeTab].description}</h2>
       </section>
 
       <section className="workspace">
-        <ResultsMap activeTab={activeTab} selectedCode={selectedCode} onSelect={setSelectedCode} />
-        <MunicipalityPanel activeTab={activeTab} selectedCode={selectedCode} setSelectedCode={setSelectedCode} />
+        <ResultsMap activeTab={activeTab} viewMode={viewMode} selectedCode={selectedCode} onSelect={setSelectedCode} />
+        <MunicipalityPanel activeTab={activeTab} viewMode={viewMode} selectedCode={selectedCode} setSelectedCode={setSelectedCode} />
       </section>
 
-      <CandidateRanking activeTab={activeTab} />
+      <CandidateRanking activeTab={activeTab} viewMode={viewMode} />
 
       <section className="methodology" id="metodologia">
         <p className="section-kicker">Metodologia e fonte</p>
@@ -457,6 +604,9 @@ function App() {
         <div className="methodology-grid">
           <p>
             <strong>Votação:</strong> {results.metadata.fonteVotacao}. Deputados usam votação por município/zona; Presidente usa votação por seção agregada por município.
+          </p>
+          <p>
+            <strong>Percentuais:</strong> {results.metadata.notaPercentuais} Fonte dos denominadores: {results.metadata.fonteVotosValidos}.
           </p>
           <p><strong>Candidaturas:</strong> {results.metadata.fonteCandidaturas}.</p>
           <p><strong>Mapa:</strong> {results.metadata.fonteMalha}.</p>

@@ -39,6 +39,22 @@ assert(results.renan.municipiosComVotos === 497, `Renan deveria ter votos nos 49
 assert(results.metadata?.fonteVotacaoPresidente === 'TSE - votacao_secao_2026_BR.zip', 'fonte presidencial precisa apontar para votacao_secao_2026_BR.zip');
 assert(typeof results.metadata?.notaRenan === 'string' && results.metadata.notaRenan.includes('167.558'), 'notaRenan precisa documentar total e fonte presidencial');
 
+for (const field of ['votosValidosPresidente', 'votosValidosDeputadoFederal', 'votosValidosDeputadoEstadual']) {
+  const missing = results.municipios.filter((m) => !Number.isFinite(Number(m[field])) || Number(m[field]) <= 0);
+  assert(missing.length === 0, `${field} precisa existir e ser maior que zero em todos os municípios; faltando: ${missing.slice(0, 8).map((m) => m.nome).join(', ')}`);
+}
+
+const sumValidosPresidente = results.municipios.reduce((sum, m) => sum + Number(m.votosValidosPresidente || 0), 0);
+const sumValidosFederal = results.municipios.reduce((sum, m) => sum + Number(m.votosValidosDeputadoFederal || 0), 0);
+const sumValidosEstadual = results.municipios.reduce((sum, m) => sum + Number(m.votosValidosDeputadoEstadual || 0), 0);
+assert(sumValidosPresidente === results.totais.votosValidosPresidenteRS, `total votos válidos Presidente ${sumValidosPresidente} diverge de ${results.totais.votosValidosPresidenteRS}`);
+assert(sumValidosFederal === results.totais.votosValidosDeputadoFederalRS, `total votos válidos Federal ${sumValidosFederal} diverge de ${results.totais.votosValidosDeputadoFederalRS}`);
+assert(sumValidosEstadual === results.totais.votosValidosDeputadoEstadualRS, `total votos válidos Estadual ${sumValidosEstadual} diverge de ${results.totais.votosValidosDeputadoEstadualRS}`);
+assert(results.totais.votosValidosPresidenteRS > results.totais.renanPresidenteRS, 'votos válidos Presidente precisam ser maiores que votos de Renan');
+assert(results.totais.votosValidosDeputadoFederalRS > results.totais.missaoDeputadoFederalRS, 'votos válidos Federal precisam ser maiores que votos do Missão');
+assert(results.totais.votosValidosDeputadoEstadualRS > results.totais.missaoDeputadoEstadualRS, 'votos válidos Estadual precisam ser maiores que votos do Missão');
+assert(typeof results.metadata?.notaPercentuais === 'string' && results.metadata.notaPercentuais.includes('votos válidos'), 'metadata.notaPercentuais precisa explicar o denominador percentual');
+
 console.log(JSON.stringify({
   ok: true,
   municipios: results.municipios.length,
@@ -46,4 +62,7 @@ console.log(JSON.stringify({
   federal: results.totais.missaoDeputadoFederalRS,
   estadual: results.totais.missaoDeputadoEstadualRS,
   renan: results.totais.renanPresidenteRS,
+  validosPresidente: results.totais.votosValidosPresidenteRS,
+  validosFederal: results.totais.votosValidosDeputadoFederalRS,
+  validosEstadual: results.totais.votosValidosDeputadoEstadualRS,
 }, null, 2));
